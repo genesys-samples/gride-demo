@@ -1,6 +1,6 @@
-baseURL = 'https://workshop.live.genesys.com'
+baseURL = '/'
 languageCode = 'en-us'
-title = 'Genesys Workshops'
+title = 'Genesys Workshops: Harbor Tour'
 theme = "hugo-theme-learn"
 metaDataFormat = "yaml"
 defaultContentLanguageInSubdir= "false"
