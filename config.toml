@@ -5,6 +5,7 @@ theme = "hugo-theme-learn"
 metaDataFormat = "yaml"
 defaultContentLanguageInSubdir= "false"
 uglyurls = "true"
+relativeURLs = true
 enableEmoji = true
 
 [params]
