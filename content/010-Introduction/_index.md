@@ -1,20 +1,11 @@
 ---
-title: "Introduction"
+title: "Getting Started"
 chapter: true
 weight: 10
+
 ---
 
-# Genesys Workshop Series
+## Getting Started
 
-## Introduction
+{{% children showhidden="false" %}}
 
-### Welcome
-
-In this workshop, you will learn...
-
-> This workshop is focused on things one, two and three.
-
-### Learning Objectives
-- Master this
-- Configure that
-- Integrate this
