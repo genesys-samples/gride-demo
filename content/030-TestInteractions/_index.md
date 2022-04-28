@@ -1,7 +1,7 @@
 ---
-title: "Test Interactions"
+title: "Test the Interactions"
 chapter: true
-weight: 10
+weight: 30
 ---
 
 # Genesys Workshop Series
