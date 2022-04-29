@@ -4,7 +4,7 @@ chapter: false
 weight: 20
 ---
 
-## Digital Interactions
+## Scenario
 
 The purpose of this scenario is to showcase utilization and how we can manage an omnichannel approach.
 
@@ -14,17 +14,17 @@ The purpose of this scenario is to showcase utilization and how we can manage an
 
 3. It's time to route a chat. This will eventually be replaced with a web messaging option in this workshop. You must login in using your GC CX credentials or be. Go to the [Developer Tools Website](https://developer.genesys.cloud/) and reference the [Chat Tool](https://developer.genesys.cloud/developer-tools/#/webchat) linked here. It should look like the example below:
 
-    ![Picture](images/DevTools_Chat.png)
+    ![Picture](../images/DevTools_Chat.png)
 
     Choose the "G Ride" chat deployment and queue that you created earlier. Fill out the chat data (which is optional). When ready, hit the start chat icon at the bottom of the page. It should create a chat interaction that routes into queue if configured correctly. If on-queue and utilization is configured appropriately, it will be routed to you as an agent. Hit accept.
 
 4. Start walking through the interface as an agent, toggling through the interaction tools listed at the top:
 
-    ![Picture](images/Chat_Email.png)
+    ![Picture](../images/Chat_Email.png)
 
     You will see similarities in the interaction tools throughout all interaction types, with voice being the only channel with different options. Once comfortable, move to the agent tools on the right side of the screen.
 
-    ![Picture](images/AgentTools_Canned.png)
+    ![Picture](../images/AgentTools_Canned.png)
 
     Ensure you're in the chat interaction, but canned responses work in all digital channels. Click specifically on the canned response section. Find the folder that you created, search for the response and click the button to add it as a response. Once you have proofread, hit send. For further information on canned responses and managing libraries, [reference this link](https://help.mypurecloud.com/articles/about-canned-responses/).
 
