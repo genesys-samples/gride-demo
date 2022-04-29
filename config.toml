@@ -1,4 +1,4 @@
-baseURL = '/'
+baseURL = 'https://genesys-samples.github.io/gride-demo/'
 languageCode = 'en-us'
 title = 'Genesys Workshops: Harbor Tour'
 theme = "hugo-theme-learn"

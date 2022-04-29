@@ -19,21 +19,21 @@ By the end of this section, you should have an omnichannel contact center in the
  3. Follow the steps at this link to set up inbound email - https://help.mypurecloud.com/articles/register-domain-redirect-inbound-messages/  
     - Under "Add the inbound email address to the domain", you will do number 3 for routing to a queue instead of number 4 for routing to a flow. You will have this email domain route straight to the G Ride queue that you created earlier.
     
-    ![Email Domain Set Up](../images/EmailSetUp.jpg)
+    ![Email Domain Set Up](/images/EmailSetUp.jpg)
 
  4. Purchase a number for SMS - https://help.mypurecloud.com/articles/purchase-sms-long-code-numbers/ 
  5. Go back into the G Ride queue and add an outbound calling number with the number you purchased for voice, an outbound SMS number with the SMS number your purchased, and an outbound email domain with the email you purchased. The screenshots below should help.
 
- ![Queue Set Calling Party Number](../images/QueueSetCallingParty.jpg)
+ ![Queue Set Calling Party Number](/images/QueueSetCallingParty.jpg)
 
-![Queue Set Outbound SMS Number](../images/QueueSetSMSOutboundNumber.jpg)
+![Queue Set Outbound SMS Number](/images/QueueSetSMSOutboundNumber.jpg)
 
-![Queue Set Outbound Email Domain](../images/SetOutboundEmail.jpg)
+![Queue Set Outbound Email Domain](/images/SetOutboundEmail.jpg)
 
 6. Import the following architect flows below following these steps - https://help.mypurecloud.com/articles/import-export-call-flow/
     - In architect, you are able to import flows for every media type. We are giving you two flows for import; an inbound voice flow and a message flow. Be sure to navigate to the correct flow type in architect before following the import steps.
 
-   ![Import both inbound call and inbound message](../images/Architect_Screen_shot.jpg)
+   ![Import both inbound call and inbound message](/images/Architect_Screen_shot.jpg)
 
    -  [Inbound Voice Flow](../../imports/GRide100InboundVoice_v1-0.i3InboundFlow)
         - Right click the link and save as
@@ -44,5 +44,5 @@ By the end of this section, you should have an omnichannel contact center in the
 8. Set up a messaging route to connect your inbound message architect flow and the SMS number you purchased in step 4 - https://help.mypurecloud.com/articles/add-inbound-message-route/
 9. Update your utilization settings to match this screenshot - https://help.mypurecloud.com/articles/configure-utilization-at-the-org-level/ 
 
-    ![Utilization Settings](../images/Utilization.jpg)
+    ![Utilization Settings](/images/Utilization.jpg)
     
