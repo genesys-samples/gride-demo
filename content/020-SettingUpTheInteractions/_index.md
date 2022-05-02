@@ -35,9 +35,9 @@ By the end of this section, you should have an omnichannel contact center in the
 
    ![Import both inbound call and inbound message](/images/Architect_Screen_shot.jpg)
 
-   -  [Inbound Voice Flow](../../imports/GRide100InboundVoice_v1-0.i3InboundFlow)
+   -  [Inbound Voice Flow](/imports/GRide100InboundVoice_v1-0.i3InboundFlow)
         - Right click the link and save as
-    - [Inbound Message Flow](../../imports/GRide100MessageFlow_v1-0.i3InboundMessage)
+    - [Inbound Message Flow](/imports/GRide100MessageFlow_v1-0.i3InboundMessage)
         - right click the link and save as
  7. Set up a call route to connect your inbound call architect flow to the DID that you purchased in step 1 - https://help.mypurecloud.com/articles/add-a-call-route/
     - You only need to do the step for "Create a call route entry and associate telephone numbers"
