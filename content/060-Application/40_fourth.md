@@ -20,7 +20,7 @@ weight: 40
 
 4. Either input manually a message to send out or utilize another canned response. When finished, close out and end the interactions (part of the interaction tools). Each one will prompt you for the appropriate after-call work and wrap-up that you created.
 
-    ![Picture](/images/WrapUpcodes.png)
+    ![Picture](/images/WrapUpCodes.png)
 
 5. Once you have completed this, you have finished the scenario and module and have successfully learned the basics of the Genesys Cloud CX Omnichannel Agent Interaction Experience. 
 
