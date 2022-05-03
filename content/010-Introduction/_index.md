@@ -21,6 +21,7 @@ This workshop will teach you at a high level how to set up inbound voice, chat, 
 
 ## Prerequisites 
 - Access to a Genesys Cloud CX org with Master Admin role assigned
+- Phone created and assigned to your user
 
 ## Recommended Partner Academy courses to take prior to this workshop
 - *add courses here
