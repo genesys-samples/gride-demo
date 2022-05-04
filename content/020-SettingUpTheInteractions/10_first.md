@@ -1,5 +1,5 @@
 ---
-title: "Inbound Voice Setup"
+title: "Inbound Voice"
 chapter: false
 weight: 10
 ---
