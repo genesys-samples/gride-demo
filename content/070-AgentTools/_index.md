@@ -11,84 +11,86 @@ weight: 70
 ## Welcome
 
 
-The purpose of this scenario is to showcase the tools that agents utilize during interactions. Multiple, disparate systems for voice, mobile, web chat, self-service, social media, CRM, etc., each with their own user interface, makes it difficult for contact centre agents to deliver effortless customer service. Genesys delivers an integrated, omnichannel experience to ensure agents have full insight into customer information and can deliver a personalized customer experience.
-> This workshop is focused on teaching the team how to utlize agent tools during the following interaction channels: voice, chat, email and SMS. User should already have completed previous modules and should have a voice, chat, email and SMS interactions answered and sitting on the interaction panel screen.
+The purpose of this scenario is to showcase the tools that agents utilize during interactions. Multiple, disparate systems for voice, mobile, web chat, self-service, social media, CRM, etc., each with their own user interface, makes it difficult for contact centre agents to deliver effortless customer service. Genesys delivers an integrated, omnichannel experience to ensure agents have full insight into customer information and can deliver a personalized customer experience.                          
+&nbsp;
+
+ 
+> This workshop is focused on teaching the team how to utlize agent tools during the following interaction channels: voice, chat, email and SMS. User should already have completed previous modules and should have a voice, chat, email and SMS interactions answered and sitting on the interaction panel screen.  
+&nbsp;
+&nbsp;
+
 
 
 ## Voice Interaction Tools
 
-As noted above, please ensure you have answered a voice interaction and it is sitting on your interaction panel as seen in the picture below
+Hello! You are about to embark on an interaction taking journey for G-Ride as an agent named Veronica. You've completed the previous modules and are now ready to start taking inbound interactions. As noted above, please ensure you have answered a voice interaction and it is sitting on your interaction panel as seen in the picture below. Genesys Cloud makes it easy for you to do your job by providing you tools that give you omnichannel visibilty and allow you to take interactions quickly and efficiently. Let's get started!
 
-![VoiceInteraction](images/voiceinteractionpanel.jpg)
+![VoiceInteraction](images/Voiceinteractiontools.jpg)
 
-*Dialpad*- Agent is able to enter numbers that automated call systems recognize, such as an account number or a menu selection, during a voice interaction or active business user call. 
+*Dialpad*- The dialpad allows you to enter numbers that automated call systems recognize, such as an account number or a menu selection. For example, Betty the customer is calling in and needs help finding her account number and entering it into the system.
 
-*Mute/Unmute*- Agent can mute themselves if necessary
+*Mute/Unmute*- After helping Betty locate her account number, you have to put her on mute to quickly to ask the agent next to you for some help. The mute button allows you to ask your fellow agent a question without Betty hearing.
 
-*Pause*- Agent can place a customer on hold
+*Pause*- Looks like your fellow agent can't help you find your information so you can hit the "pause" button to put Betty on hold while you quickly call your manager to get her input. The hold button allows Betty to hear some calming music while you get that information quickly.
 
-![Dialpad](images/dialpad.jpg)
+![Dialpad](images/Dialpad.jpg)
 
-*Blind Transfer*- Agent can transfer an interaction immediately to a person or queue
+*In this scenario you don't have to actually transfer Betty, but its helpful to know the different types of transfers and how they work.*
 
-*Consult Transfer*-Agent can connect with another agent before transferring the call 
+*Blind Transfer*- The blind transfer button allows you to transfer Betty quickly to another queue or agent. You're able to see an agent's availability beforehand. This scenario would be helfpul if it is a simple inquiry and the other agent doesn't need to know any information before the transfer happens.
+
+*Consult Transfer*-The consult transfer button allows you to check an agent's availbility beforehand to ensure someone will be available to answer Betty's trasnfer.You can brief the agent quickly before Betty is transferred to ensure they have the appropriate information and don't have to waste time or ask duplicate questions.
 
 ![Consult](images/Consulttransfer.jpg)
 
-*Start/End Secure Pause*- Agent is able pause a recording during an interaction in order to protect sensitive, private, or secure information, such as a credit card number. The agent can still hear the customer, but Genesys Cloud does not record the interaction during the secure pause. This secure pause can also be embedded in the script.
+*Start/End Secure Pause*- As an agent for G-Ride, you frequently have to take personal and confidential information. You're able to hit the "secure pause" in order to stop the recording of the call, input the credit card number, and end the "secure pause" to resume the recording. This ensures no confidential information is recorded. You can still hear the customer and speak to them during this secure pause, but the system does not record the interaction at this time. This secure pause can also be embedded in the script, which we will discuss later. Secure pauses can also be triggered through APIs and 3rd parties.
+https://appfoundry.genesys.com/filter/genesyscloud
 
-*Hang-up*- Agent can hang up at the conclusion of the call. 
+
+*Hang-up*- When you're finished helping Betty, you can hit this button to end the call and begin your after-call work.
 
 ![SecurePause](images/securepause.jpg)
 
 
-*Script*- Agents are given written words and logic to follow while processing a call. A script can contain multiple pages of narrative mixed with fields for updating data collected or updated by the agent. Scripts can be created for inbound or outbound interactions.
+*Script*- Scripts are a way for  supervisors to give you words and logic to follow when taking interactions. Scripts can contain the exact words to say when to speak to a customer, 3rd party websites you frequently have to visit, customer data from a 3rd party system, and more! This is useful for newer agents who may not know what to say when taking a call or even for experienced agents to reference, and it saves time by having the most important tools on the same page. Scripts are completely customizable and configurable by queue and interaction type. Below is an example of what a script can look like! 
 
 ![Script](images/script.jpg)
 
-> #### Scripts display editable records and directions to each agent that handles a particular type of interaction. Scripts present agents with details about the callers or contact, often with fields for collecting or updating information. The script seen in these images is an example and can be completely customized and configured by queue or type of interaction.
- &nbsp;
-
-*Google Search*- Agent is able to search on Google and find public information about this customer such as social media
-
-![Google](images/google.jpg)
 
 
-*Legal Disclaimer*-In the event that an agent must say statements verbatim to stay in compliance, the legal disclaimer button allows them to pop over to their statement, read it verbatim, and return to the script.
+*Legal Disclaimer*- In some industries, agents have to say statements verbatim in order to ensure they are following compliance regulations. Agents can pop over to the statement and easily navigate back to the script.
 
 ![Legal Disclaimer](images/legaldisclaimer.jpg)
 
-*Screen Pop*- Agents can navigate to the frequently used external websites. For example, if an agent has to check UPS or Fedex tracking, administrators can configure the "Screen Pop" button to directly open those websites so agents can save time and help the customer faster.
+*Screen Pop*- Betty is actually calling to check up on the her package. The "screen pop" button allows you quickly open Fedex's page to check the status of her package. External websites can also be embedded in this script depending on the administrator's preference.
 
 ![Screen Pop](images/screenpop.jpg)
 
-*Update Info*-Agents can update the customer record. In this example, the system is doing a data dip and presenting the CRM customer record. For example, Betty Suarez calls in and tells the agent she moved to Dallas and doesn't live in Austin anymore. An agent can easily update this information and it will update the CRM customer record.
+*Update Info*-Agents can update the customer record. In this example, the system is doing a data dip and populating the CRM customer record. For example, Betty Suarez calls in and tells you she moved to Dallas and doesn't live in Austin anymore. You can easily update this information and it will update the CRM customer record.
 
 ![Update Info](images/updateinfo.jpg)
 
-*Secure Flow*- Agents are able to process confidential personal information such as social security numbers, credit card numbers, etc. The "secure flow" button differs from a secure pause in that the "secure flow" button is setup so that an agent is not able to take any confidential information unless this button has been selected. This button automatically stops/resumes the recording accordingly.
+*Secure Flow*- Similar to the "secure pause" from previously, you can process confidential personal information such as social security numbers, credit card numbers, etc. The "secure flow" button differs from a secure pause in that the "secure flow" button is setup so that an agent is not able to take any confidential information unless this button has been selected. This button automatically stops/resumes the recording accordingly. Embedding this button in the script allows administrators to remove the "human error" possibility and ensure a call is recorded at the appropriate times. This allows you as an agent to focus on providing an exceptional customer experience instead of worrying about remembering to resume the recording
 
 ![Secure Flow](images/secureflow.jpg)
 
-*CRM Data*- Scripts allow administrators to present data from external systems such as CRMS. In this case, the system is doing a data dip into the 3rd party CRM to present relevant information to the agent. As noted above, it is a bi-directional integration so an agent can update information and send it back to the CRM.
+*CRM Data*- To give a personalized customer experience, it is useful to see Betty's information. Scripts allow administrators to present data from external systems such as CRMs. In this case, the system is doing a data dip into the 3rd party CRM to present relevant information to you. You are able to see her full name, her city, and more relevant account information. As noted above, it is a bi-directional integration so you can update information and send it back to the CRM.
 
 ![CRM](images/crmdata.jpg)
 
-*Account*-Agents are given more insight into a customer's account and service information. In this case, the agent can see account information and additional details.
+*Account*-Agents are given more insight into a customer's account and service 
 
-![Account](images/account.jpg)
-
-
-![Account Info](images/accountinfo.jpg)
-
-*Screen Share*- A screen share allows an agent to see the customer's screen with their permission. Agents can see what customers do in real time. Agents have to request and receive permimssion from a customer to initiate a screen chat. For voice, the agent verbally communicates the security key to the sharer, who then types in a form. For web chat, Genesys Cloud shares the security key behind the scenes, with no action needed from the agent. 
+*Screen Share*- A screen share allows you to see the customer's screen in real-time,  with their permission of course. Agents have to request and receive permimssion from a customer to initiate a screen chat. For voice, you can verbally communicate the security key to Betty, who will then type that number into a form on your website. For web chat, Genesys Cloud shares the security key behind the scenes, with no action needed you. A screen share is always linked to the original interaction, in this case a voice interaction. For quality management purposes, this interaction will show as one singular interaction.
 
 ![Screen Share](images/screenshare.jpg)
 
-*Agent Assist*-Agent Assist provides real-time transcription of a customer call and knowledge suggestions that update automatically based on the context of the conversation. Knowledge suggestions include FAQ or knowledge article recommendations that make agents more efficient and knowledgable. Agents no longer search for information by themselves and can focus on their discussons with customers. In this example, the customer stated they wanted to change their address. Agent assist suggested a relevant article with a 97% confident rating. The agent can then give feedback on whether this article was helpful or not.
+*Agent Assist*-Agent Assist provides real-time transcription of a customer call and knowledge suggestions that update automatically based on the context of the conversation. Knowledge suggestions include FAQ or knowledge article recommendations that make agents more efficient and knowledgable. You don't have to waste time searching for information and can focus on your discussons with customers. In this example, Betty stated she wanted to change her address. Agent assist suggested a relevant article with a 97% confident rating and you can give feedback on whether this article was helpful or not. 
 
 ![Agent Assist](images/agentassist.jpg)
 
+*Profile*- The customer profiles gives more information about the customer. You can see more customer details and notes that other agents have made about this customer. Its always best to have as much information as possible about the customer to ensure you're delivering a *personalized* experience.
+
+![Profile](images/profile.jpg)
 
 
 

@@ -10,7 +10,7 @@ weight: 40
 
 2. To complete this request, you need to go into the interaction pane and next to the conversations heading, there will be a "+" icon next to a human outline.This icon allows an agent to start a new [call](https://help.mypurecloud.com/articles/place-a-call-on-behalf-of-a-queue/) or [email[](https://help.mypurecloud.com/articles/send-outbound-email-behalf-queue/) on behalf of a queue with a customer. We also have another option to [effortlessly start interactions](https://help.mypurecloud.com/articles/switch-channels-for-an-interaction/) too.
 
-    ![Picture](/images/Conversation_Plus.png)
+    ![Picture](/images/Conversations_Plus.png)
 
 3. When you click the plus icon, you will be presented with options to start a new conversation:
 
