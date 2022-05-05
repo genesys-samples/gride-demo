@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Setting Up the Interactions on Documentation for Hugo Learn Theme</title>
+    <link>/020-settinguptheinteractions.html</link>
+    <description>Recent content in Setting Up the Interactions on Documentation for Hugo Learn Theme</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="/020-settinguptheinteractions/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Inbound Voice Setup</title>
+      <link>/020-settinguptheinteractions/10_first.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/020-settinguptheinteractions/10_first.html</guid>
+      <description>Genesys Cloud Inbound Voice While new communication channels continue to crop up, the importance of voice remains. The speed and agility of the Genesys™ Genesys Cloud CX™ contact center platform connects your customer engagement with the telephony option that best fits your business needs. The widest variety of voice services connectivity options in the industry gives customers unparalleled flexibility and choice. Customers can choose Genesys Cloud CX Voice (Genesys telecom) for VoIP, use the cloud-based Bring Your Own Carrier (BYOC) option.</description>
+    </item>
+    
+    <item>
+      <title>Web Chat</title>
+      <link>/020-settinguptheinteractions/20_second.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/020-settinguptheinteractions/20_second.html</guid>
+      <description>Genesys Cloud Web Chat The web chat channel is an invaluable tool for communicating and engaging with customers to provide better service for answering questions, completing orders, general guidance on company’s product and features, and personalized customer support. With this solution, Genesys improves handle time, first contact resolution, agent utilization, and customer satisfaction.
+Widgets Genesys offers three native versions of widgets as well as the option to integrate to a third party.</description>
+    </item>
+    
+    <item>
+      <title>SMS</title>
+      <link>/020-settinguptheinteractions/30_third.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/020-settinguptheinteractions/30_third.html</guid>
+      <description>Genesys Cloud SMS Customers often want to contact businesses in the same way they would contact friends and family. SMS allows for a more convienent, asynchronous mode of communication. Using SMS, customers can avoid calling and waiting on hold for an available agent. SMS also allows customers to engage &amp;ldquo;on the go&amp;rdquo; without a dedicated mobile app. Also, because customers engage by SMS at faster rates than any other messaging channel, the organization can resolve issues more quickly.</description>
+    </item>
+    
+    <item>
+      <title>Email</title>
+      <link>/020-settinguptheinteractions/40_fourth.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/020-settinguptheinteractions/40_fourth.html</guid>
+      <description>Genesys Cloud Email Email is still one of the most reliable and desired ways for customers to interact with companies for support. Genesys Cloud CX automatically distributes emails to the best-fit agent based on content analysis and keywords. Genesys Email Routing streamlines your response process using email automation functionality that enables you to monitor, measure, and optimize your email flow to create a better customer experience.
+Genesys Cloud routes incoming email messages through ACD just like it routes calls and chats, using the same routing and evaluation methods.</description>
+    </item>
+    
+  </channel>
+</rss>
