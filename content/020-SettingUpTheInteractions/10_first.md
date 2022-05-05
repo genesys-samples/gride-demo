@@ -43,3 +43,6 @@ Important for todays workshop, Architect also has an export and import option. W
 4. Import the following Inbound Voice architect flow following these instructions - https://help.mypurecloud.com/articles/import-export-call-flow/
     -  [Inbound Voice Flow](../../imports/GRide100InboundVoice_v1-0.i3InboundFlow)
         - Right click the link and save as
+        - Be sure to hit publish before navigating out of Architect
+5. Set up a call route following these instructions - https://help.mypurecloud.com/articles/add-a-call-route/
+    - use the phone number that you purchased in step two and the Architect flow that you imported in step 4
