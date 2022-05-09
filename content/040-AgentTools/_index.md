@@ -1,7 +1,7 @@
 ---
 title: "Agent Tools"
 chapter: false
-weight: 70
+weight: 40
 
 ---
 # Genesys Workshop Series
