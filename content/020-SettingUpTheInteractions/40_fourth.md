@@ -18,7 +18,7 @@ Today, we'll set up a email domain within Genesys Cloud CX that routes automatic
 
 ## Follow Along
  1. Follow the steps at this link to set up aninbound email domain - https://help.mypurecloud.com/articles/register-domain-redirect-inbound-messages/  
-    - Under "Add the inbound email address to the domain", you will do number 3 for routing to a queue instead of number 4 for routing to a flow. You will have this email domain route straight to the G Ride queue that you created earlier.
+    - For todays workshop, be sure to route to a queue instead of a flow as outlined in this screenshot. 
     
     ![Email Domain Set Up](/images/EmailSetUp.jpg)
 
