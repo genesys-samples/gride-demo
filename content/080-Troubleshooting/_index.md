@@ -1,7 +1,7 @@
 ---
 title: "Troubleshooting Tips"
 chapter: true
-weight: 50
+weight: 80
 
 ---
 

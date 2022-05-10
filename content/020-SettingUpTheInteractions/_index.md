@@ -1,5 +1,5 @@
 ---
-title: "Setting Up the Interactions"
+title: "Setting Up"
 chapter: true
 weight: 20
 ---

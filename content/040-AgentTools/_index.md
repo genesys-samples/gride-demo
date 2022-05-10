@@ -1,7 +1,11 @@
 ---
 title: "Interactions-Agent Tools"
 chapter: false
+<<<<<<< HEAD:content/070-AgentTools/_index.md
 weight: 10
+=======
+weight: 40
+>>>>>>> 31f343a23525062366c666ab86112ee03570b9a5:content/040-AgentTools/_index.md
 
 ---
 
