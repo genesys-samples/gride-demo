@@ -1,5 +1,5 @@
 ---
-title: "Intro to Genesys Cloud OmniChannel Setup"
+title: "Genesys Cloud OmniChannel Setup"
 chapter: true
 weight: 10
 

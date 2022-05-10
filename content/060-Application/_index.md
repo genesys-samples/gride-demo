@@ -1,5 +1,5 @@
 ---
-title: "Application - Interaction Experience"
+title: "Scenarios"
 chapter: true
 weight: 50
 ---
