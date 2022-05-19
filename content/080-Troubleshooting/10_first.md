@@ -5,7 +5,7 @@ weight: 10
 ---
 
 ## Voice Troubleshooting
- If interactions are not being routed to the correct agent/queue or are not appearing in the interaction pane, please walk through the following troubleshooting tips:
+ If voice interactions are not being routed to the correct agent/queue or are not appearing in the interaction pane, please walk through the following troubleshooting tips:
 
 * [Confirm agent is a member of the queue that was created at the beginning of the workshop](https://genesys-samples.github.io/gride-demo/020-settinguptheinteractions/10_first.html#queues)
 
