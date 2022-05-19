@@ -10,7 +10,7 @@ weight: 20
 
 2. First you'll need to login to your Genesys Cloud instance by clicking on your profile picture. Then navigate to the Deployment dropdown and ensure you have selected the "G-Ride" Deployment and ensure the ""Queue" field is set to "G-Ride." You can then put in any customer data if you like and then press start chat. 
 
-![devcenter](/images/chatDev.jpg)
+![devcenter](/images/chatdev.jpg)
 
 3. Without closing out of the chat window, navigate back to the Genesys environment and to the Interactions pane on the left side of the screen and ensure you are set to "On-Queue" (found at top right of screen)
 
