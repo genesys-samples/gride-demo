@@ -3,7 +3,7 @@ title: "SMS Testing"
 chapter: false
 weight: 30
 ---
-
+![Test](/images/testing2.jpg)
 ## Test an SMS Interaction
 
 1. The first step in testing an SMS interaction is ensuring you have the correct number. Navigate to the admin page and search for "Message Routing." Then find the message route that you created earlier and save the SMS number to your mobile device.

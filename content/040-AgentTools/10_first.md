@@ -3,6 +3,7 @@ title: "Voice Interactions"
 chapter: false
 weight: 10
 ---
+![Agent Tools](/images/agenttools2.jpg)
 
 ## Voice Interaction Tools
 
