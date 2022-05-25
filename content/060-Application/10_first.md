@@ -14,6 +14,6 @@ weight: 10
 
      Go to the user profile in the top left corner, and verify: (1) you have a phone/endpoint selected (this will typically be webRTC) and (2) hit the activate queues button and ensure you're activated in the queue you created. Please reference the picture below.
 
-    ![Picture](/images/User_Profile.png)
+    ![Picture](/images/userprofile.jpg)
 
 3. Step Three: Move to the interaction screen and we're ready to start walking through the scenarios.
