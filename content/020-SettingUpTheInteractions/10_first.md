@@ -16,23 +16,21 @@ While new communication channels continue to crop up, the importance of voice re
 >Genesys Cloud CX BYOC refers to the ability for customers to define SIP trunks between Genesys Cloud CX and third-party devices or services.
 
 ## What We Will Build Today
-#### Queues
+>#### Queues
+>Today we will be walking you through the creation of the backbone of your contact center. Genesys Cloud CX's ACD engine uses a Queue based routing system with the ability to attach skills, languages and priority to the routing logic. We will keep it simple and start with a basic queue. 
+>
+>Genesys Cloud CX queues are by default equipped for omnichannel communications. Throughout this workshop, we will be routing all media types to the same queue. 
 
-Today we will be walking you through the creation of the backbone of your contact center. Genesys Cloud CX's ACD engine uses a Queue based routing system with the ability to attach skills, languages and priority to the routing logic. We will keep it simple and start with a basic queue. 
-
-Genesys Cloud CX queues are by default equipped for omnichannel communications. Throughout this workshop, we will be routing all media types to the same queue. 
-
-#### Telephony
-
-We will also be using Genesys Cloud CX Voice services today. As mentioned above, we give you the flexbility to either bring your own carrier or to use Genesys as the carrier. Either option within Genesys Cloud CX is easily managed and allows you to take advantage of cloud voice services that can be deployed in days with no hardware required. The only steps that you'll need to take today to set up Genesys Cloud CX Voice is to purchase a phone number and assign that number to a call route. Pretty simple, right? Please note that charges do incur for purchasing a phone number, although they are minimal. Refer to this document for pricing. https://help.mypurecloud.com/articles/genesys-cloud-voice-pricing/
-
-#### Architect
-
-Setting up inbound voice capabilities also requires an Architect flow. As a matter of fact, we will be importing architect flows for every media type that we will set up today. Architect is a powerful tool that is a part of Genesys Cloud CX. 
-
-Architect is an easy-to-learn drag and drop web-based design tool that creates flows for media types. Architect uses menus and straight-to-queue logic most often associated with traditional auto-attendants. However, it also incorporates advanced, feature-rich logical operations such as non-menu digit collection, External Data Access (data dips), conditional logic, and expression editing to help develop the IVR functionality. Architect also provides centralized prompt management with multi-language support.
-
-Architect also has an export and import option, a feature that is important for today's workshop. What this will allow us to do is to simply give you a downloadable file for an architect flow and then you can simply import that file into your architect flow in your instance of Genesys Cloud CX. Architect is a powerful tool and it's very fun to learn how to build Architect flows from scratch, but it is not the objective in today's workshop. We will save that for another day!
+>#### Telephony
+>We will also be using Genesys Cloud CX Voice services today. As mentioned above, we give you the flexbility to either bring your own carrier or to use Genesys as the carrier. Either option within Genesys Cloud CX is easily managed and allows you to take advantage of cloud voice services that can be deployed in days with no hardware required. The only steps that you'll need to take today to set up Genesys Cloud CX Voice is to purchase a phone number and assign that number to a call route. Pretty simple, right? Please note that charges do incur for purchasing a phone number, although they are minimal. Refer to this document for pricing. https://help.mypurecloud.com/articles/genesys-cloud-voice-pricing/
+>
+>#### Architect
+>
+>Setting up inbound voice capabilities also requires an Architect flow. As a matter of fact, we will be importing architect flows for every media type that we will set up today. Architect is a powerful tool that is a part of Genesys Cloud CX. 
+>
+>Architect is an easy-to-learn drag and drop web-based design tool that creates flows for media types. Architect uses menus and straight-to-queue logic most often associated with traditional auto-attendants. However, it also incorporates advanced, feature-rich logical operations such as non-menu digit collection, External Data Access (data dips), conditional logic, and expression editing to help develop the IVR functionality. Architect also provides centralized prompt management with multi-language support.
+>
+>Architect also has an export and import option, a feature that is important for today's workshop. What this will allow us to do is to simply give you a downloadable file for an architect flow and then you can simply import that file into your architect flow in your instance of Genesys Cloud CX. Architect is a powerful tool and it's very fun to learn how to build Architect flows from scratch, but it is not the objective in today's workshop. We will save that for another day!
 
 ## Follow along
 
