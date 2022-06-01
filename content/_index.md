@@ -1,5 +1,5 @@
 ---
-title: "Genesys Workshop"
+title: "Genesys Cloud CX Channel Setup"
 chapter: true
 weight: 1
 ---

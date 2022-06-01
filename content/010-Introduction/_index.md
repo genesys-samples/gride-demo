@@ -7,7 +7,7 @@ weight: 10
 ![Title](/images/title.jpg)
 ## Objective
 
-This workshop will teach you at a high level how to set up inbound voice, chat, email and SMS within a Genesys Cloud CX dedicated environment. You will learn what tools agents have at their disposal when handling the interactions and how to best leverage those tools. (Note: This workshop is not meant for use with the PureCloudNow environment)
+This workshop will teach you at a high level how to set up inbound voice, chat, email and SMS within a Genesys Cloud CX dedicated environment. You will learn what tools agents have at their disposal when handling the interactions and how to best leverage those tools. Telephony should already have been set up. (Note: This workshop is not meant for use with the PureCloudNow environment)
 
 ## Recommended Prequisite Partner Academy Courses
 

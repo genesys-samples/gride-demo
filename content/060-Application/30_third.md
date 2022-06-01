@@ -1,27 +1,25 @@
 ---
-title: "Voice Interaction"
+title: "Knowledge Check #3"
 chapter: false
 weight: 30
 ---
 
-## Scenario
+![Scenario ](/images/scenario1.jpg)
 
-1. Call the phone number purchased earlier that's tied to the call flow  uploaded. In the IVR, you will hear the prompt and then be routed to queue. If your user is on-queue, the interaction will be routed to you and interrupt the digital interactions.
+#### In this scenario, you are an agent working in the retail industry. The customer, Betty, has called in to make a change to her recent order. She explains that she ordered the wrong size for one of her items, but the other item is correct. The scenario is complicated and takes a while to explain. You have to transfer her to another department since she just placed the order and its not a complete cancellation. What is the best option for you to use?
 
-    NOTE: If you're calling from the phone number listed on your user profile, the interaction will not route to you. Please ensure that the ANI you're calling from is separate than the primary voice number listed in GCCX.
+##### (scroll down for answer)
 
-2. Accept the voice interaction as outlined in the example below. If you don't accept before being timed-out and moved to not-responding status, change your status back to on-queue and the interaction will be routed back to you. Once you have accepted the interaction, you should have three interactions, with voice being the top option due to priority.
+#### [] Blind Transfer <br>
+#### [] Put Betty on hold and call your manager to fix the order <br>
+#### [] Hang Up and have the correct team call her back <br>
+#### [] Consult Transfer <br>
 
-    ![Picture](/images/Accept_Voice.png)
+![Scenario ](/images/scenario3answer.jpg)
 
-3. Walk through the call controls showcased at the top of the screen. Then, move to the agent tools on the right side, specifically, the [Notes](https://help.mypurecloud.com/articles/enter-notes-for-an-interaction/) section. Add a note to the interaction that says, "Requested transfer to another agent. Have already authenticated, you're speaking with Veronica." 
-    
-    Once the note has been completed, move back to the call controls and access the [Consult Transfer](https://help.mypurecloud.com/articles/consult-transfer-a-call/) option. Search for a specific user within your organization, but do not transfer. Then, search for the "G Ride" queue that was created for this workshop. Transfer the interaction to that queue. 
+#### [] Blind Transfer <br>
+#### [] Put Betty on hold and call your manager to fix the order <br>
+#### [] Hang Up and have the correct team call her back <br>
+#### [] **Consult Transfer** <br> :white_check_mark:
 
-    ![Picture](/images/CallControls_Consult.png)
-
-    If you are the only agent available in this queue, the interaction will route back to you. Accept the interaction and located the notes. There should be an orange dot highlighting that a note has been passed with this interaction. Verify and read the notes. 
-
-    ![Picture](/images/Notes.png)
-
-    Keep  You have now completed the scenario.
+#### In this scenario, consult transfer is your best option. Betty's explanation was long and complicated, and its best if you brief the agent before transferring. This will ensure the next agent has all the appropriate information, and that Betty doesn't have to repeat herself! 

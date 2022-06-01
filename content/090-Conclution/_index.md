@@ -20,4 +20,4 @@ Genesys is always striving for improvement. If you have any suggestions on how t
 
 If you have any technical questions about this workshop, please contact Veronica Guevara at veronica.guevara@genesys.com or Sam Karras at sam.karras@genesys.com.
 
-{{% children showhidden="false" %}}
+

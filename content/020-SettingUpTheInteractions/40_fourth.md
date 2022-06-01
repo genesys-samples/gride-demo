@@ -4,6 +4,7 @@ chapter: false
 weight: 40
 ---
 ![Setup](/images/setup.jpg)
+
 ## Genesys Cloud Email
 Email is still one of the most reliable and desired ways for customers to interact with companies for support. Genesys Cloud CX automatically distributes emails to the best-fit agent based on content analysis and keywords. Genesys Email Routing streamlines your response process using email automation functionality that enables you to monitor, measure, and optimize your email flow to create a better customer experience.
 
@@ -12,6 +13,8 @@ Genesys Cloud routes incoming email messages through ACD just like it routes cal
 Your Genesys Cloud account can have a maximum of two email domains with up to 500 associated email addresses per domain. You assign each email address to a queue, and can configure it to have an associated language, skill, and priority. Genesys Cloud ACD routes each incoming message to a member of the queue. Configured routing and evaluation methods help to determine the best available agent to handle the interaction.
 
 When an agent handles an email interaction, it'll route to them like any other digital channel. Once they reply, the interaction will be cleared from their interaction panel. However, it is common that email communication may have multiple replies needing to go to the customer. Because of this, when a customer replies back to the email, Genesys Cloud CX will route to the agent who was the responder for seamless communication as long as that agent is available.
+
+![Email](/images/email.png)
 
 ## What We Will Build Today
 Today, we'll set up a email domain within Genesys Cloud CX that routes automatically to a queue. Email domains have the option to either route straight to a queue or to an architect flow for additional processing. You might want your email domain to route to an architect flow if you wanted to do automatic responses, data dips or attach skills to the email. For our scenario, we'll just have the email go straight into the G Ride queue that we configured earlier. 
