@@ -29,6 +29,6 @@ Today, we'll set up a email domain within Genesys Cloud CX that routes automatic
 
     ![Queue Set Outbound Email Domain](/images/SetOutboundEmail.jpg)
  
- 3. Update your utilization settings to match this screenshot. This will allow us to handle all the media types we just set up simultaneously as an agent.  - https://help.mypurecloud.com/articles/configure-utilization-at-the-org-level/ 
-
+ 3. Update your utilization settings to match the screenshot below. This will allow us to handle all the media types we just set up simultaneously as an agent.   
+   ![Utilization Settings](/images/utilization1.jpg)
     ![Utilization Settings](/images/Utilization.jpg)

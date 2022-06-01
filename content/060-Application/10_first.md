@@ -22,4 +22,4 @@ weight: 10
 #### [] **Secure Flow** <br> :white_check_mark:
 
 #### Secure Pause and Secure Flow allow you to pause the recording of a call in order to receive personal or confidential information. In this case, you can start a secure pause or secure flow in order to ensure you are not recording personal or confidential information. 
-![Scenario ](/images/scenario1answer2.jpg)
+![Scenario ](/images/secureflowanswer.jpg)
