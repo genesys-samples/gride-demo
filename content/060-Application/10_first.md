@@ -1,19 +1,25 @@
 ---
-title: "Preparation"
+title: "Knowledge Check #1"
 chapter: false
 weight: 10
 ---
+![Scenario ](/images/scenario2.jpg)
 
-## Let's get ready
+#### In this scenario, you are an agent working in the insurance industry. The customer, Betty, has called in to make a payment on their insurance premium. What are two options you have when taking confidential information to ensure the system is not recording personal and confidential information and staying PCI compliant? 
 
-1. Step One: Go to the top right corner of the Genesys Cloud CX application (either browser or desktop) and toggle the on-queue switch to on. This turns the user's status to on-queue and available for routing interactions in all queues that the user is active in. 
+##### (scroll down for answer)
 
-    ![Picture](/images/On-Queue.png)
-    
-2. Step Two: You need to do two things to ensure you're ready to start receiving interactions: 
+#### [] Transfer to a manager <br>
+#### [] Secure Pause <br>
+#### [] Hang Up <br>
+#### [] Secure Flow <br>
 
-     Go to the user profile in the top left corner, and verify: (1) you have a phone/endpoint selected (this will typically be webRTC) and (2) hit the activate queues button and ensure you're activated in the queue you created. Please reference the picture below.
+![Scenario ](/images/scenario1answer.jpg)
 
-    ![Picture](/images/User_Profile.png)
+#### [] Transfer to a manager <br>
+#### [] **Secure Pause** <br> :white_check_mark:
+#### [] Hang Up <br>
+#### [] **Secure Flow** <br> :white_check_mark:
 
-3. Step Three: Move to the interaction screen and we're ready to start walking through the scenarios.
+#### Secure Pause and Secure Flow allow you to pause the recording of a call in order to receive personal or confidential information. In this case, you can start a secure pause or secure flow in order to ensure you are not recording personal or confidential information. 
+![Scenario ](/images/secureflowanswer.jpg)

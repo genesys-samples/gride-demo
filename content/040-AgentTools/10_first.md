@@ -36,7 +36,7 @@ https://appfoundry.genesys.com/filter/genesyscloud
 ![SecurePause](/images/securepause.jpg)
 
 
-*Script*- Scripts are a way for  supervisors to give you words and logic to follow when taking interactions. Scripts can contain the exact words to say when to speak to a customer, 3rd party websites you frequently have to visit, customer data from a 3rd party system, and more! This is useful for newer agents who may not know what to say when taking a call or even for experienced agents to reference, and it saves time by having the most important tools on the same page. Scripts are completely customizable and configurable by queue and interaction type. Below is an example of what a script can look like! 
+*Script*- Scripts are a way for  supervisors to give you words and logic to follow when taking interactions. Scripts can contain the exact words you are supposed to say when speaking to a customer, 3rd party websites you frequently have to visit, customer data from a 3rd party system, and more! This is useful for newer agents who may not know what to say when taking a call or even for experienced agents to reference, and it saves time by having the most important tools on the same page. Scripts are completely customizable and configurable by queue and interaction type. Below is an example of what a script can look like! 
 
 ![Script](/images/script.jpg)
 
