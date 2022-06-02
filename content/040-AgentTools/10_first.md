@@ -9,7 +9,7 @@ weight: 10
 
 Hello! You are about to embark on an interaction taking journey for G-Ride as an agent named Veronica. You've completed the previous modules and are now ready to start taking inbound interactions. As noted above, please ensure you have answered a voice interaction and it is sitting on your interaction panel as seen in the picture below. Genesys Cloud makes it easy for you to do your job by providing you tools that give you omnichannel visibilty and allow you to take interactions quickly and efficiently. Let's get started!
 
-![VoiceInteraction](/images/voiceinteractiontools.jpg)
+![Voice Interaction](/images/voiceinteractiontools.jpg)
 
 *Dialpad*- The dialpad allows you to enter numbers that automated call systems recognize, such as an account number or a menu selection. For example, Betty the customer is calling in and needs help finding her account number and entering it into the system.
 
