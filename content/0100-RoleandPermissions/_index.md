@@ -1,7 +1,7 @@
 ---
-title: "Setup"
+title: "Roles and Permissions"
 chapter: true
-weight: 20
+weight: 100
 ---
 # Setting Up
 ## Objective

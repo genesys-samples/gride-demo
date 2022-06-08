@@ -1,7 +1,7 @@
 ---
-title: "Setup"
+title: "Purchsing a Phone Number"
 chapter: true
-weight: 20
+weight: 110
 ---
 # Setting Up
 ## Objective
