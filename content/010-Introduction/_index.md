@@ -17,3 +17,4 @@ This workshop will teach you at a high level how to set up inbound voice, chat, 
 
 - [Genesys Cloud Value Wedge for Partners](https://learn.genesys.com/learn/course/611/genesys-cloud-value-wedge-for-partners?generated_by=515985&hash=181643a2d2d06a123bd19bddd0bbf01f9d3119b7)
 
+test 
