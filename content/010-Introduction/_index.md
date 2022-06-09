@@ -2,21 +2,12 @@
 title: "GCCX Channel Setup"
 chapter: true
 weight: 10
-
 ---
-
-
+# GCCX Channel Setup
+![Title](/images/title.jpg)
 ## Objective
 
-This workshop will teach you at a high level how to set up inbound voice, chat, email and SMS within a Genesys Cloud CX environment. You will also learn what tools agents have at their disposal when handling the interactions and how to best leverage those tools. 
-
- ## Topics 
-
-  * Setting up the interactions (inbound voice, chat, SMS, and email)
- * Testing the Interactions
- * Using the agent tools
- * Scenario based application of the workshop training]
-
+This workshop will teach you at a high level how to set up inbound voice, chat, email and SMS within a Genesys Cloud CX dedicated environment. You will learn what tools agents have at their disposal when handling the interactions and how to best leverage those tools. Telephony should already have been set up. (Note: This workshop is not meant for use with the PureCloudNow environment)
 
 ## Recommended Prequisite Partner Academy Courses
 
