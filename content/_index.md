@@ -1,10 +1,8 @@
 ---
-title: "Genesys Workshop"
+title: "Genesys Cloud CX Channel Setup"
 chapter: true
 weight: 1
 ---
-
-# Genesys Workshop
 
 ### Welcome
 
@@ -14,3 +12,5 @@ In this workshop you will learn to apply your foundational knowledge of [Genesys
 - Setup and configure your environment.
 - Creating users and groups.
 - Configure security.
+
+![Title](/images/homepage.jpg)
