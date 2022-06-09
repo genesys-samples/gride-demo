@@ -1,9 +1,9 @@
 ---
-title: "GCCX Channel Setup"
+title: "Dev Lab Setup"
 chapter: true
 weight: 10
 ---
-# GCCX Channel Setup
+# Dev Lab Setup
 ![Title](/images/title.jpg)
 ## Objective
 
