@@ -1,7 +1,7 @@
 ---
 title: "Activating Your Account"
 chapter: true
-weight: 70
+weight: 20
 ---
 # Activating Your Account
 
