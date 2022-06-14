@@ -1,7 +1,7 @@
 ---
 title: "Setup"
 chapter: true
-weight: 20
+weight: 30
 ---
 # Setup
 ![Setup](/images/setup1.jpg)
