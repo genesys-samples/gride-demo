@@ -1,7 +1,7 @@
 ---
 title: "Agent Tools"
 chapter: true
-weight: 50
+weight: 60
 ---
 # Agent Tools
 ![Agent Tools](/images/agenttools1.jpg)
