@@ -14,14 +14,12 @@ While the actual DID number purchase operation is a straightforward procedure, t
 
 ![Phone](/images/phone.jpg)
 
-Important for todays workshop, Architect also has an export and import option. What this will allow us to do is to simply give you a downloadable file for an architect flow and then you can simply import that file into your architect flow in your instance of Genesys Cloud CX. Architect is a powerful tool and it's very fun to learn how to build Architect flows from scratch, but it is not the objective in today's workshop. We will save that for another day!
-
 ## Follow along
 
- Note: Order a number (1 number minimum is required but it is recommended to order 1 number for each user that will be using Dev Lab, however; Telephony charges are billed to you so purchase these at your org - https://help.mypurecloud.com/articles/genesys-cloud-voice-pricing/ ) 
+ Note:There is a 1 number minimum is required but it is recommended to order 1 number for each user that will be using Dev Lab, however; Telephony charges are billed to you so purchase these at your org - https://help.mypurecloud.com/articles/genesys-cloud-voice-pricing/ ) 
 1.	Admin > Number Management > Purchase Number
 a.	If you do not see Number Management in the Admin panel, you made need to log out and back in to refresh your newly added permissions
 2.	Search for a DID number by area code, or city/state
 3.	Check the boxes next to each number you are going to purchase (with at least one being emergency capable) and complete purchase
 
-![Phone](/desktop/PhoneNumber.jpg)
+![Phone](/desktop/PhoneNumber.jpg) 
