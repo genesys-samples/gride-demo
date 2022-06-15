@@ -161,6 +161,13 @@
 	"content": "Email Troubleshooting If email interactions are not being routed to the correct agent/queue or are not appearing in the interaction pane, please walk through the following troubleshooting tips:\n  Confirm agent is a member of the queue that was created at the beginning of the workshop\n  Confirm you are emailing the correct email address\n  Confirm agent status is set to \u0026ldquo;On-Queue\u0026rdquo;\n  If interactions are still not being routed correctly, please reach out to Veronica Guevara at veronica.guevara@genesys.com.\n"
 },
 {
+	"uri": "/050-telephony/20_second.html",
+	"title": "Location &amp; Site",
+	"tags": [],
+	"description": "",
+	"content": "(/images/testing2.jpg)\nLocation   This is the psychical location your agents will reside at as their HQ. Locations are associated for emergency routing capabilities; it is not recommended using emergency services on a dev lab, but it is a required step.\n  Select \u0026ldquo;Locations\u0026rdquo; under the Directory category, then \u0026ldquo;Add Location\u0026rdquo;.\n  Name your location, \u0026ldquo;Headquarters\u0026rdquo;, then add an address. The address must be valid, as you begin to type it out a drop-down list will begin to appear. Select one from the auto-populated options to ensure the directory has identified this as valid for 911 purposes. Add yourself as the \u0026ldquo;Site Contact\u0026rdquo; since the purpose is demonstration only. Check the box for \u0026ldquo;Make this location available for use on sites\u0026rdquo;  Site  A site is the home of a set of phones. The site defines the call classification rules and outbound routing rules as well as the telephony properties for dialing. This is also where Outbound Routing will reference a Number Plan. Sites must be tied to physical Locations defined.  Create a new site and name it \u0026ldquo;My Site\u0026rdquo;. Associate your Location, select a time zone, leave Media Model as \u0026ldquo;Cloud\u0026rdquo;  Navigate to Outbound routes within the newly created site and ensure the “PureCloud Voice – AWS” Trunk is associated, and the site is enabled. You may need to use the “Select External Trunks” dropdown to add the trunk  Lastly, return to the \u0026ldquo;General\u0026rdquo; tab and confirm the site site has been selected as the default.  "
+},
+{
 	"uri": "/020-settinguptheinteractions.html",
 	"title": "Omnichannel Setup",
 	"tags": [],
@@ -201,6 +208,13 @@
 	"tags": [],
 	"description": "",
 	"content": "Conclusion Finished! Congratulations! You\u0026rsquo;ve reached the end of today\u0026rsquo;s workshop. You now have an operational omni-channel contact center agent experience. We hope this was an informative journey, and that you are now confident in your interaction fielding abilities.\nNext Steps If you\u0026rsquo;d like to continue your Genesys Cloud CX journey, please visit the following links to complete other workshops:\n Bots 101 (to be added later) Quality Management (to be added later) Introduction to Architect (to be added later)  Genesys is always striving for improvement. If you have any suggestions on how to improve this workshop, please fill out today\u0026rsquo;s feedback form via this TODO. We\u0026rsquo;d love to hear from you!\nIf you have any technical questions about this workshop, please contact Veronica Guevara at veronica.guevara@genesys.com or Sam Karras at sam.karras@genesys.com.\n"
+},
+{
+	"uri": "/050-telephony/30_third.html",
+	"title": "",
+	"tags": [],
+	"description": "",
+	"content": ""
 },
 {
 	"uri": "/categories.html",

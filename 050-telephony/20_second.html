@@ -8,7 +8,7 @@
 <meta name="author" content="Genesys">
 
     <link rel="icon" href="https://developer.genesys.com/wp-content/uploads/2020/07/Genesys_Favicon.ico" type="image/x-icon" />
-    <title>Email :: Documentation for Hugo Learn Theme</title>
+    <title>Location &amp; Site :: Documentation for Hugo Learn Theme</title>
 
     
     <link href="../css/nucleus.css?1655324334" rel="stylesheet">
@@ -36,7 +36,7 @@
     </style>
     
   </head>
-  <body class="" data-url="../020-settinguptheinteractions/40_fourth.html">
+  <body class="" data-url="../050-telephony/20_second.html">
     <nav id="sidebar" class="showVisitedLinks">
 
 
@@ -162,7 +162,7 @@
   
     
     <li data-nav-id="/050-telephony.html" title="Telephony" class="dd-item
-        
+        parent
         
         
         ">
@@ -211,7 +211,7 @@
  
   
     
-      <li data-nav-id="/050-telephony/20_second.html" title="Location &amp; Site" class="dd-item ">
+      <li data-nav-id="/050-telephony/20_second.html" title="Location &amp; Site" class="dd-item active">
         <a href="../050-telephony/20_second.html">
         Location &amp; Site
         <i class="fas fa-check read-icon"></i>
@@ -261,7 +261,7 @@
   
     
     <li data-nav-id="/020-settinguptheinteractions.html" title="Omnichannel Setup" class="dd-item
-        parent
+        
         
         
         ">
@@ -352,7 +352,7 @@
  
   
     
-      <li data-nav-id="/020-settinguptheinteractions/40_fourth.html" title="Email" class="dd-item active">
+      <li data-nav-id="/020-settinguptheinteractions/40_fourth.html" title="Email" class="dd-item ">
         <a href="../020-settinguptheinteractions/40_fourth.html">
         Email
         <i class="fas fa-check read-icon"></i>
@@ -858,7 +858,7 @@
                   
                     
                     
-                      <option id="en" value="/020-settinguptheinteractions/40_fourth.html" selected>English</option>
+                      <option id="en" value="/050-telephony/20_second.html" selected>English</option>
                     
                   
               
@@ -932,7 +932,7 @@
             
           
           
-            <a href='../'>Genesys Cloud CX Channel Setup</a> > <a href='../020-settinguptheinteractions.html'>Omnichannel Setup</a> > Email
+            <a href='../'>Genesys Cloud CX Channel Setup</a> > <a href='../050-telephony.html'>Telephony</a> > Location & Site
           
         
           
@@ -947,9 +947,8 @@
     <div class="wrapper">
 <nav id="TableOfContents">
   <ul>
-    <li><a href="#genesys-cloud-email">Genesys Cloud Email</a></li>
-    <li><a href="#what-we-will-build-today">What We Will Build Today</a></li>
-    <li><a href="#follow-along">Follow Along</a></li>
+    <li><a href="#location">Location</a></li>
+    <li><a href="#site">Site</a></li>
   </ul>
 </nav>
     </div>
@@ -967,41 +966,45 @@
           
             <h1>
               
-              Email
+              Location &amp; Site
             </h1>
           
 
         
 
 
-<p><img src="../images/setup.jpg" alt="Setup"></p>
-<h2 id="genesys-cloud-email">Genesys Cloud Email</h2>
-<p>Email is still one of the most reliable and desired ways for customers to interact with companies for support. Genesys Cloud CX automatically distributes emails to the best-fit agent based on content analysis and keywords. Genesys Email Routing streamlines your response process using email automation functionality that enables you to monitor, measure, and optimize your email flow to create a better customer experience.</p>
-<p>Genesys Cloud routes incoming email messages through ACD just like it routes calls and chats, using the same routing and evaluation methods. When routing email messages, Genesys Cloud considers skills, language, priority, and agent utilization.</p>
-<p>Your Genesys Cloud account can have a maximum of two email domains with up to 500 associated email addresses per domain. You assign each email address to a queue, and can configure it to have an associated language, skill, and priority. Genesys Cloud ACD routes each incoming message to a member of the queue. Configured routing and evaluation methods help to determine the best available agent to handle the interaction.</p>
-<p>When an agent handles an email interaction, it&rsquo;ll route to them like any other digital channel. Once they reply, the interaction will be cleared from their interaction panel. However, it is common that email communication may have multiple replies needing to go to the customer. Because of this, when a customer replies back to the email, Genesys Cloud CX will route to the agent who was the responder for seamless communication as long as that agent is available.</p>
-<p><img src="../images/email.png" alt="Email"></p>
-<h2 id="what-we-will-build-today">What We Will Build Today</h2>
-<p>Today, we&rsquo;ll set up a email domain within Genesys Cloud CX that routes automatically to a queue. Email domains have the option to either route straight to a queue or to an architect flow for additional processing. You might want your email domain to route to an architect flow if you wanted to do automatic responses, data dips or attach skills to the email. For our scenario, we&rsquo;ll just have the email go straight into the G Ride queue that we configured earlier.</p>
-<h2 id="follow-along">Follow Along</h2>
+<p>(/images/testing2.jpg)</p>
+<h2 id="location">Location</h2>
 <ol>
 <li>
-<p>Follow the steps at this link to set up aninbound email domain - <a href="https://help.mypurecloud.com/articles/register-domain-redirect-inbound-messages/">https://help.mypurecloud.com/articles/register-domain-redirect-inbound-messages/</a></p>
-<ul>
-<li>For todays workshop, be sure to route to a queue instead of a flow as outlined in this screenshot.</li>
-</ul>
-<p><img src="../images/EmailSetUp.jpg" alt="Email Domain Set Up"></p>
+<p>This is the psychical location your agents will reside at as their HQ. Locations are associated for emergency routing capabilities; it is not recommended using emergency services on a dev lab, but it is a required step.</p>
 </li>
 <li>
-<p>Go back into the G Ride queue and update the outbound email address to the email domain you just set up.</p>
-<p><img src="../images/SetOutboundEmail.jpg" alt="Queue Set Outbound Email Domain"></p>
-</li>
-<li>
-<p>Update your utilization settings to match the screenshot below. This will allow us to handle all the media types we just set up simultaneously as an agent.<br>
-<img src="../images/utilization1.jpg" alt="Utilization Settings">
-<img src="../images/Utilization.jpg" alt="Utilization Settings"></p>
+<p>Select &ldquo;Locations&rdquo; under the Directory category, then &ldquo;Add Location&rdquo;.</p>
 </li>
 </ol>
+<p><img src="../images/Locations.jpg" alt="AdminPage"></p>
+<ol start="3">
+<li>Name your location, &ldquo;Headquarters&rdquo;, then add an address. The address must be valid, as you begin to type it out a drop-down list will begin to appear. Select one from the auto-populated options to ensure the directory has identified this as valid for 911 purposes. Add yourself as the &ldquo;Site Contact&rdquo; since the purpose is demonstration only. Check the box for &ldquo;Make this location available for use on sites&rdquo;</li>
+</ol>
+<p><img src="../images/LocationsPopup.jpg" alt="LocationDetails"></p>
+<h2 id="site">Site</h2>
+<ol>
+<li>A site is the home of a set of phones. The site defines the call classification rules and outbound routing rules as well as the telephony properties for dialing. This is also where Outbound Routing will reference a Number Plan. Sites must be tied to physical Locations defined.</li>
+</ol>
+<p><img src="../images/Site.jpg" alt="AdminDirectory"></p>
+<ol start="2">
+<li>Create a new site and name it &ldquo;My Site&rdquo;. Associate your Location, select a time zone, leave Media Model as &ldquo;Cloud&rdquo;</li>
+</ol>
+<p><img src="../images/SiteSetup.jpg" alt="SiteDetails"></p>
+<ol start="3">
+<li>Navigate to Outbound routes within the newly created site and ensure the “PureCloud Voice – AWS” Trunk is associated, and the site is enabled. You may need to use the “Select External Trunks” dropdown to add the trunk</li>
+</ol>
+<p><img src="../images/OutboundRoute.jpg" alt="OutboundRoutingDetails"></p>
+<ol start="4">
+<li>Lastly, return to the &ldquo;General&rdquo; tab and confirm the site site has been selected as the default.</li>
+</ol>
+<p><img src="../images/DefaultSite.jpg" alt="SiteSettings"></p>
 
 
 <footer class="footline">
@@ -1119,6 +1122,90 @@
             
                 
                     
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
                 
                 
 
@@ -1153,90 +1240,6 @@
             
             
                 
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                        
-                        
                     
                 
                 
@@ -1530,10 +1533,10 @@
 	 
 	 
 		
-			<a class="nav nav-prev" href="../020-settinguptheinteractions/30_third.html" title="SMS"> <i class="fa fa-chevron-left"></i></a>
+			<a class="nav nav-prev" href="../050-telephony/10_first.html" title="Telephony"> <i class="fa fa-chevron-left"></i></a>
 		
 		
-			<a class="nav nav-next" href="../030-testinteractions.html" title="Test Interactions" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+			<a class="nav nav-next" href="../050-telephony/30_third.html" title="" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
 		
 	
     </div>
