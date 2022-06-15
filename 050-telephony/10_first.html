@@ -8,7 +8,7 @@
 <meta name="author" content="Genesys">
 
     <link rel="icon" href="https://developer.genesys.com/wp-content/uploads/2020/07/Genesys_Favicon.ico" type="image/x-icon" />
-    <title>SMS :: Documentation for Hugo Learn Theme</title>
+    <title>Telephony :: Documentation for Hugo Learn Theme</title>
 
     
     <link href="../css/nucleus.css?1655324252" rel="stylesheet">
@@ -36,7 +36,7 @@
     </style>
     
   </head>
-  <body class="" data-url="../020-settinguptheinteractions/30_third.html">
+  <body class="" data-url="../050-telephony/10_first.html">
     <nav id="sidebar" class="showVisitedLinks">
 
 
@@ -162,7 +162,7 @@
   
     
     <li data-nav-id="/050-telephony.html" title="Telephony" class="dd-item
-        
+        parent
         
         
         ">
@@ -190,7 +190,7 @@
  
   
     
-      <li data-nav-id="/050-telephony/10_first.html" title="Telephony" class="dd-item ">
+      <li data-nav-id="/050-telephony/10_first.html" title="Telephony" class="dd-item active">
         <a href="../050-telephony/10_first.html">
         Telephony
         <i class="fas fa-check read-icon"></i>
@@ -219,7 +219,7 @@
   
     
     <li data-nav-id="/020-settinguptheinteractions.html" title="Omnichannel Setup" class="dd-item
-        parent
+        
         
         
         ">
@@ -289,7 +289,7 @@
  
   
     
-      <li data-nav-id="/020-settinguptheinteractions/30_third.html" title="SMS" class="dd-item active">
+      <li data-nav-id="/020-settinguptheinteractions/30_third.html" title="SMS" class="dd-item ">
         <a href="../020-settinguptheinteractions/30_third.html">
         SMS
         <i class="fas fa-check read-icon"></i>
@@ -816,7 +816,7 @@
                   
                     
                     
-                      <option id="en" value="/020-settinguptheinteractions/30_third.html" selected>English</option>
+                      <option id="en" value="/050-telephony/10_first.html" selected>English</option>
                     
                   
               
@@ -874,8 +874,6 @@
                         </a>
                     </span>
                   
-                  <span id="toc-menu"><i class="fas fa-list-alt"></i></span>
-                  
                   <span class="links">
                  
                  
@@ -890,7 +888,7 @@
             
           
           
-            <a href='../'>Genesys Cloud CX Channel Setup</a> > <a href='../020-settinguptheinteractions.html'>Omnichannel Setup</a> > SMS
+            <a href='../'>Genesys Cloud CX Channel Setup</a> > <a href='../050-telephony.html'>Telephony</a> > Telephony
           
         
           
@@ -901,19 +899,6 @@
                   </span>
                 </div>
                 
-                    <div class="progress">
-    <div class="wrapper">
-<nav id="TableOfContents">
-  <ul>
-    <li><a href="#genesys-cloud-sms">Genesys Cloud SMS</a></li>
-    <li><a href="#what-we-will-build-today">What We Will Build Today</a></li>
-    <li><a href="#follow-along">Follow Along</a></li>
-  </ul>
-</nav>
-    </div>
-</div>
-
-                
               </div>
             </div>
             
@@ -921,52 +906,35 @@
         
         </div>
         
+          <div id="chapter">
+        
         <div id="body-inner">
-          
-            <h1>
-              
-              SMS
-            </h1>
           
 
         
 
 
-<p><img src="../images/setup2.jpg" alt="Setup"></p>
-<h2 id="genesys-cloud-sms">Genesys Cloud SMS</h2>
-<p>Customers often want to contact businesses in the same way they would contact friends and family. SMS allows for a more convienent, asynchronous mode of communication. Using SMS, customers can avoid calling and waiting on hold for an available agent. SMS also allows customers to engage &ldquo;on the go&rdquo; without a dedicated mobile app. Also, because customers engage by SMS at faster rates than any other messaging channel, the organization can resolve issues more quickly.</p>
-<p>SMS interactions are routed by the same orchestration engine as other media types in Genesys Cloud CX, and that is through Architect. Architect allows you to perform data dips, engage with Bots, attach routing logic and much more.</p>
-<p>With agents communicating via SMS, the agent can keep the message open and use SMS like a chat channel, or close the SMS message after replying. If the agent keeps the conversation open, the system immediately displays each customer response to the agent, using SMS messages as a chat channel. If the agent closes the conversation but the customer replies within 72 hours, the conversation reopens (after 72 hours, the system creates a new conversation) and routes to the last agent that handled the SMS. If that agent is unavailable, the system routes the message by ACD to the next available agent.</p>
-<p><img src="../images/SMSicon.png" alt="SMS"></p>
-<h2 id="what-we-will-build-today">What We Will Build Today</h2>
-<p>Today, we&rsquo;ll set up the basics of SMS in Genesys Cloud CX. You&rsquo;ll purchase an SMS number directly from the Genesys Cloud admin portal, with Genesys being your SMS broker. You&rsquo;ll also import a basic Inbound Message Architect flow. Lastly, you&rsquo;ll connect the SMS number you purchased to the Architect flow that you imported through a messaging route.</p>
-<h2 id="follow-along">Follow Along</h2>
+<h1 id="genesys-cloud-voice">Genesys Cloud Voice</h1>
+<p>Genesys Cloud Voice is an Internet-based telephony service that you can activate for use with your Genesys Cloud organization. It provides public telephony access to any Genesys Cloud services to which you subscribe, such as Communicate or the Genesys Cloud call center.</p>
+<h2 id="purchase-a-phone-number">Purchase a Phone Number</h2>
+<p>Purchase phone numbers directly from within Genesys Cloud Voice using the Number Purchase portal.</p>
+<h2 id="follow-along">Follow along</h2>
+<p>Note: Order a number (1 number minimum is required but it is recommended to order 1 number for each user that will be using Dev Lab, however; Telephony charges are billed to you so purchase these at your org - <a href="https://help.mypurecloud.com/articles/genesys-cloud-voice-pricing/">https://help.mypurecloud.com/articles/genesys-cloud-voice-pricing/</a> )</p>
 <ol>
-<li>Purchase a number for SMS (Note  the number you purchased, because it is difficult to find after purchase)</li>
+<li>Admin &gt; Number Management &gt; Purchase Number
+a.	If you do not see Number Management in the Admin panel, you made need to log out and back in to refresh your newly added permissions</li>
+<li>Search for a DID number by area code, or city/state</li>
+<li>Check the boxes next to each number you are going to purchase (with at least one being emergency capable) and complete purchase</li>
 </ol>
-<p><img src="../images/sms1.jpg" alt="SMS">
-2. Go back into the G Ride queue and set the SMS number you just purchased as the outbound SMS number
-<img src="../images/QueueSetSMSOutboundNumber.jpg" alt="Queue Set Outbound SMS Number"></p>
-<ol start="3">
-<li>Follow the instructions below to create an inbound message flow</li>
-</ol>
-<p><img src="../images/inboundmessage.jpg" alt="Inbound Message"></p>
-<ol start="4">
-<li>
-<p>Once inside the flow, drag a &ldquo;Transfer to ACD&rdquo; task to the &ldquo;Start menu&rdquo; as seen in the image below. Click the drop-down menu and select your &ldquo;G Ride&rdquo; queue or the queue you created at the beginning. Hit the three dots next to the &ldquo;Disconnect&rdquo; Task to delete this task. Hit &ldquo;Publish&rdquo; once you have completed these steps.
-<img src="../images/inboundmessage1.jpg" alt="Inbound Message"></p>
-</li>
-<li>
-<p>Set up a messaging route to connect your inbound message architect flow and the SMS number you purchased in step two</p>
-</li>
-</ol>
-<p><img src="../images/callrouting1.jpg" alt="Call Routing"></p>
+<p><img src="../images/PhoneNumber.jpg" alt="Phone Number"></p>
 
 
 <footer class="footline">
 	
 </footer>
 
+        
+            </div> 
         
         </div>
         
@@ -1062,6 +1030,7 @@
             
                 
                     
+                    
                 
                 
 
@@ -1081,18 +1050,8 @@
             
                 
                     
-                
-                
-
-                    
-                    
-                    
-
-                    
                         
-            
-            
-                
+                        
                     
                 
                 
@@ -1101,9 +1060,6 @@
                     
                     
 
-                    
-            
-        
                     
                         
             
@@ -1126,7 +1082,6 @@
             
                 
                     
-                    
                 
                 
 
@@ -1143,8 +1098,21 @@
             
                 
                     
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
                         
-                        
+            
+            
+                
                     
                 
                 
@@ -1457,10 +1425,10 @@
 	 
 	 
 		
-			<a class="nav nav-prev" href="../020-settinguptheinteractions/20_second.html" title="Web Chat"> <i class="fa fa-chevron-left"></i></a>
+			<a class="nav nav-prev" href="../050-telephony.html" title="Telephony"> <i class="fa fa-chevron-left"></i></a>
 		
 		
-			<a class="nav nav-next" href="../020-settinguptheinteractions/40_fourth.html" title="Email" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+			<a class="nav nav-next" href="../020-settinguptheinteractions.html" title="Omnichannel Setup" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
 		
 	
     </div>

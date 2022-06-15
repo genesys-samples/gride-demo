@@ -35,6 +35,20 @@
 	"content": "In this scenario, you are an agent working in the insurance industry. The customer, Betty, has called in to make a payment on their insurance premium. What are two options you have when taking confidential information to ensure the system is not recording personal and confidential information and staying PCI compliant? (scroll down for answer) [] Transfer to a manager  [] Secure Pause  [] Hang Up  [] Secure Flow  [] Transfer to a manager  [] Secure Pause ✅ [] Hang Up  [] Secure Flow ✅ Secure Pause and Secure Flow allow you to pause the recording of a call in order to receive personal or confidential information. In this case, you can start a secure pause or secure flow in order to ensure you are not recording personal or confidential information. "
 },
 {
+	"uri": "/050-telephony/10_first.html",
+	"title": "Telephony",
+	"tags": [],
+	"description": "",
+	"content": "Genesys Cloud Voice Genesys Cloud Voice is an Internet-based telephony service that you can activate for use with your Genesys Cloud organization. It provides public telephony access to any Genesys Cloud services to which you subscribe, such as Communicate or the Genesys Cloud call center.\nPurchase a Phone Number Purchase phone numbers directly from within Genesys Cloud Voice using the Number Purchase portal.\nFollow along Note: Order a number (1 number minimum is required but it is recommended to order 1 number for each user that will be using Dev Lab, however; Telephony charges are billed to you so purchase these at your org - https://help.mypurecloud.com/articles/genesys-cloud-voice-pricing/ )\n Admin \u0026gt; Number Management \u0026gt; Purchase Number a.\tIf you do not see Number Management in the Admin panel, you made need to log out and back in to refresh your newly added permissions Search for a DID number by area code, or city/state Check the boxes next to each number you are going to purchase (with at least one being emergency capable) and complete purchase  "
+},
+{
+	"uri": "/070-userconfiguration/10_first.html",
+	"title": "User Configuration",
+	"tags": [],
+	"description": "",
+	"content": "Roles and Permissions Each role in Genesys Cloud contains one or more permissions. The permissions allow users with that role to do various tasks, such as create groups, set up integrations, and supervise contact center activity.\nThe Employee role has the lowest level of permissions and is assigned to all users. This role cannot be removed. A user must be assigned additional roles by a Genesys Cloud Administrator to have additional permissions. The Admin role has permissions to make any changes to a Genesys Cloud organization. This role is automatically assigned to whoever sets up the organization. This person is responsible for inviting others to a Genesys Cloud organization and for assigning roles to invitees.\nFollow along Associate Master Admin role to the user\n Admin \u0026gt; People \u0026gt; select your user account On the right side of the Roles screen, change “View:” from Assigned to All Assign master admin permissions and save the account  Create Role for Genesys Cloud Voice permissions Admin \u0026gt; Roles / Permissions \u0026gt; Add Role\n Name the role Switch the permissions tab and search “PureCloud voice” in the Permission field Check the box for all permissions and save Return to People and select your user again. Go to the Roles screen and make sure to assign this GCV role to your user.  Add people to your organization When you create new users, Genesys Cloud automatically sets their status as active whether you send the invitation now or later. If you choose to send invitations to new users later and manually set their status to inactive, when you send the invitations Genesys Cloud automatically changes their status to active. 4.\tClick Admin. 5.\tUnder People and Permissions, click People. 6.\tClick Add Person. The Add People to the Organization dialog box opens.\nClick the Person tab. Complete the mandatory Name and Email fields. (Optional) Enter additional information by clicking Optional Fields. Note: The Manager field is optional but recommended. Genesys Cloud uses manager assignments to create hierarchy views. (Optional) To add the person to a queue, do the following: Under Assign Queues, begin typing the first few letters of the desired queue. Select it from the list. Repeat steps a-b for each additional queue to which to add the person. Note: Make sure you assign the Employee role, along with any other role. Typically, the employee role is assigned by default. However, manually adding roles during user creation overrides the employee’s assigned default. (Optional) To add roles for the person, do the following: Under Assign Roles, begin typing the first few letters of the desired role. Select it from the list. Repeat steps a-b for each additional role to assign. Send the invite automatically by selecting Send invite now. Note: The people you add cannot join Genesys Cloud until they receive an invite. If you don’t do this now, remember to do it later. Click Create.  "
+},
+{
 	"uri": "/040-agenttools/10_first.html",
 	"title": "Voice Interactions",
 	"tags": [],
@@ -67,7 +81,7 @@
 	"title": "User Configuration",
 	"tags": [],
 	"description": "",
-	"content": ""
+	"content": "Objective By the end of this section you will know how to add people to your organization, edit profiles, assign roles and permissions, manage pairings between organizations, and use divisions to separate and group configuration objects. Permissions allow users to do various tasks, such as create groups, set up integrations, and supervise contact center activity. is intended to take you from activating your Dev Lab to answering your first call . You will learn what tools agents have at their disposal when handling the interactions and how to best leverage those tools.\n"
 },
 {
 	"uri": "/020-settinguptheinteractions/20_second.html",
@@ -123,7 +137,7 @@
 	"title": "Telephony",
 	"tags": [],
 	"description": "",
-	"content": ""
+	"content": "Objective By the end of this section you will be able to purchase a phone number, create a site, and associate the phone number with a queue.\n"
 },
 {
 	"uri": "/020-settinguptheinteractions/40_fourth.html",

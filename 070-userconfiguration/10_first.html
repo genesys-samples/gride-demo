@@ -8,7 +8,7 @@
 <meta name="author" content="Genesys">
 
     <link rel="icon" href="https://developer.genesys.com/wp-content/uploads/2020/07/Genesys_Favicon.ico" type="image/x-icon" />
-    <title>SMS :: Documentation for Hugo Learn Theme</title>
+    <title>User Configuration :: Documentation for Hugo Learn Theme</title>
 
     
     <link href="../css/nucleus.css?1655324252" rel="stylesheet">
@@ -36,7 +36,7 @@
     </style>
     
   </head>
-  <body class="" data-url="../020-settinguptheinteractions/30_third.html">
+  <body class="" data-url="../070-userconfiguration/10_first.html">
     <nav id="sidebar" class="showVisitedLinks">
 
 
@@ -105,7 +105,7 @@
   
     
     <li data-nav-id="/070-userconfiguration.html" title="User Configuration" class="dd-item
-        
+        parent
         
         
         ">
@@ -133,7 +133,7 @@
  
   
     
-      <li data-nav-id="/070-userconfiguration/10_first.html" title="User Configuration" class="dd-item ">
+      <li data-nav-id="/070-userconfiguration/10_first.html" title="User Configuration" class="dd-item active">
         <a href="../070-userconfiguration/10_first.html">
         User Configuration
         <i class="fas fa-check read-icon"></i>
@@ -219,7 +219,7 @@
   
     
     <li data-nav-id="/020-settinguptheinteractions.html" title="Omnichannel Setup" class="dd-item
-        parent
+        
         
         
         ">
@@ -289,7 +289,7 @@
  
   
     
-      <li data-nav-id="/020-settinguptheinteractions/30_third.html" title="SMS" class="dd-item active">
+      <li data-nav-id="/020-settinguptheinteractions/30_third.html" title="SMS" class="dd-item ">
         <a href="../020-settinguptheinteractions/30_third.html">
         SMS
         <i class="fas fa-check read-icon"></i>
@@ -816,7 +816,7 @@
                   
                     
                     
-                      <option id="en" value="/020-settinguptheinteractions/30_third.html" selected>English</option>
+                      <option id="en" value="/070-userconfiguration/10_first.html" selected>English</option>
                     
                   
               
@@ -874,8 +874,6 @@
                         </a>
                     </span>
                   
-                  <span id="toc-menu"><i class="fas fa-list-alt"></i></span>
-                  
                   <span class="links">
                  
                  
@@ -890,7 +888,7 @@
             
           
           
-            <a href='../'>Genesys Cloud CX Channel Setup</a> > <a href='../020-settinguptheinteractions.html'>Omnichannel Setup</a> > SMS
+            <a href='../'>Genesys Cloud CX Channel Setup</a> > <a href='../070-userconfiguration.html'>User Configuration</a> > User Configuration
           
         
           
@@ -901,19 +899,6 @@
                   </span>
                 </div>
                 
-                    <div class="progress">
-    <div class="wrapper">
-<nav id="TableOfContents">
-  <ul>
-    <li><a href="#genesys-cloud-sms">Genesys Cloud SMS</a></li>
-    <li><a href="#what-we-will-build-today">What We Will Build Today</a></li>
-    <li><a href="#follow-along">Follow Along</a></li>
-  </ul>
-</nav>
-    </div>
-</div>
-
-                
               </div>
             </div>
             
@@ -921,52 +906,69 @@
         
         </div>
         
+          <div id="chapter">
+        
         <div id="body-inner">
-          
-            <h1>
-              
-              SMS
-            </h1>
           
 
         
 
 
-<p><img src="../images/setup2.jpg" alt="Setup"></p>
-<h2 id="genesys-cloud-sms">Genesys Cloud SMS</h2>
-<p>Customers often want to contact businesses in the same way they would contact friends and family. SMS allows for a more convienent, asynchronous mode of communication. Using SMS, customers can avoid calling and waiting on hold for an available agent. SMS also allows customers to engage &ldquo;on the go&rdquo; without a dedicated mobile app. Also, because customers engage by SMS at faster rates than any other messaging channel, the organization can resolve issues more quickly.</p>
-<p>SMS interactions are routed by the same orchestration engine as other media types in Genesys Cloud CX, and that is through Architect. Architect allows you to perform data dips, engage with Bots, attach routing logic and much more.</p>
-<p>With agents communicating via SMS, the agent can keep the message open and use SMS like a chat channel, or close the SMS message after replying. If the agent keeps the conversation open, the system immediately displays each customer response to the agent, using SMS messages as a chat channel. If the agent closes the conversation but the customer replies within 72 hours, the conversation reopens (after 72 hours, the system creates a new conversation) and routes to the last agent that handled the SMS. If that agent is unavailable, the system routes the message by ACD to the next available agent.</p>
-<p><img src="../images/SMSicon.png" alt="SMS"></p>
-<h2 id="what-we-will-build-today">What We Will Build Today</h2>
-<p>Today, we&rsquo;ll set up the basics of SMS in Genesys Cloud CX. You&rsquo;ll purchase an SMS number directly from the Genesys Cloud admin portal, with Genesys being your SMS broker. You&rsquo;ll also import a basic Inbound Message Architect flow. Lastly, you&rsquo;ll connect the SMS number you purchased to the Architect flow that you imported through a messaging route.</p>
-<h2 id="follow-along">Follow Along</h2>
+<h1 id="roles-and-permissions">Roles and Permissions</h1>
+<p>Each role in Genesys Cloud contains one or more permissions. The permissions allow users with that role to do various tasks, such as create groups, set up integrations, and supervise contact center activity.</p>
+<p>The Employee role has the lowest level of permissions and is assigned to all users. This role cannot be removed. A user must be assigned additional roles by a Genesys Cloud Administrator to have additional permissions.
+The Admin role has permissions to make any changes to a Genesys Cloud organization. This role is automatically assigned to whoever sets up the organization. This person is responsible for inviting others to a Genesys Cloud organization and for assigning roles to invitees.</p>
+<p>Follow along
+Associate Master Admin role to the user</p>
 <ol>
-<li>Purchase a number for SMS (Note  the number you purchased, because it is difficult to find after purchase)</li>
+<li>Admin &gt; People &gt; select your user account</li>
+<li>On the right side of the Roles screen, change “View:” from Assigned to All</li>
+<li>Assign master admin permissions and save the account</li>
 </ol>
-<p><img src="../images/sms1.jpg" alt="SMS">
-2. Go back into the G Ride queue and set the SMS number you just purchased as the outbound SMS number
-<img src="../images/QueueSetSMSOutboundNumber.jpg" alt="Queue Set Outbound SMS Number"></p>
-<ol start="3">
-<li>Follow the instructions below to create an inbound message flow</li>
+<p><img src="../images/RolesPic.png" alt="Add Role"></p>
+<p>Create Role for Genesys Cloud Voice permissions
+Admin &gt; Roles / Permissions &gt; Add Role</p>
+<ol>
+<li>Name the role</li>
+<li>Switch the permissions tab and search “PureCloud voice” in the Permission   field</li>
+<li>Check the box for all permissions and save</li>
+<li>Return to People and select your user again.</li>
+<li>Go to the Roles screen and make sure to assign this GCV role to your user.</li>
 </ol>
-<p><img src="../images/inboundmessage.jpg" alt="Inbound Message"></p>
-<ol start="4">
-<li>
-<p>Once inside the flow, drag a &ldquo;Transfer to ACD&rdquo; task to the &ldquo;Start menu&rdquo; as seen in the image below. Click the drop-down menu and select your &ldquo;G Ride&rdquo; queue or the queue you created at the beginning. Hit the three dots next to the &ldquo;Disconnect&rdquo; Task to delete this task. Hit &ldquo;Publish&rdquo; once you have completed these steps.
-<img src="../images/inboundmessage1.jpg" alt="Inbound Message"></p>
-</li>
-<li>
-<p>Set up a messaging route to connect your inbound message architect flow and the SMS number you purchased in step two</p>
-</li>
+<p><img src="../images/Permission.png" alt="Permissions"></p>
+<p>Add people to your organization
+When you create new users, Genesys Cloud automatically sets their status as active whether you send the invitation now or later.
+If you choose to send invitations to new users later and manually set their status to inactive, when you send the invitations Genesys Cloud automatically changes their status to active.
+4.	Click Admin.
+5.	Under People and Permissions, click People.
+6.	Click Add Person. The Add People to the Organization dialog box opens.</p>
+<p><img src="../images/People.png" alt="People"></p>
+<ol start="7">
+<li>Click the Person tab.</li>
+<li>Complete the mandatory Name and Email fields.</li>
+<li>(Optional) Enter additional information by clicking Optional Fields.</li>
+<li>Note: The Manager field is optional but recommended. Genesys Cloud uses manager assignments to create hierarchy views.</li>
+<li>(Optional) To add the person to a queue, do the following:</li>
+<li>Under Assign Queues, begin typing the first few letters of the desired queue.</li>
+<li>Select it from the list.</li>
+<li>Repeat steps a-b for each additional queue to which to add the person.</li>
+<li>Note: Make sure you assign the Employee role, along with any other role. Typically, the employee role is assigned by default. However, manually adding roles during user creation overrides the employee’s assigned default.</li>
+<li>(Optional) To add roles for the person, do the following:</li>
+<li>Under Assign Roles, begin typing the first few letters of the desired role.</li>
+<li>Select it from the list.</li>
+<li>Repeat steps a-b for each additional role to assign.</li>
+<li>Send the invite automatically by selecting Send invite now.</li>
+<li>Note:  The people you add cannot join Genesys Cloud until they receive an invite. If you don’t do this now, remember to do it later.</li>
+<li>Click Create.</li>
 </ol>
-<p><img src="../images/callrouting1.jpg" alt="Call Routing"></p>
 
 
 <footer class="footline">
 	
 </footer>
 
+        
+            </div> 
         
         </div>
         
@@ -1030,6 +1032,42 @@
             
                 
                     
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
                 
                 
 
@@ -1073,22 +1111,6 @@
             
         
                     
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
                         
             
             
@@ -1125,26 +1147,6 @@
             
             
                 
-                    
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                        
-                        
                     
                 
                 
@@ -1457,10 +1459,10 @@
 	 
 	 
 		
-			<a class="nav nav-prev" href="../020-settinguptheinteractions/20_second.html" title="Web Chat"> <i class="fa fa-chevron-left"></i></a>
+			<a class="nav nav-prev" href="../070-userconfiguration.html" title="User Configuration"> <i class="fa fa-chevron-left"></i></a>
 		
 		
-			<a class="nav nav-next" href="../020-settinguptheinteractions/40_fourth.html" title="Email" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+			<a class="nav nav-next" href="../050-telephony.html" title="Telephony" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
 		
 	
     </div>
