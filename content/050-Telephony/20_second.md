@@ -1,7 +1,7 @@
 ---
 title: "Location & Site"
 chapter: false
-weight: 40
+weight: 20
 ---
 (/images/testing2.jpg)
 ## Location
