@@ -32,3 +32,6 @@ weight: 20
 4. Lastly, return to the "General" tab and confirm the site site has been selected as the default.
 
 ![SiteSettings](/images/DefaultSite.jpg)
+
+
+THIS IS A TEST
