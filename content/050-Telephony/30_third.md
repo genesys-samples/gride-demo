@@ -3,7 +3,7 @@ title: "WebRTC Phone Setup"
 chapter: false
 weight: 30
 ---
-(/images/testing2.jpg)
+![Test](/images/testing2.jpg)
 ## Create a WebRTC Base Setting
 1. Before you can create a phone, create a base settings configuration for that phone model. The base settings configuration contains a group of settings found on the Base Phone and Base Line Appearance tabs that define how a particular phone model is to operate in Genesys Cloud. Once you create a base settings configuration, you can save it with the default settings or you can customize the settings. These settings can be quickly referenced to streamline new phone provisioning. 
 Phone Management is under the Telephony category where your site was just setup. Select "Base Settings" then "Add Base Settings". Enter a name such as "General WebRTC" then search in the "Phone Make and Model" field for Genesys Cloud WebRTC Phone". Save your base setting.

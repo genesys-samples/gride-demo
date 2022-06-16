@@ -3,7 +3,7 @@ title: "Location & Site"
 chapter: false
 weight: 20
 ---
-(/images/testing2.jpg)
+![Test](/images/testing2.jpg)
 ## Location
 1. This is the psychical location your agents will reside at as their HQ. Locations are associated for emergency routing capabilities; it is not recommended using emergency services on a dev lab, but it is a required step. 
 
