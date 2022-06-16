@@ -77,6 +77,13 @@
 	"content": "In this scenario, you are a customer service agent. You have gone through 2 weeks of training and it is your first day alone on the job! Betty, your customer, has messaged in and is asking you about your return policy. You think the answer is that customers can return items within 90 days of purchase, but you\u0026rsquo;re not sure\u0026hellip;what should you do? (scroll down for answer) [] Message your manager and ask  [] Get up and ask a fellow agent  [] Check your canned responses  [] Transfer the message to a more experienced agent  [] Message your manager and ask  [] Get up and ask a fellow agent  [] Check your canned responses ✅ [] Transfer the message to a more experienced agent  Canned responses are a great way to find quick information without having to ask anyone else. This ensures you are answering questions fast and keeping your AHT low. "
 },
 {
+	"uri": "/050-telephony/20_second.html",
+	"title": "Location &amp; Site",
+	"tags": [],
+	"description": "",
+	"content": "(/images/testing2.jpg)\nLocation   This is the psychical location your agents will reside at as their HQ. Locations are associated for emergency routing capabilities; it is not recommended using emergency services on a dev lab, but it is a required step.\n  Select \u0026ldquo;Locations\u0026rdquo; under the Directory category, then \u0026ldquo;Add Location\u0026rdquo;.\n  Name your location, \u0026ldquo;Headquarters\u0026rdquo;, then add an address. The address must be valid, as you begin to type it out a drop-down list will begin to appear. Select one from the auto-populated options to ensure the directory has identified this as valid for 911 purposes. Add yourself as the \u0026ldquo;Site Contact\u0026rdquo; since the purpose is demonstration only. Check the box for \u0026ldquo;Make this location available for use on sites\u0026rdquo;  Site  A site is the home of a set of phones. The site defines the call classification rules and outbound routing rules as well as the telephony properties for dialing. This is also where Outbound Routing will reference a Number Plan. Sites must be tied to physical Locations defined.  Create a new site and name it \u0026ldquo;My Site\u0026rdquo;. Associate your Location, select a time zone, leave Media Model as \u0026ldquo;Cloud\u0026rdquo;  Navigate to Outbound routes within the newly created site and ensure the “PureCloud Voice – AWS” Trunk is associated, and the site is enabled. You may need to use the “Select External Trunks” dropdown to add the trunk  Lastly, return to the \u0026ldquo;General\u0026rdquo; tab and confirm the site site has been selected as the default.  "
+},
+{
 	"uri": "/070-userconfiguration.html",
 	"title": "User Configuration",
 	"tags": [],
@@ -140,6 +147,13 @@
 	"content": "Objective By the end of this section you will be able to purchase a phone number, create a site, and associate the phone number with a queue.\n"
 },
 {
+	"uri": "/050-telephony/30_third.html",
+	"title": "WebRTC Phone Setup",
+	"tags": [],
+	"description": "",
+	"content": "(/images/testing2.jpg)\nCreate a WebRTC Base Setting  Before you can create a phone, create a base settings configuration for that phone model. The base settings configuration contains a group of settings found on the Base Phone and Base Line Appearance tabs that define how a particular phone model is to operate in Genesys Cloud. Once you create a base settings configuration, you can save it with the default settings or you can customize the settings. These settings can be quickly referenced to streamline new phone provisioning. Phone Management is under the Telephony category where your site was just setup. Select \u0026ldquo;Base Settings\u0026rdquo; then \u0026ldquo;Add Base Settings\u0026rdquo;. Enter a name such as \u0026ldquo;General WebRTC\u0026rdquo; then search in the \u0026ldquo;Phone Make and Model\u0026rdquo; field for Genesys Cloud WebRTC Phone\u0026quot;. Save your base setting.  Create a WebRTC Phone for Your User  Genesys Cloud supports the WebRTC technology with the Genesys Cloud WebRTC phone. Provisioning a Genesys Cloud WebRTC phone for a user creates a specific phone line for that user. The Genesys Cloud WebRTC phone does not require the installation of a software client on the PC. You use the Genesys Cloud call controls for the WebRTC phone calls. Return to the Phone Management menu and select \u0026ldquo;Add Phone\u0026rdquo;. Best practice is to name your phone after the user who will be associated with it. Select the WebRTC Base Setting you created in the previous step. Select the site you created in the previous chapter. Finally, select the agent who will be using it.  Activating Your Phone  From the Genesys Cloud CX UI, locate the red phone icon on the left toolbar. Select the \u0026ldquo;Phone Details\u0026rdquo; icon on the slide out menu. Click the \u0026ldquo;Select Phone\u0026rdquo; for search for the name if your phone. Your WebRTC setup is now complete, assigned to the appropriate agent, and ready to handle voice interactions.  "
+},
+{
 	"uri": "/020-settinguptheinteractions/40_fourth.html",
 	"title": "Email",
 	"tags": [],
@@ -159,13 +173,6 @@
 	"tags": [],
 	"description": "",
 	"content": "Email Troubleshooting If email interactions are not being routed to the correct agent/queue or are not appearing in the interaction pane, please walk through the following troubleshooting tips:\n  Confirm agent is a member of the queue that was created at the beginning of the workshop\n  Confirm you are emailing the correct email address\n  Confirm agent status is set to \u0026ldquo;On-Queue\u0026rdquo;\n  If interactions are still not being routed correctly, please reach out to Veronica Guevara at veronica.guevara@genesys.com.\n"
-},
-{
-	"uri": "/050-telephony/20_second.html",
-	"title": "Location &amp; Site",
-	"tags": [],
-	"description": "",
-	"content": "(/images/testing2.jpg)\nLocation   This is the psychical location your agents will reside at as their HQ. Locations are associated for emergency routing capabilities; it is not recommended using emergency services on a dev lab, but it is a required step.\n  Select \u0026ldquo;Locations\u0026rdquo; under the Directory category, then \u0026ldquo;Add Location\u0026rdquo;.\n  Name your location, \u0026ldquo;Headquarters\u0026rdquo;, then add an address. The address must be valid, as you begin to type it out a drop-down list will begin to appear. Select one from the auto-populated options to ensure the directory has identified this as valid for 911 purposes. Add yourself as the \u0026ldquo;Site Contact\u0026rdquo; since the purpose is demonstration only. Check the box for \u0026ldquo;Make this location available for use on sites\u0026rdquo;  Site  A site is the home of a set of phones. The site defines the call classification rules and outbound routing rules as well as the telephony properties for dialing. This is also where Outbound Routing will reference a Number Plan. Sites must be tied to physical Locations defined.  Create a new site and name it \u0026ldquo;My Site\u0026rdquo;. Associate your Location, select a time zone, leave Media Model as \u0026ldquo;Cloud\u0026rdquo;  Navigate to Outbound routes within the newly created site and ensure the “PureCloud Voice – AWS” Trunk is associated, and the site is enabled. You may need to use the “Select External Trunks” dropdown to add the trunk  Lastly, return to the \u0026ldquo;General\u0026rdquo; tab and confirm the site site has been selected as the default.  "
 },
 {
 	"uri": "/020-settinguptheinteractions.html",
@@ -208,13 +215,6 @@
 	"tags": [],
 	"description": "",
 	"content": "Conclusion Finished! Congratulations! You\u0026rsquo;ve reached the end of today\u0026rsquo;s workshop. You now have an operational omni-channel contact center agent experience. We hope this was an informative journey, and that you are now confident in your interaction fielding abilities.\nNext Steps If you\u0026rsquo;d like to continue your Genesys Cloud CX journey, please visit the following links to complete other workshops:\n Bots 101 (to be added later) Quality Management (to be added later) Introduction to Architect (to be added later)  Genesys is always striving for improvement. If you have any suggestions on how to improve this workshop, please fill out today\u0026rsquo;s feedback form via this TODO. We\u0026rsquo;d love to hear from you!\nIf you have any technical questions about this workshop, please contact Veronica Guevara at veronica.guevara@genesys.com or Sam Karras at sam.karras@genesys.com.\n"
-},
-{
-	"uri": "/050-telephony/30_third.html",
-	"title": "",
-	"tags": [],
-	"description": "",
-	"content": ""
 },
 {
 	"uri": "/categories.html",

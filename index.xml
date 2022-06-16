@@ -95,6 +95,18 @@ The Employee role has the lowest level of permissions and is assigned to all use
     </item>
     
     <item>
+      <title>Location &amp; Site</title>
+      <link>/050-telephony/20_second.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/050-telephony/20_second.html</guid>
+      <description>(/images/testing2.jpg)
+Location   This is the psychical location your agents will reside at as their HQ. Locations are associated for emergency routing capabilities; it is not recommended using emergency services on a dev lab, but it is a required step.
+  Select &amp;ldquo;Locations&amp;rdquo; under the Directory category, then &amp;ldquo;Add Location&amp;rdquo;.
+  Name your location, &amp;ldquo;Headquarters&amp;rdquo;, then add an address. The address must be valid, as you begin to type it out a drop-down list will begin to appear.</description>
+    </item>
+    
+    <item>
       <title>Web Chat</title>
       <link>/020-settinguptheinteractions/20_second.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -168,6 +180,16 @@ The Employee role has the lowest level of permissions and is assigned to all use
     </item>
     
     <item>
+      <title>WebRTC Phone Setup</title>
+      <link>/050-telephony/30_third.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/050-telephony/30_third.html</guid>
+      <description>(/images/testing2.jpg)
+Create a WebRTC Base Setting  Before you can create a phone, create a base settings configuration for that phone model. The base settings configuration contains a group of settings found on the Base Phone and Base Line Appearance tabs that define how a particular phone model is to operate in Genesys Cloud. Once you create a base settings configuration, you can save it with the default settings or you can customize the settings.</description>
+    </item>
+    
+    <item>
       <title>Email</title>
       <link>/020-settinguptheinteractions/40_fourth.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -197,27 +219,6 @@ Genesys Cloud routes incoming email messages through ACD just like it routes cal
   Confirm you are emailing the correct email address
   Confirm agent status is set to &amp;ldquo;On-Queue&amp;rdquo;
   If interactions are still not being routed correctly, please reach out to Veronica Guevara at veronica.</description>
-    </item>
-    
-    <item>
-      <title>Location &amp; Site</title>
-      <link>/050-telephony/20_second.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/050-telephony/20_second.html</guid>
-      <description>(/images/testing2.jpg)
-Location   This is the psychical location your agents will reside at as their HQ. Locations are associated for emergency routing capabilities; it is not recommended using emergency services on a dev lab, but it is a required step.
-  Select &amp;ldquo;Locations&amp;rdquo; under the Directory category, then &amp;ldquo;Add Location&amp;rdquo;.
-  Name your location, &amp;ldquo;Headquarters&amp;rdquo;, then add an address. The address must be valid, as you begin to type it out a drop-down list will begin to appear.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>/050-telephony/30_third.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/050-telephony/30_third.html</guid>
-      <description></description>
     </item>
     
   </channel>
