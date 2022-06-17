@@ -14,63 +14,63 @@
                 href="/"
                 />
   </url><url>
-    <loc>/010-introduction.html</loc>
+    <loc>/010-beforeyoubegin.html</loc>
   </url><url>
-    <loc>/020-settinguptheinteractions/10_first.html</loc>
+    <loc>/040-omnichannelsetup/10_first.html</loc>
   </url><url>
-    <loc>/030-testinteractions/10_first.html</loc>
+    <loc>/050-testinteractions/10_first.html</loc>
   </url><url>
-    <loc>/060-application/10_first.html</loc>
+    <loc>/070-scenarios/10_first.html</loc>
   </url><url>
-    <loc>/050-telephony/10_first.html</loc>
+    <loc>/030-telephony/10_first.html</loc>
   </url><url>
-    <loc>/070-userconfiguration/10_first.html</loc>
+    <loc>/020-userconfiguration/10_first.html</loc>
   </url><url>
-    <loc>/040-agenttools/10_first.html</loc>
+    <loc>/060-agenttools/10_first.html</loc>
   </url><url>
-    <loc>/080-troubleshooting/10_first.html</loc>
+    <loc>/080-troubleshootingtips/10_first.html</loc>
   </url><url>
-    <loc>/040-agenttools/20_second.html</loc>
+    <loc>/060-agenttools/20_second.html</loc>
   </url><url>
-    <loc>/060-application/20_second.html</loc>
+    <loc>/070-scenarios/20_second.html</loc>
   </url><url>
-    <loc>/050-telephony/20_second.html</loc>
+    <loc>/030-telephony/20_second.html</loc>
   </url><url>
-    <loc>/070-userconfiguration.html</loc>
+    <loc>/020-userconfiguration.html</loc>
   </url><url>
-    <loc>/020-settinguptheinteractions/20_second.html</loc>
+    <loc>/040-omnichannelsetup/20_second.html</loc>
   </url><url>
-    <loc>/030-testinteractions/20_second.html</loc>
+    <loc>/050-testinteractions/20_second.html</loc>
   </url><url>
-    <loc>/080-troubleshooting/20_second.html</loc>
+    <loc>/080-troubleshootingtips/20_second.html</loc>
   </url><url>
-    <loc>/060-application/30_third.html</loc>
+    <loc>/070-scenarios/30_third.html</loc>
   </url><url>
-    <loc>/020-settinguptheinteractions/30_third.html</loc>
+    <loc>/040-omnichannelsetup/30_third.html</loc>
   </url><url>
-    <loc>/030-testinteractions/30_third.html</loc>
+    <loc>/050-testinteractions/30_third.html</loc>
   </url><url>
-    <loc>/080-troubleshooting/30_third.html</loc>
+    <loc>/080-troubleshootingtips/30_third.html</loc>
   </url><url>
-    <loc>/050-telephony.html</loc>
+    <loc>/030-telephony.html</loc>
   </url><url>
-    <loc>/050-telephony/30_third.html</loc>
+    <loc>/030-telephony/30_third.html</loc>
   </url><url>
-    <loc>/020-settinguptheinteractions/40_fourth.html</loc>
+    <loc>/040-omnichannelsetup/40_fourth.html</loc>
   </url><url>
-    <loc>/030-testinteractions/40_fourth.html</loc>
+    <loc>/050-testinteractions/40_fourth.html</loc>
   </url><url>
-    <loc>/080-troubleshooting/40_fourth.html</loc>
+    <loc>/080-troubleshootingtips/40_fourth.html</loc>
   </url><url>
-    <loc>/020-settinguptheinteractions.html</loc>
+    <loc>/040-omnichannelsetup.html</loc>
   </url><url>
-    <loc>/030-testinteractions.html</loc>
+    <loc>/050-testinteractions.html</loc>
   </url><url>
-    <loc>/040-agenttools.html</loc>
+    <loc>/060-agenttools.html</loc>
   </url><url>
-    <loc>/060-application.html</loc>
+    <loc>/070-scenarios.html</loc>
   </url><url>
-    <loc>/080-troubleshooting.html</loc>
+    <loc>/080-troubleshootingtips.html</loc>
   </url><url>
     <loc>/090-conclution.html</loc>
   </url><url>

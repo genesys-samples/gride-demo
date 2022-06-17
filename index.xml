@@ -8,37 +8,37 @@
     <language>en-us</language><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Inbound Voice</title>
-      <link>/020-settinguptheinteractions/10_first.html</link>
+      <link>/040-omnichannelsetup/10_first.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/020-settinguptheinteractions/10_first.html</guid>
+      <guid>/040-omnichannelsetup/10_first.html</guid>
       <description>Genesys Cloud Inbound Voice While new communication channels continue to crop up, the importance of voice remains. The speed and agility of the Genesys Cloud CX™ contact center platform connects your customer engagement with the telephony option that best fits your business needs. The widest variety of voice services connectivity options in the industry gives customers unparalleled flexibility and choice. Customers can choose Genesys Cloud CX Voice (Genesys telecom) for VoIP, or use the cloud-based Bring Your Own Carrier (BYOC) option.</description>
     </item>
     
     <item>
       <title>Inbound Voice Testing</title>
-      <link>/030-testinteractions/10_first.html</link>
+      <link>/050-testinteractions/10_first.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/030-testinteractions/10_first.html</guid>
+      <guid>/050-testinteractions/10_first.html</guid>
       <description>Test an Incoming Voice Interaction  The first step in testing a voice interaction is ensuring you have the correct inbound voice number to dial. Navigate to the admin page and search for call routing. Find the call route that you set up earlier and save the phone number to your mobile device.  Navigate to the Interactions pane on the left side of the screen and ensure you are set to &amp;ldquo;On-Queue&amp;rdquo; (found at top right of screen)  Dial the DID number from a personal phone and select &amp;ldquo;answer&amp;rdquo; when the interaction comes through  </description>
     </item>
     
     <item>
       <title>Knowledge Check #1</title>
-      <link>/060-application/10_first.html</link>
+      <link>/070-scenarios/10_first.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/060-application/10_first.html</guid>
+      <guid>/070-scenarios/10_first.html</guid>
       <description>In this scenario, you are an agent working in the insurance industry. The customer, Betty, has called in to make a payment on their insurance premium. What are two options you have when taking confidential information to ensure the system is not recording personal and confidential information and staying PCI compliant? (scroll down for answer) [] Transfer to a manager  [] Secure Pause  [] Hang Up  [] Secure Flow  [] Transfer to a manager  [] Secure Pause ✅ [] Hang Up  [] Secure Flow ✅ Secure Pause and Secure Flow allow you to pause the recording of a call in order to receive personal or confidential information.</description>
     </item>
     
     <item>
       <title>Telephony</title>
-      <link>/050-telephony/10_first.html</link>
+      <link>/030-telephony/10_first.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/050-telephony/10_first.html</guid>
+      <guid>/030-telephony/10_first.html</guid>
       <description>Genesys Cloud Voice Genesys Cloud Voice is an Internet-based telephony service that you can activate for use with your Genesys Cloud organization. It provides public telephony access to any Genesys Cloud services to which you subscribe, such as Communicate or the Genesys Cloud call center.
 Purchase a Phone Number Purchase phone numbers directly from within Genesys Cloud Voice using the Number Purchase portal.
 Follow along Note: Order a number (1 number minimum is required but it is recommended to order 1 number for each user that will be using Dev Lab, however; Telephony charges are billed to you so purchase these at your org - https://help.</description>
@@ -46,29 +46,29 @@ Follow along Note: Order a number (1 number minimum is required but it is recomm
     
     <item>
       <title>User Configuration</title>
-      <link>/070-userconfiguration/10_first.html</link>
+      <link>/020-userconfiguration/10_first.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/070-userconfiguration/10_first.html</guid>
+      <guid>/020-userconfiguration/10_first.html</guid>
       <description>Roles and Permissions Each role in Genesys Cloud contains one or more permissions. The permissions allow users with that role to do various tasks, such as create groups, set up integrations, and supervise contact center activity.
 The Employee role has the lowest level of permissions and is assigned to all users. This role cannot be removed. A user must be assigned additional roles by a Genesys Cloud Administrator to have additional permissions.</description>
     </item>
     
     <item>
       <title>Voice Interactions</title>
-      <link>/040-agenttools/10_first.html</link>
+      <link>/060-agenttools/10_first.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/040-agenttools/10_first.html</guid>
+      <guid>/060-agenttools/10_first.html</guid>
       <description>Voice Interaction Tools Hello! You are about to embark on an interaction taking journey for G-Ride as an agent named Veronica. You&amp;rsquo;ve completed the previous modules and are now ready to start taking inbound interactions. As noted above, please ensure you have answered a voice interaction and it is sitting on your interaction panel as seen in the picture below. Genesys Cloud makes it easy for you to do your job by providing you tools that give you omnichannel visibilty and allow you to take interactions quickly and efficiently.</description>
     </item>
     
     <item>
       <title>Voice Troubleshooting</title>
-      <link>/080-troubleshooting/10_first.html</link>
+      <link>/080-troubleshootingtips/10_first.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/080-troubleshooting/10_first.html</guid>
+      <guid>/080-troubleshootingtips/10_first.html</guid>
       <description>Voice Troubleshooting If voice interactions are not being routed to the correct agent/queue or are not appearing in the interaction pane, please walk through the following troubleshooting tips:
   Confirm agent is a member of the queue that was created at the beginning of the workshop
   Confirm calling number is tied to flow
@@ -78,28 +78,28 @@ The Employee role has the lowest level of permissions and is assigned to all use
     
     <item>
       <title>Digital Interactions</title>
-      <link>/040-agenttools/20_second.html</link>
+      <link>/060-agenttools/20_second.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/040-agenttools/20_second.html</guid>
+      <guid>/060-agenttools/20_second.html</guid>
       <description>Digital Interaction Tools Hello! You are about to embark on an interaction taking journey for G-Ride as an agent. You&amp;rsquo;ve completed the previous modules and are now ready to start taking inbound interactions. As noted above, please ensure you have answered a chat, an email, and an SMS interaction and they are sitting on your interaction panel as seen in the picture below. Genesys Cloud makes it easy for you to do your job by providing you tools that give you omnichannel visibilty and allow you to take interactions quickly and efficiently.</description>
     </item>
     
     <item>
       <title>Knowledge Check #2</title>
-      <link>/060-application/20_second.html</link>
+      <link>/070-scenarios/20_second.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/060-application/20_second.html</guid>
+      <guid>/070-scenarios/20_second.html</guid>
       <description>In this scenario, you are a customer service agent. You have gone through 2 weeks of training and it is your first day alone on the job! Betty, your customer, has messaged in and is asking you about your return policy. You think the answer is that customers can return items within 90 days of purchase, but you&amp;rsquo;re not sure&amp;hellip;what should you do? (scroll down for answer) [] Message your manager and ask  [] Get up and ask a fellow agent  [] Check your canned responses  [] Transfer the message to a more experienced agent  [] Message your manager and ask  [] Get up and ask a fellow agent  [] Check your canned responses ✅ [] Transfer the message to a more experienced agent  Canned responses are a great way to find quick information without having to ask anyone else.</description>
     </item>
     
     <item>
       <title>Location &amp; Site</title>
-      <link>/050-telephony/20_second.html</link>
+      <link>/030-telephony/20_second.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/050-telephony/20_second.html</guid>
+      <guid>/030-telephony/20_second.html</guid>
       <description>Location   This is the psychical location your agents will reside at as their HQ. Locations are associated for emergency routing capabilities; it is not recommended using emergency services on a dev lab, but it is a required step.
   Select &amp;ldquo;Locations&amp;rdquo; under the Directory category, then &amp;ldquo;Add Location&amp;rdquo;.
   Name your location, &amp;ldquo;Headquarters&amp;rdquo;, then add an address. The address must be valid, as you begin to type it out a drop-down list will begin to appear.</description>
@@ -107,30 +107,30 @@ The Employee role has the lowest level of permissions and is assigned to all use
     
     <item>
       <title>Web Chat</title>
-      <link>/020-settinguptheinteractions/20_second.html</link>
+      <link>/040-omnichannelsetup/20_second.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/020-settinguptheinteractions/20_second.html</guid>
+      <guid>/040-omnichannelsetup/20_second.html</guid>
       <description>Genesys Cloud Web Chat The web chat channel is an invaluable tool for communicating and engaging with customers to provide better service for answering questions, completing orders, general guidance on company’s product and features, and personalized customer support. With this solution, Genesys improves handle time, first contact resolution, agent utilization, and customer satisfaction.
  Widgets Genesys offers three native versions of widgets as well as the option to integrate to a third party.</description>
     </item>
     
     <item>
       <title>Web Chat Testing</title>
-      <link>/030-testinteractions/20_second.html</link>
+      <link>/050-testinteractions/20_second.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/030-testinteractions/20_second.html</guid>
+      <guid>/050-testinteractions/20_second.html</guid>
       <description>Test a Chat Interaction   The first step in testing a chat interaction visiting our web chat developer tool at the Genesys Cloud CX Developer Center
   First you&amp;rsquo;ll need to login to your Genesys Cloud instance by clicking on your profile picture. Then navigate to the Deployment dropdown and ensure you have selected the &amp;ldquo;G-Ride&amp;rdquo; Deployment and ensure the &amp;ldquo;&amp;ldquo;Queue&amp;rdquo; field is set to &amp;ldquo;G-Ride.&amp;rdquo; You can then put in any customer data if you like and then press start chat.</description>
     </item>
     
     <item>
       <title>Web Chat Troubleshooting</title>
-      <link>/080-troubleshooting/20_second.html</link>
+      <link>/080-troubleshootingtips/20_second.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/080-troubleshooting/20_second.html</guid>
+      <guid>/080-troubleshootingtips/20_second.html</guid>
       <description>Web Chat Troubleshooting If webchat interactions are not being routed to the correct agent/queue or are not appearing in the interaction pane, please walk through the following troubleshooting tips:
   Confirm agent is a member of the queue that was created at the beginning of the workshop
   Confirm you are using widget version &amp;ldquo;V1&amp;rdquo;
@@ -140,37 +140,37 @@ The Employee role has the lowest level of permissions and is assigned to all use
     
     <item>
       <title>Knowledge Check #3</title>
-      <link>/060-application/30_third.html</link>
+      <link>/070-scenarios/30_third.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/060-application/30_third.html</guid>
+      <guid>/070-scenarios/30_third.html</guid>
       <description>In this scenario, you are an agent working in the retail industry. The customer, Betty, has called in to make a change to her recent order. She explains that she ordered the wrong size for one of her items, but the other item is correct. The scenario is complicated and takes a while to explain. You have to transfer her to another department since she just placed the order and its not a complete cancellation.</description>
     </item>
     
     <item>
       <title>SMS</title>
-      <link>/020-settinguptheinteractions/30_third.html</link>
+      <link>/040-omnichannelsetup/30_third.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/020-settinguptheinteractions/30_third.html</guid>
+      <guid>/040-omnichannelsetup/30_third.html</guid>
       <description>Genesys Cloud SMS Customers often want to contact businesses in the same way they would contact friends and family. SMS allows for a more convienent, asynchronous mode of communication. Using SMS, customers can avoid calling and waiting on hold for an available agent. SMS also allows customers to engage &amp;ldquo;on the go&amp;rdquo; without a dedicated mobile app. Also, because customers engage by SMS at faster rates than any other messaging channel, the organization can resolve issues more quickly.</description>
     </item>
     
     <item>
       <title>SMS Testing</title>
-      <link>/030-testinteractions/30_third.html</link>
+      <link>/050-testinteractions/30_third.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/030-testinteractions/30_third.html</guid>
+      <guid>/050-testinteractions/30_third.html</guid>
       <description>Test an SMS Interaction   The first step in testing an SMS interaction is ensuring you have the correct number. Navigate to the admin page and search for &amp;ldquo;Message Routing.&amp;rdquo; Then find the message route that you created earlier and save the SMS number to your mobile device.   Navigate to the Interactions pane on the left side of the screen and ensure you are set to &amp;ldquo;On-Queue&amp;rdquo; (found at top right of screen)</description>
     </item>
     
     <item>
       <title>SMS Troubleshooting</title>
-      <link>/080-troubleshooting/30_third.html</link>
+      <link>/080-troubleshootingtips/30_third.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/080-troubleshooting/30_third.html</guid>
+      <guid>/080-troubleshootingtips/30_third.html</guid>
       <description>SMS Troubleshooting If SMS interactions are not being routed to the correct agent/queue or are not appearing in the interaction pane, please walk through the following troubleshooting tips:
   Confirm agent is a member of the queue that was created at the beginning of the workshop
   Confirm SMS number is correct
@@ -180,38 +180,38 @@ The Employee role has the lowest level of permissions and is assigned to all use
     
     <item>
       <title>WebRTC Phone Setup</title>
-      <link>/050-telephony/30_third.html</link>
+      <link>/030-telephony/30_third.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/050-telephony/30_third.html</guid>
+      <guid>/030-telephony/30_third.html</guid>
       <description>Create a WebRTC Base Setting  Before you can create a phone, create a base settings configuration for that phone model. The base settings configuration contains a group of settings found on the Base Phone and Base Line Appearance tabs that define how a particular phone model is to operate in Genesys Cloud. Once you create a base settings configuration, you can save it with the default settings or you can customize the settings.</description>
     </item>
     
     <item>
       <title>Email</title>
-      <link>/020-settinguptheinteractions/40_fourth.html</link>
+      <link>/040-omnichannelsetup/40_fourth.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/020-settinguptheinteractions/40_fourth.html</guid>
+      <guid>/040-omnichannelsetup/40_fourth.html</guid>
       <description>Genesys Cloud Email Email is still one of the most reliable and desired ways for customers to interact with companies for support. Genesys Cloud CX automatically distributes emails to the best-fit agent based on content analysis and keywords. Genesys Email Routing streamlines your response process using email automation functionality that enables you to monitor, measure, and optimize your email flow to create a better customer experience.
 Genesys Cloud routes incoming email messages through ACD just like it routes calls and chats, using the same routing and evaluation methods.</description>
     </item>
     
     <item>
       <title>Email Testing</title>
-      <link>/030-testinteractions/40_fourth.html</link>
+      <link>/050-testinteractions/40_fourth.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/030-testinteractions/40_fourth.html</guid>
+      <guid>/050-testinteractions/40_fourth.html</guid>
       <description>Test an Email Interaction   The first step in testing an email interaction is ensuring you have the correct email address. Navigate to the admin page and search for &amp;ldquo;Email.&amp;rdquo; Then click into the domain you created and find the email address that you created earlier. All we need to do is send an email from our personal email to that email address! Go ahead and do that now.</description>
     </item>
     
     <item>
       <title>Email Troubleshooting</title>
-      <link>/080-troubleshooting/40_fourth.html</link>
+      <link>/080-troubleshootingtips/40_fourth.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/080-troubleshooting/40_fourth.html</guid>
+      <guid>/080-troubleshootingtips/40_fourth.html</guid>
       <description>Email Troubleshooting If email interactions are not being routed to the correct agent/queue or are not appearing in the interaction pane, please walk through the following troubleshooting tips:
   Confirm agent is a member of the queue that was created at the beginning of the workshop
   Confirm you are emailing the correct email address
