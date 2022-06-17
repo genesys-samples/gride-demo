@@ -1,7 +1,7 @@
 ---
-title: "Setup"
+title: "Omnichannel Setup"
 chapter: true
-weight: 20
+weight: 40
 ---
 # Setup
 ![Setup](/images/setup1.jpg)
