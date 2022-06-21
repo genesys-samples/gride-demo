@@ -1,7 +1,7 @@
 ---
-title: "Digital Interactions"
+title: "Agent Tools"
 chapter: false
-weight: 20
+weight: 40
 ---
 ![Agent Tools](/images/agenttools.jpg)
 ## Digital Interaction Tools

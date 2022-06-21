@@ -1,7 +1,7 @@
 ---
-title: "Email Testing"
+title: "Testing"
 chapter: false
-weight: 40
+weight: 20
 ---
 ![Test](/images/testingfinal.jpg)
 

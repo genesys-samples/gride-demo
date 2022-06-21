@@ -1,10 +1,8 @@
 ---
-title: "Voice Interactions"
+title: "Agent Tools"
 chapter: false
-weight: 10
+weight: 40
 ---
-![Agent Tools](/images/agenttools2.jpg)
-
 ## Voice Interaction Tools
 
 Hello! You are about to embark on an interaction taking journey for G-Ride as an agent named Veronica. You've completed the previous modules and are now ready to start taking inbound interactions. As noted above, please ensure you have answered a voice interaction and it is sitting on your interaction panel as seen in the picture below. Genesys Cloud makes it easy for you to do your job by providing you tools that give you omnichannel visibilty and allow you to take interactions quickly and efficiently. Let's get started!
@@ -89,3 +87,4 @@ https://appfoundry.genesys.com/filter/genesyscloud
 
 
 ## You have now concluded your first voice interaction! With the help of Genesys Cloud you were able to provide a personalized and efficient experience. Your customer, Betty, has left the call feeling satisifed with your customer service and with G-Ride. Experiences like this are how you build brand loyalty. Now on to the next interaction...
+

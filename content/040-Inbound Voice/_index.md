@@ -1,5 +1,5 @@
 ---
-title: "Omnichannel Setup"
+title: "Inbound Voice"
 chapter: true
 weight: 40
 ---

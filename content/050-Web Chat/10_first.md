@@ -1,7 +1,7 @@
 ---
-title: "Web Chat"
+title: "Setup"
 chapter: false
-weight: 20
+weight: 10
 ---
 ![Setup](/images/setup2.jpg)
 ## Genesys Cloud Web Chat
