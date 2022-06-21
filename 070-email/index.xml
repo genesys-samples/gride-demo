@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Email on Documentation for Hugo Learn Theme</title>
+    <link>/070-email.html</link>
+    <description>Recent content in Email on Documentation for Hugo Learn Theme</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="/070-email/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Setup</title>
+      <link>/070-email/10_first.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/070-email/10_first.html</guid>
+      <description>title: &amp;ldquo;Email&amp;rdquo; chapter: false weight: 40 Genesys Cloud Email Email is still one of the most reliable and desired ways for customers to interact with companies for support. Genesys Cloud CX automatically distributes emails to the best-fit agent based on content analysis and keywords. Genesys Email Routing streamlines your response process using email automation functionality that enables you to monitor, measure, and optimize your email flow to create a better customer experience.</description>
+    </item>
+    
+    <item>
+      <title>Testing</title>
+      <link>/070-email/20_second.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/070-email/20_second.html</guid>
+      <description>Test an Email Interaction   The first step in testing an email interaction is ensuring you have the correct email address. Navigate to the admin page and search for &amp;ldquo;Email.&amp;rdquo; Then click into the domain you created and find the email address that you created earlier. All we need to do is send an email from our personal email to that email address! Go ahead and do that now.</description>
+    </item>
+    
+    <item>
+      <title>Troubleshooting</title>
+      <link>/070-email/30_third.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/070-email/30_third.html</guid>
+      <description>Email Troubleshooting If email interactions are not being routed to the correct agent/queue or are not appearing in the interaction pane, please walk through the following troubleshooting tips:
+  Confirm agent is a member of the queue that was created at the beginning of the workshop
+  Confirm you are emailing the correct email address
+  Confirm agent status is set to &amp;ldquo;On-Queue&amp;rdquo;
+  If interactions are still not being routed correctly, please reach out to Veronica Guevara at veronica.</description>
+    </item>
+    
+    <item>
+      <title>Agent Tools</title>
+      <link>/070-email/40_fourth.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/070-email/40_fourth.html</guid>
+      <description>Digital Interaction Tools Hello! You are about to embark on an interaction taking journey for G-Ride as an agent. You&amp;rsquo;ve completed the previous modules and are now ready to start taking inbound interactions. As noted above, please ensure you have answered a chat, an email, and an SMS interaction and they are sitting on your interaction panel as seen in the picture below. Genesys Cloud makes it easy for you to do your job by providing you tools that give you omnichannel visibilty and allow you to take interactions quickly and efficiently.</description>
+    </item>
+    
+  </channel>
+</rss>

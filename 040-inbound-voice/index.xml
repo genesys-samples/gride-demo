@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Inbound Voice on Documentation for Hugo Learn Theme</title>
+    <link>/040-inbound-voice.html</link>
+    <description>Recent content in Inbound Voice on Documentation for Hugo Learn Theme</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="/040-inbound-voice/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Setup</title>
+      <link>/040-inbound-voice/10_first.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/040-inbound-voice/10_first.html</guid>
+      <description>Genesys Cloud Inbound Voice While new communication channels continue to crop up, the importance of voice remains. The speed and agility of the Genesys Cloud CX™ contact center platform connects your customer engagement with the telephony option that best fits your business needs. The widest variety of voice services connectivity options in the industry gives customers unparalleled flexibility and choice. Customers can choose Genesys Cloud CX Voice (Genesys telecom) for VoIP, or use the cloud-based Bring Your Own Carrier (BYOC) option.</description>
+    </item>
+    
+    <item>
+      <title>Testing</title>
+      <link>/040-inbound-voice/20_second.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/040-inbound-voice/20_second.html</guid>
+      <description>Test an Incoming Voice Interaction  The first step in testing a voice interaction is ensuring you have the correct inbound voice number to dial. Navigate to the admin page and search for call routing. Find the call route that you set up earlier and save the phone number to your mobile device.  Navigate to the Interactions pane on the left side of the screen and ensure you are set to &amp;ldquo;On-Queue&amp;rdquo; (found at top right of screen)  Dial the DID number from a personal phone and select &amp;ldquo;answer&amp;rdquo; when the interaction comes through  </description>
+    </item>
+    
+    <item>
+      <title>Troubleshooting</title>
+      <link>/040-inbound-voice/30_third.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/040-inbound-voice/30_third.html</guid>
+      <description>Voice Troubleshooting If voice interactions are not being routed to the correct agent/queue or are not appearing in the interaction pane, please walk through the following troubleshooting tips:
+  Confirm agent is a member of the queue that was created at the beginning of the workshop
+  Confirm calling number is tied to flow
+  Confirm agent status is set to &amp;ldquo;On-Queue&amp;rdquo;
+  If interactions are still not being routed correctly, please reach out to Veronica Guevara at veronica.</description>
+    </item>
+    
+    <item>
+      <title>Agent Tools</title>
+      <link>/040-inbound-voice/40_fourth.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/040-inbound-voice/40_fourth.html</guid>
+      <description>Voice Interaction Tools Hello! You are about to embark on an interaction taking journey for G-Ride as an agent named Veronica. You&amp;rsquo;ve completed the previous modules and are now ready to start taking inbound interactions. As noted above, please ensure you have answered a voice interaction and it is sitting on your interaction panel as seen in the picture below. Genesys Cloud makes it easy for you to do your job by providing you tools that give you omnichannel visibilty and allow you to take interactions quickly and efficiently.</description>
+    </item>
+    
+  </channel>
+</rss>

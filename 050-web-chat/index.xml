@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Web Chat on Documentation for Hugo Learn Theme</title>
+    <link>/050-web-chat.html</link>
+    <description>Recent content in Web Chat on Documentation for Hugo Learn Theme</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="/050-web-chat/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Setup</title>
+      <link>/050-web-chat/10_first.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/050-web-chat/10_first.html</guid>
+      <description>Genesys Cloud Web Chat The web chat channel is an invaluable tool for communicating and engaging with customers to provide better service for answering questions, completing orders, general guidance on company’s product and features, and personalized customer support. With this solution, Genesys improves handle time, first contact resolution, agent utilization, and customer satisfaction.
+ Widgets Genesys offers three native versions of widgets as well as the option to integrate to a third party.</description>
+    </item>
+    
+    <item>
+      <title>Testing</title>
+      <link>/050-web-chat/20_second.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/050-web-chat/20_second.html</guid>
+      <description>Test a Chat Interaction   The first step in testing a chat interaction visiting our web chat developer tool at the Genesys Cloud CX Developer Center
+  First you&amp;rsquo;ll need to login to your Genesys Cloud instance by clicking on your profile picture. Then navigate to the Deployment dropdown and ensure you have selected the &amp;ldquo;G-Ride&amp;rdquo; Deployment and ensure the &amp;ldquo;&amp;ldquo;Queue&amp;rdquo; field is set to &amp;ldquo;G-Ride.&amp;rdquo; You can then put in any customer data if you like and then press start chat.</description>
+    </item>
+    
+    <item>
+      <title>Troubleshooting</title>
+      <link>/050-web-chat/30_third.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/050-web-chat/30_third.html</guid>
+      <description>Web Chat Troubleshooting If webchat interactions are not being routed to the correct agent/queue or are not appearing in the interaction pane, please walk through the following troubleshooting tips:
+  Confirm agent is a member of the queue that was created at the beginning of the workshop
+  Confirm you are using widget version &amp;ldquo;V1&amp;rdquo;
+  Confirm agent status is set to &amp;ldquo;On-Queue&amp;rdquo;
+  If interactions are still not being routed correctly, please reach out to Veronica Guevara at veronica.</description>
+    </item>
+    
+    <item>
+      <title>Agent Tools</title>
+      <link>/050-web-chat/40_fourth.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/050-web-chat/40_fourth.html</guid>
+      <description>Digital Interaction Tools Hello! You are about to embark on an interaction taking journey for G-Ride as an agent. You&amp;rsquo;ve completed the previous modules and are now ready to start taking inbound interactions. As noted above, please ensure you have answered a chat, an email, and an SMS interaction and they are sitting on your interaction panel as seen in the picture below. Genesys Cloud makes it easy for you to do your job by providing you tools that give you omnichannel visibilty and allow you to take interactions quickly and efficiently.</description>
+    </item>
+    
+  </channel>
+</rss>

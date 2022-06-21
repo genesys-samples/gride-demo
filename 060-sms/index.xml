@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SMS on Documentation for Hugo Learn Theme</title>
+    <link>/060-sms.html</link>
+    <description>Recent content in SMS on Documentation for Hugo Learn Theme</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="/060-sms/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Setup</title>
+      <link>/060-sms/10_first.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/060-sms/10_first.html</guid>
+      <description>What We Will Build Today Today, we&amp;rsquo;ll set up the basics of SMS in Genesys Cloud CX. You&amp;rsquo;ll purchase an SMS number directly from the Genesys Cloud admin portal, with Genesys being your SMS broker. You&amp;rsquo;ll also import a basic Inbound Message Architect flow. Lastly, you&amp;rsquo;ll connect the SMS number you purchased to the Architect flow that you imported through a messaging route.
+Follow Along  Purchase a number for SMS (Note the number you purchased, because it is difficult to find after purchase)  2.</description>
+    </item>
+    
+    <item>
+      <title>Testing</title>
+      <link>/060-sms/20_second.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/060-sms/20_second.html</guid>
+      <description>Test an SMS Interaction   The first step in testing an SMS interaction is ensuring you have the correct number. Navigate to the admin page and search for &amp;ldquo;Message Routing.&amp;rdquo; Then find the message route that you created earlier and save the SMS number to your mobile device.   Navigate to the Interactions pane on the left side of the screen and ensure you are set to &amp;ldquo;On-Queue&amp;rdquo; (found at top right of screen)</description>
+    </item>
+    
+    <item>
+      <title>SMS Troubleshooting</title>
+      <link>/060-sms/30_third.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/060-sms/30_third.html</guid>
+      <description>SMS Troubleshooting If SMS interactions are not being routed to the correct agent/queue or are not appearing in the interaction pane, please walk through the following troubleshooting tips:
+  Confirm agent is a member of the queue that was created at the beginning of the workshop
+  Confirm SMS number is correct
+  Confirm agent status is set to &amp;ldquo;On-Queue&amp;rdquo;
+  If interactions are still not being routed correctly, please reach out to Veronica Guevara at veronica.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/060-sms/40_fourth.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/060-sms/40_fourth.html</guid>
+      <description>title: &amp;ldquo;Agent Tools&amp;rdquo; chapter: false weight: 40 Digital Interaction Tools Hello! You are about to embark on an interaction taking journey for G-Ride as an agent. You&amp;rsquo;ve completed the previous modules and are now ready to start taking inbound interactions. As noted above, please ensure you have answered a chat, an email, and an SMS interaction and they are sitting on your interaction panel as seen in the picture below. Genesys Cloud makes it easy for you to do your job by providing you tools that give you omnichannel visibilty and allow you to take interactions quickly and efficiently.</description>
+    </item>
+    
+  </channel>
+</rss>

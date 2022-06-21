@@ -8,7 +8,7 @@
 <meta name="author" content="Genesys">
 
     <link rel="icon" href="https://developer.genesys.com/wp-content/uploads/2020/07/Genesys_Favicon.ico" type="image/x-icon" />
-    <title>Conclusion :: Documentation for Hugo Learn Theme</title>
+    <title>SMS :: Documentation for Hugo Learn Theme</title>
 
     
     <link href="./css/nucleus.css?1655845100" rel="stylesheet">
@@ -36,7 +36,7 @@
     </style>
     
   </head>
-  <body class="" data-url="./090-conclution.html">
+  <body class="" data-url="./060-sms.html">
     <nav id="sidebar" class="showVisitedLinks">
 
 
@@ -501,8 +501,8 @@
   
     
     <li data-nav-id="/060-sms.html" title="SMS" class="dd-item
-        
-        
+        parent
+        active
         
         ">
       <a href="./060-sms.html">
@@ -840,8 +840,8 @@
   
     
     <li data-nav-id="/090-conclution.html" title="Conclusion" class="dd-item
-        parent
-        active
+        
+        
         
         ">
       <a href="./090-conclution.html">
@@ -900,7 +900,7 @@
                   
                     
                     
-                      <option id="en" value="/090-conclution.html" selected>English</option>
+                      <option id="en" value="/060-sms.html" selected>English</option>
                     
                   
               
@@ -968,7 +968,7 @@
             
           
           
-            <a href='./'>Genesys Cloud CX Channel Setup</a> > Conclusion
+            <a href='./'>Genesys Cloud CX Channel Setup</a> > SMS
           
         
           
@@ -993,18 +993,11 @@
 
 
 
-	<h1 id="conclusion">Conclusion</h1>
-<h2 id="finished">Finished!</h2>
-<p>Congratulations! You&rsquo;ve reached the end of today&rsquo;s workshop. You now have an operational omni-channel contact center agent experience. We hope this was an informative journey, and that you are now confident in your interaction fielding abilities.</p>
-<h3 id="next-steps">Next Steps</h3>
-<p>If you&rsquo;d like to continue your Genesys Cloud CX journey, please visit the following links to complete other workshops:</p>
-<ul>
-<li>Bots 101 (to be added later)</li>
-<li>Quality Management (to be added later)</li>
-<li>Introduction to Architect (to be added later)</li>
-</ul>
-<p>Genesys is always striving for improvement. If you have any suggestions on how to improve this workshop, please fill out today&rsquo;s feedback form via this <a href="TODO">TODO</a>. We&rsquo;d love to hear from you!</p>
-<p>If you have any technical questions about this workshop, please contact Veronica Guevara at <a href="mailto:veronica.guevara@genesys.com">veronica.guevara@genesys.com</a> or Sam Karras at <a href="mailto:sam.karras@genesys.com">sam.karras@genesys.com</a>.</p>
+	<h1 id="genesys-cloud-sms">Genesys Cloud SMS</h1>
+<p><img src="./images/setup2.jpg" alt="Setup">
+Customers often want to contact businesses in the same way they would contact friends and family. SMS allows for a more convienent, asynchronous mode of communication. Using SMS, customers can avoid calling and waiting on hold for an available agent. SMS also allows customers to engage &ldquo;on the go&rdquo; without a dedicated mobile app. Also, because customers engage by SMS at faster rates than any other messaging channel, the organization can resolve issues more quickly.</p>
+<p>SMS interactions are routed by the same orchestration engine as other media types in Genesys Cloud CX, and that is through Architect. Architect allows you to perform data dips, engage with Bots, attach routing logic and much more.</p>
+<p>With agents communicating via SMS, the agent can keep the message open and use SMS like a chat channel, or close the SMS message after replying. If the agent keeps the conversation open, the system immediately displays each customer response to the agent, using SMS messages as a chat channel. If the agent closes the conversation but the customer replies within 72 hours, the conversation reopens (after 72 hours, the system creates a new conversation) and routes to the last agent that handled the SMS. If that agent is unavailable, the system routes the message by ACD to the next available agent.</p>
 
 
 
@@ -1322,6 +1315,7 @@
             
                 
                     
+                    
                 
                 
 
@@ -1334,6 +1328,9 @@
             
             
                 
+                    
+                        
+                        
                     
                 
                 
@@ -1545,7 +1542,6 @@
             
             
                 
-                    
                     
                 
                 
@@ -1567,10 +1563,10 @@
 	 
 	 
 		
-			<a class="nav nav-prev" href="./070-email/40_fourth.html" title="Agent Tools"> <i class="fa fa-chevron-left"></i></a>
+			<a class="nav nav-prev" href="./050-web-chat/40_fourth.html" title="Agent Tools"> <i class="fa fa-chevron-left"></i></a>
 		
 		
-			<a class="nav nav-next" href="./010-beforeyoubegin.html" title="Before You Begin" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+			<a class="nav nav-next" href="./060-sms/10_first.html" title="Setup" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
 		
 	
     </div>
