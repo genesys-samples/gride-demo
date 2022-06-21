@@ -203,18 +203,18 @@
 	"content": "Genesys Cloud SMS Customers often want to contact businesses in the same way they would contact friends and family. SMS allows for a more convienent, asynchronous mode of communication. Using SMS, customers can avoid calling and waiting on hold for an available agent. SMS also allows customers to engage \u0026ldquo;on the go\u0026rdquo; without a dedicated mobile app. Also, because customers engage by SMS at faster rates than any other messaging channel, the organization can resolve issues more quickly.\nSMS interactions are routed by the same orchestration engine as other media types in Genesys Cloud CX, and that is through Architect. Architect allows you to perform data dips, engage with Bots, attach routing logic and much more.\nWith agents communicating via SMS, the agent can keep the message open and use SMS like a chat channel, or close the SMS message after replying. If the agent keeps the conversation open, the system immediately displays each customer response to the agent, using SMS messages as a chat channel. If the agent closes the conversation but the customer replies within 72 hours, the conversation reopens (after 72 hours, the system creates a new conversation) and routes to the last agent that handled the SMS. If that agent is unavailable, the system routes the message by ACD to the next available agent.\n"
 },
 {
-	"uri": "/080-scenarios.html",
-	"title": "Scenarios",
-	"tags": [],
-	"description": "",
-	"content": "Scenarios Objective You\u0026rsquo;ve reached the final module of this workshop! You will now test your knowledge on using Genesys Cloud to take interactions and assist customers in different scenarios. In this section, you will be given various scenarios and must decide on the correct answer. Once this section is complete, you are ready to begin taking real life interactions!\n"
-},
-{
 	"uri": "/070-email.html",
 	"title": "Email",
 	"tags": [],
 	"description": "",
 	"content": "Troubleshooting Tips Objective Things happen. We get it. If you get stuck or run into any issues, navigate through this section to follow some troubleshooting tips.\nIf you\u0026rsquo;ve already completed the rest of the workshop, feel free to skip this section.\n"
+},
+{
+	"uri": "/080-scenarios.html",
+	"title": "Scenarios",
+	"tags": [],
+	"description": "",
+	"content": "Scenarios Objective You\u0026rsquo;ve reached the final module of this workshop! You will now test your knowledge on using Genesys Cloud to take interactions and assist customers in different scenarios. In this section, you will be given various scenarios and must decide on the correct answer. Once this section is complete, you are ready to begin taking real life interactions!\n"
 },
 {
 	"uri": "/090-conclution.html",
