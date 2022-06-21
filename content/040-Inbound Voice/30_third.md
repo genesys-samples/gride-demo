@@ -1,8 +1,12 @@
 ---
-title: "Voice Troubleshooting"
+title: "Troubleshooting"
 chapter: false
-weight: 10
+weight: 30
 ---
+
+
+![Tools](/images/tools1.jpg)![Tools](/images/tools2.jpg)![Tools](/images/tools3.jpg)
+
 
 ## Voice Troubleshooting
  If voice interactions are not being routed to the correct agent/queue or are not appearing in the interaction pane, please walk through the following troubleshooting tips:

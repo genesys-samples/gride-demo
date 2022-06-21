@@ -1,5 +1,5 @@
 ---
-title: "Troubleshooting Tips"
+title: "Email"
 chapter: true
 weight: 80
 

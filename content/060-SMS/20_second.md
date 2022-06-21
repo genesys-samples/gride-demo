@@ -1,7 +1,7 @@
 ---
-title: "SMS Testing"
+title: "Testing"
 chapter: false
-weight: 30
+weight: 20
 ---
 ![Test](/images/testing2.jpg)
 ## Test an SMS Interaction
