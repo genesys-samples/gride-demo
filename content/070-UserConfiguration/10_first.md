@@ -3,6 +3,7 @@ title: "User Configuration"
 chapter: true
 weight: 10
 ---
+![Title](/images/UserConfig1.jpg)
 # Roles and Permissions
 
 Each role in Genesys Cloud contains one or more permissions. The permissions allow users with that role to do various tasks, such as create groups, set up integrations, and supervise contact center activity.
