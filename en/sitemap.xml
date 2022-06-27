@@ -18,6 +18,8 @@
   </url><url>
     <loc>/080-scenarios/10_first.html</loc>
   </url><url>
+    <loc>/020-userconfiguration/10_first.html</loc>
+  </url><url>
     <loc>/040-inbound-voice/10_first.html</loc>
   </url><url>
     <loc>/050-web-chat/10_first.html</loc>
@@ -27,8 +29,6 @@
     <loc>/070-email/10_first.html</loc>
   </url><url>
     <loc>/030-telephony/10_first.html</loc>
-  </url><url>
-    <loc>/020-userconfiguration/10_first.html</loc>
   </url><url>
     <loc>/080-scenarios/20_second.html</loc>
   </url><url>

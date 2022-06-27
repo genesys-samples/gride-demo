@@ -8,25 +8,25 @@
 <meta name="author" content="Genesys">
 
     <link rel="icon" href="https://developer.genesys.com/wp-content/uploads/2020/07/Genesys_Favicon.ico" type="image/x-icon" />
-    <title>User Configuration :: Documentation for Hugo Learn Theme</title>
+    <title>Roles &amp; Permissions :: Documentation for Hugo Learn Theme</title>
 
     
-    <link href="../css/nucleus.css?1655848115" rel="stylesheet">
-    <link href="../css/fontawesome-all.min.css?1655848115" rel="stylesheet">
-    <link href="../css/hybrid.css?1655848115" rel="stylesheet">
-    <link href="../css/featherlight.min.css?1655848115" rel="stylesheet">
-    <link href="../css/perfect-scrollbar.min.css?1655848115" rel="stylesheet">
-    <link href="../css/auto-complete.css?1655848115" rel="stylesheet">
-    <link href="../css/atom-one-dark-reasonable.css?1655848115" rel="stylesheet">
-    <link href="../css/theme.css?1655848115" rel="stylesheet">
-    <link href="../css/tabs.css?1655848115" rel="stylesheet">
-    <link href="../css/hugo-theme.css?1655848115" rel="stylesheet">
+    <link href="../css/nucleus.css?1656361389" rel="stylesheet">
+    <link href="../css/fontawesome-all.min.css?1656361389" rel="stylesheet">
+    <link href="../css/hybrid.css?1656361389" rel="stylesheet">
+    <link href="../css/featherlight.min.css?1656361389" rel="stylesheet">
+    <link href="../css/perfect-scrollbar.min.css?1656361389" rel="stylesheet">
+    <link href="../css/auto-complete.css?1656361389" rel="stylesheet">
+    <link href="../css/atom-one-dark-reasonable.css?1656361389" rel="stylesheet">
+    <link href="../css/theme.css?1656361389" rel="stylesheet">
+    <link href="../css/tabs.css?1656361389" rel="stylesheet">
+    <link href="../css/hugo-theme.css?1656361389" rel="stylesheet">
     
-    <link href="../css/theme-mine.css?1655848115" rel="stylesheet">
+    <link href="../css/theme-mine.css?1656361389" rel="stylesheet">
     
     
 
-    <script src="../js/jquery-3.3.1.min.js?1655848115"></script>
+    <script src="../js/jquery-3.3.1.min.js?1656361389"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -52,14 +52,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="../js/lunr.min.js?1655848115"></script>
-<script type="text/javascript" src="../js/auto-complete.js?1655848115"></script>
+<script type="text/javascript" src="../js/lunr.min.js?1656361389"></script>
+<script type="text/javascript" src="../js/auto-complete.js?1656361389"></script>
 <script type="text/javascript">
     
         var baseurl = "\/";
     
 </script>
-<script type="text/javascript" src="../js/search.js?1655848115"></script>
+<script type="text/javascript" src="../js/search.js?1656361389"></script>
 
     
   </div>
@@ -133,9 +133,9 @@
  
   
     
-      <li data-nav-id="/020-userconfiguration/10_first.html" title="User Configuration" class="dd-item active">
+      <li data-nav-id="/020-userconfiguration/10_first.html" title="Roles &amp; Permissions" class="dd-item active">
         <a href="../020-userconfiguration/10_first.html">
-        User Configuration
+        Roles &amp; Permissions
         <i class="fas fa-check read-icon"></i>
         </a>
     </li>
@@ -972,7 +972,7 @@
             
           
           
-            <a href='../'>Genesys Cloud CX Channel Setup</a> > <a href='../020-userconfiguration.html'>User Configuration</a> > User Configuration
+            <a href='../'>Genesys Cloud CX Channel Setup</a> > <a href='../020-userconfiguration.html'>User Configuration</a> > Roles & Permissions
           
         
           
@@ -1011,39 +1011,40 @@ Associate Master Admin role to the user</p>
 </ol>
 <p><img src="../images/RolesPic.png" alt="Add Role"></p>
 <p>Create Role for Genesys Cloud Voice permissions
-Admin &gt; Roles / Permissions &gt; Add Role</p>
+Admin &gt; Roles / Permissions &gt; Click &ldquo;Add Role&rdquo;</p>
 <ol>
-<li>Name the role</li>
-<li>Switch the permissions tab and search “PureCloud voice” in the Permission   field</li>
+<li>Name the role-Ex: GCV user or something you can easily find</li>
+<li>Switch to the permissions tab on the right and search for “PureCloud voice” in the Permission field</li>
 <li>Check the box for all permissions and save</li>
-<li>Return to People and select your user again.</li>
-<li>Go to the Roles screen and make sure to assign this GCV role to your user.</li>
+<li>Return to People and select your user again</li>
+<li>Go to the right side of the Roles screen and change &ldquo;View&rdquo; from Assigned to All</li>
+<li>Assign the GCV user you just created to yourself</li>
 </ol>
 <p><img src="../images/Permission.png" alt="Permissions"></p>
 <p>Add people to your organization
 When you create new users, Genesys Cloud automatically sets their status as active whether you send the invitation now or later.
 If you choose to send invitations to new users later and manually set their status to inactive, when you send the invitations Genesys Cloud automatically changes their status to active.
-4.	Click Admin.
-5.	Under People and Permissions, click People.
-6.	Click Add Person. The Add People to the Organization dialog box opens.</p>
+4.	Click Admin <!-- raw HTML omitted -->
+5.	Under People and Permissions, click People <!-- raw HTML omitted -->
+6.	Click Add Person. The Add People to the Organization dialog box opens <!-- raw HTML omitted --></p>
 <p><img src="../images/People.png" alt="People"></p>
 <ol start="7">
 <li>Click the Person tab.</li>
 <li>Complete the mandatory Name and Email fields.</li>
 <li>(Optional) Enter additional information by clicking Optional Fields.</li>
-<li>Note: The Manager field is optional but recommended. Genesys Cloud uses manager assignments to create hierarchy views.</li>
+<li>Note: The Manager field is optional but recommended. Genesys Cloud uses manager assignments to create hierarchy views</li>
 <li>(Optional) To add the person to a queue, do the following:</li>
-<li>Under Assign Queues, begin typing the first few letters of the desired queue.</li>
-<li>Select it from the list.</li>
-<li>Repeat steps a-b for each additional queue to which to add the person.</li>
+<li>Under Assign Queues, begin typing the first few letters of the desired queue</li>
+<li>Select it from the list</li>
+<li>Repeat steps a-b for each additional queue to which to add the person</li>
 <li>Note: Make sure you assign the Employee role, along with any other role. Typically, the employee role is assigned by default. However, manually adding roles during user creation overrides the employee’s assigned default.</li>
 <li>(Optional) To add roles for the person, do the following:</li>
-<li>Under Assign Roles, begin typing the first few letters of the desired role.</li>
-<li>Select it from the list.</li>
-<li>Repeat steps a-b for each additional role to assign.</li>
-<li>Send the invite automatically by selecting Send invite now.</li>
-<li>Note:  The people you add cannot join Genesys Cloud until they receive an invite. If you don’t do this now, remember to do it later.</li>
-<li>Click Create.</li>
+<li>Under Assign Roles, begin typing the first few letters of the desired role</li>
+<li>Select it from the list</li>
+<li>Assign additional roles as necessary</li>
+<li>Send the invite automatically by selecting Send invite now</li>
+<li>Note:  The people you add cannot join Genesys Cloud until they receive an invite. If you don’t do this now, remember to do it later</li>
+<li>Click Create</li>
 </ol>
 
 
@@ -1620,19 +1621,19 @@ If you choose to send invitations to new users later and manually set their stat
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../js/clipboard.min.js?1655848115"></script>
-    <script src="../js/perfect-scrollbar.min.js?1655848115"></script>
-    <script src="../js/perfect-scrollbar.jquery.min.js?1655848115"></script>
-    <script src="../js/jquery.sticky.js?1655848115"></script>
-    <script src="../js/featherlight.min.js?1655848115"></script>
-    <script src="../js/highlight.pack.js?1655848115"></script>
+    <script src="../js/clipboard.min.js?1656361389"></script>
+    <script src="../js/perfect-scrollbar.min.js?1656361389"></script>
+    <script src="../js/perfect-scrollbar.jquery.min.js?1656361389"></script>
+    <script src="../js/jquery.sticky.js?1656361389"></script>
+    <script src="../js/featherlight.min.js?1656361389"></script>
+    <script src="../js/highlight.pack.js?1656361389"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="../js/modernizr.custom-3.6.0.js?1655848115"></script>
-    <script src="../js/learn.js?1655848115"></script>
-    <script src="../js/hugo-learn.js?1655848115"></script>
+    <script src="../js/modernizr.custom-3.6.0.js?1656361389"></script>
+    <script src="../js/learn.js?1656361389"></script>
+    <script src="../js/hugo-learn.js?1656361389"></script>
     
         
-            <script src="../mermaid/mermaid.js?1655848115"></script>
+            <script src="../mermaid/mermaid.js?1656361389"></script>
         
         <script>
             mermaid.initialize({ startOnLoad: true });

@@ -23,8 +23,8 @@ Follow along Note: Order a number (1 number minimum is required but it is recomm
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/030-telephony/20_second.html</guid>
-      <description>Location   This is the psychical location your agents will reside at as their HQ. Locations are associated for emergency routing capabilities; it is not recommended using emergency services on a dev lab, but it is a required step.
-  Select &amp;ldquo;Locations&amp;rdquo; under the Directory category, then &amp;ldquo;Add Location&amp;rdquo;.
+      <description>Location   This is the physical location your agents will reside at as their HQ. Locations are associated for emergency routing capabilities; it is not recommended using emergency services on a dev lab, but it is a required step.
+  Go to Admin&amp;gt; Locations&amp;gt; Click &amp;ldquo;Add Location&amp;rdquo;
   Name your location, &amp;ldquo;Headquarters&amp;rdquo;, then add an address. The address must be valid, as you begin to type it out a drop-down list will begin to appear.</description>
     </item>
     

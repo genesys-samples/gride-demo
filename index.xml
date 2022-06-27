@@ -16,6 +16,16 @@
     </item>
     
     <item>
+      <title>Roles &amp; Permissions</title>
+      <link>/020-userconfiguration/10_first.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/020-userconfiguration/10_first.html</guid>
+      <description>Roles and Permissions Each role in Genesys Cloud contains one or more permissions. The permissions allow users with that role to do various tasks, such as create groups, set up integrations, and supervise contact center activity.
+The Employee role has the lowest level of permissions and is assigned to all users. This role cannot be removed. A user must be assigned additional roles by a Genesys Cloud Administrator to have additional permissions.</description>
+    </item>
+    
+    <item>
       <title>Setup</title>
       <link>/040-inbound-voice/10_first.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -65,16 +75,6 @@ Follow along Note: Order a number (1 number minimum is required but it is recomm
     </item>
     
     <item>
-      <title>User Configuration</title>
-      <link>/020-userconfiguration/10_first.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/020-userconfiguration/10_first.html</guid>
-      <description>Roles and Permissions Each role in Genesys Cloud contains one or more permissions. The permissions allow users with that role to do various tasks, such as create groups, set up integrations, and supervise contact center activity.
-The Employee role has the lowest level of permissions and is assigned to all users. This role cannot be removed. A user must be assigned additional roles by a Genesys Cloud Administrator to have additional permissions.</description>
-    </item>
-    
-    <item>
       <title>Knowledge Check #2</title>
       <link>/080-scenarios/20_second.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -89,8 +89,8 @@ The Employee role has the lowest level of permissions and is assigned to all use
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/030-telephony/20_second.html</guid>
-      <description>Location   This is the psychical location your agents will reside at as their HQ. Locations are associated for emergency routing capabilities; it is not recommended using emergency services on a dev lab, but it is a required step.
-  Select &amp;ldquo;Locations&amp;rdquo; under the Directory category, then &amp;ldquo;Add Location&amp;rdquo;.
+      <description>Location   This is the physical location your agents will reside at as their HQ. Locations are associated for emergency routing capabilities; it is not recommended using emergency services on a dev lab, but it is a required step.
+  Go to Admin&amp;gt; Locations&amp;gt; Click &amp;ldquo;Add Location&amp;rdquo;
   Name your location, &amp;ldquo;Headquarters&amp;rdquo;, then add an address. The address must be valid, as you begin to type it out a drop-down list will begin to appear.</description>
     </item>
     
