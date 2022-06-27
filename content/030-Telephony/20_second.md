@@ -5,13 +5,13 @@ weight: 20
 ---
 ![Test](/images/testing2.jpg)
 ## Location
-1. This is the psychical location your agents will reside at as their HQ. Locations are associated for emergency routing capabilities; it is not recommended using emergency services on a dev lab, but it is a required step. 
+1. This is the physical location your agents will reside at as their HQ. Locations are associated for emergency routing capabilities; it is not recommended using emergency services on a dev lab, but it is a required step. 
 
-2. Select "Locations" under the Directory category, then "Add Location". 
+2. Go to Admin> Locations> Click "Add Location" 
 
 ![AdminPage](/images/Locations.jpg)
 
-3. Name your location, "Headquarters", then add an address. The address must be valid, as you begin to type it out a drop-down list will begin to appear. Select one from the auto-populated options to ensure the directory has identified this as valid for 911 purposes. Add yourself as the "Site Contact" since the purpose is demonstration only. Check the box for "Make this location available for use on sites" 
+3. Name your location, "Headquarters", then add an address. The address must be valid, as you begin to type it out a drop-down list will begin to appear. Select one from the auto-populated options to ensure the directory has identified this as valid for 911 purposes. Add yourself as the "Site Contact" since the purpose is demonstration only. Check the box for "Make this location available for use on sites". Add an emergency number
 
 ![LocationDetails](/images/LocationsPopup.jpg)
 
@@ -25,7 +25,7 @@ weight: 20
 
 ![SiteDetails](/images/SiteSetup.jpg)
 
-3. Navigate to Outbound routes within the newly created site and ensure the “PureCloud Voice – AWS” Trunk is associated, and the site is enabled. You may need to use the “Select External Trunks” dropdown to add the trunk 
+3. Navigate to Outbound routes within the newly created site and under "Select External Trunks" ensure the “PureCloud Voice – AWS” Trunk is associated. Make sure to "Enable" the State as well. 
 
 ![OutboundRoutingDetails](/images/OutboundRoute.jpg)
 
