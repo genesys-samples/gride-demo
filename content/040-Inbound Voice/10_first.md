@@ -1,5 +1,5 @@
 ---
-title: "Inbound Voice"
+title: "Setup"
 chapter: false
 weight: 10
 ---
@@ -39,9 +39,7 @@ While new communication channels continue to crop up, the importance of voice re
 
 2. Add yourself as a member of the queue
   >![Add Member](/images/addmember.jpg)
-3. Purchase a phone number for voice (Note  the number you purchased, because it is difficult to find after purchase)
-  ![Purchase Number](/images/purchasenumber.jpg)
-4. Go back into the G Ride queue and add an outbound calling number with the number you purchased for voice
+3. Go back into the G Ride queue, click "Voice" and add an outbound calling number with the number you purchased for voice
   ![Queue Set Calling Party Number](/images/QueueSetCallingParty.jpg)
 5. Please navigate [Here](https://help.mypurecloud.com/articles/download-architect-flow-examples/) and download the flow outlined in the screenshot below. Follow attached instructions to download a sample flow
 

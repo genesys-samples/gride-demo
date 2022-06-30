@@ -1,5 +1,5 @@
 ---
-title: "Test Interactions"
+title: "Web Chat"
 chapter: true
 weight: 50
 
@@ -7,7 +7,7 @@ weight: 50
 
 
 
-# Test Interactions
+# Web Chat
 ![Test](/images/testing1.jpg)
 ## Objective
 
