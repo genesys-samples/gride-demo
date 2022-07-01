@@ -2,7 +2,6 @@
 title: "Email"
 chapter: true
 weight: 70
-
 ---
 
 # Troubleshooting Tips

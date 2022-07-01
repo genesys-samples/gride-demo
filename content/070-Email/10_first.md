@@ -4,11 +4,6 @@ chapter: false
 weight: 10
 ---
 
----
-title: "Email"
-chapter: false
-weight: 40
----
 ![Setup](/images/setup.jpg)
 
 ## Genesys Cloud Email

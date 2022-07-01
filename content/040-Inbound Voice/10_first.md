@@ -41,21 +41,21 @@ While new communication channels continue to crop up, the importance of voice re
   >![Add Member](/images/addmember.jpg)
 3. Go back into the G Ride queue, click "Voice" and add an outbound calling number with the number you purchased for voice
   ![Queue Set Calling Party Number](/images/QueueSetCallingParty.jpg)
-5. Please navigate [Here](https://help.mypurecloud.com/articles/download-architect-flow-examples/) and download the flow outlined in the screenshot below. Follow attached instructions to download a sample flow
+4. Please navigate [Here](https://help.mypurecloud.com/articles/download-architect-flow-examples/) and download the flow outlined in the screenshot below. Follow attached instructions to download a sample flow
 
  ![Sample Flow](/images/sampleflow.jpg)
  ![Sample Flow](/images/sampleinstructions.jpg)
 
-6. Navigate to "Architect" on the Admin screen as demonstrated below and follow the instructions  to upload an _Inbound Call Flow_.
+5. Navigate to "Architect" on the Admin screen as demonstrated below and follow the instructions  to upload an _Inbound Call Flow_.
  ![Architect](/images/architect.jpg)
  ![Import Flow](/images/importflow.jpg)
 
-7. Once you have imported the flow, select "Transfer to ACD", select your "G Ride" queue or whichever queue you have created, and check the box next to "DTMF goes to this menu choice from any menu". Please see screenshot below for guidance
+6. Once you have imported the flow, select "Transfer to ACD", select your "G Ride" queue or whichever queue you have created, and check the box next to "DTMF goes to this menu choice from any menu". Please see screenshot below for guidance
   ![Architect Flow](/images/architectflow.jpg)
 
 Delete the "Transfer to User" and "Dial by Extension" tasks by following the screenshot below. When you have finished these changes, ensure you select "Publish"
   ![Architect Flow](/images/architectflow1.jpg)
         
-8. Set up a call route following these instructions (use the phone number that you purchased in step two and the Architect flow that you imported in step 4)
+7. Set up a call route following these instructions (use the phone number that you purchased in step two and the Architect flow that you imported in step 4)
 ![Call Routing](/images/callrouting.jpg)
     
