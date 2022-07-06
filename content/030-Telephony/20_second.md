@@ -3,7 +3,7 @@ title: "Location & Site"
 chapter: false
 weight: 20
 ---
-![Title](/images/Telephony3.jpg)
+![Title](/images/Telephony3-768x300.jpg)
 ## Location
 1. This is the physical location your agents will reside at as their HQ. Locations are associated for emergency routing capabilities; it is not recommended using emergency services on a dev lab, but it is a required step. 
 

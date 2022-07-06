@@ -3,7 +3,7 @@ title: "Setup"
 chapter: false
 weight: 10
 ---
-![Setup](/images/setup2.jpg)
+![Setup](/images/Webchat1-768x300.jpg)
 ## Genesys Cloud Web Chat
 
 The web chat channel is an invaluable tool for communicating and engaging with customers to provide better service for answering questions, completing orders, general guidance on company’s product and features, and personalized customer support. With this solution, Genesys improves handle time, first contact resolution, agent utilization, and customer satisfaction.

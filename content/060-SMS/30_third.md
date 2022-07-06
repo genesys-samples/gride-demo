@@ -3,7 +3,7 @@ title: "SMS Troubleshooting"
 chapter: false
 weight: 30
 ---
-
+![Troubleshooting](/images/SMSsetup3-768x300.jpg)
 ## SMS Troubleshooting
  If SMS interactions are not being routed to the correct agent/queue or are not appearing in the interaction pane, please walk through the following troubleshooting tips:
 

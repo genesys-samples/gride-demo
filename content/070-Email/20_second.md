@@ -3,7 +3,7 @@ title: "Testing"
 chapter: false
 weight: 20
 ---
-![Test](/images/testingfinal.jpg)
+![Test](/images/Email2-768x300.jpg)
 
 ## Test an Email Interaction
 

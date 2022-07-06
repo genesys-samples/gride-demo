@@ -5,11 +5,7 @@ weight: 10
 ---
 
 ---
-title: "Email"
-chapter: false
-weight: 40
----
-![Setup](/images/setup.jpg)
+![Setup](/images/Email1-768x300.jpg)
 
 ## Genesys Cloud Email
 Email is still one of the most reliable and desired ways for customers to interact with companies for support. Genesys Cloud CX automatically distributes emails to the best-fit agent based on content analysis and keywords. Genesys Email Routing streamlines your response process using email automation functionality that enables you to monitor, measure, and optimize your email flow to create a better customer experience.

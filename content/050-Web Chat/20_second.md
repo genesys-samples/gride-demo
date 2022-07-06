@@ -3,7 +3,7 @@ title: "Testing"
 chapter: false
 weight: 20
 ---
-![Test](/images/testing2.jpg)
+![Test](/images/Webchat2-768x300.jpg)
 ## Test a Chat Interaction
 
 1. The first step in testing a chat interaction visiting our web chat developer tool at the [Genesys Cloud CX Developer Center](https://developer.genesys.cloud/developer-tools/#/webchat)

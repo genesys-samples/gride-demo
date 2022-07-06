@@ -3,9 +3,7 @@ title: "Setup"
 chapter: false
 weight: 10
 ---
-![Setup](/images/setup2.jpg)
-
- ![SMS](/images/SMSicon.png)
+![Setup](/images/SMSsetup1-768x300.jpg)
 
 ## What We Will Build Today
 Today, we'll set up the basics of SMS in Genesys Cloud CX. You'll purchase an SMS number directly from the Genesys Cloud admin portal, with Genesys being your SMS broker. You'll also import a basic Inbound Message Architect flow. Lastly, you'll connect the SMS number you purchased to the Architect flow that you imported through a messaging route. 

@@ -3,8 +3,8 @@ title: "Before You Begin"
 chapter: true
 weight: 10
 ---
-# Dev Lab Setup
-![Title](/images/title2.jpg)
+
+![Title](/images/DevLabSetup.jpg)
 ## Objective
 
 This workshop is intended to take you from activating your Dev Lab to answering your first call . You will learn what tools agents have at their disposal when handling the interactions and how to best leverage those tools. 

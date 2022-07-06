@@ -5,8 +5,7 @@ weight: 30
 ---
 
 
-![Tools](/images/tools1.jpg)![Tools](/images/tools2.jpg)![Tools](/images/tools3.jpg)
-
+![Test](/images/Inbound3-768x300.jpg)
 
 ## Voice Troubleshooting
  If voice interactions are not being routed to the correct agent/queue or are not appearing in the interaction pane, please walk through the following troubleshooting tips:
