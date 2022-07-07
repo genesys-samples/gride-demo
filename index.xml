@@ -31,7 +31,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/040-inbound-voice/10_first.html</guid>
-      <description>Genesys Cloud Inbound Voice  While new communication channels continue to crop up, the importance of voice remains. The speed and agility of &amp;gt;the Genesys Cloud CX™ contact center platform connects your customer engagement with the telephony option that &amp;gt;best fits your business needs. The widest variety of voice services connectivity options in the industry gives &amp;gt;customers unparalleled flexibility and choice. Customers can choose Genesys Cloud CX Voice (Genesys telecom) for &amp;gt;VoIP, or use the cloud-based Bring Your Own Carrier (BYOC) option.</description>
+      <description>Inbound Voice Setup While new communication channels continue to crop up, the importance of voice remains. The speed and agility of the Genesys Cloud CX™ contact center platform connects your customer engagement with the telephony option that best fits your business needs. The widest variety of voice services connectivity options in the industry gives customers unparalleled flexibility and choice. Customers can choose Genesys Cloud CX Voice (Genesys telecom) for VoIP, or use the cloud-based Bring Your Own Carrier (BYOC) option.</description>
     </item>
     
     <item>
@@ -40,7 +40,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/050-web-chat/10_first.html</guid>
-      <description>Genesys Cloud Web Chat  The web chat channel is an invaluable tool for communicating and engaging with customers to provide better service &amp;gt;for answering questions, completing orders, general guidance on company’s product and features, and personalized &amp;gt;customer support. With this solution, Genesys improves handle time, first contact resolution, agent utilization, &amp;gt;and customer satisfaction.
+      <description>Web Chat Setup  The web chat channel is an invaluable tool for communicating and engaging with customers to provide better service &amp;gt;for answering questions, completing orders, general guidance on company’s product and features, and personalized &amp;gt;customer support. With this solution, Genesys improves handle time, first contact resolution, agent utilization, &amp;gt;and customer satisfaction.
   Widgets Genesys offers three native versions of widgets as well as the option to integrate to a third party.</description>
     </item>
     
@@ -50,7 +50,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/060-sms/10_first.html</guid>
-      <description>Customers often want to contact businesses in the same way they would contact friends and family. SMS allows for a more convienent, asynchronous mode of communication. Using SMS, customers can avoid calling and waiting on hold for an available agent. SMS also allows customers to engage &amp;ldquo;on the go&amp;rdquo; without a dedicated mobile app. Also, because customers engage by SMS at faster rates than any other messaging channel, the organization can resolve issues more quickly.</description>
+      <description>SMS Setup Today, we&amp;rsquo;ll set up the basics of SMS in Genesys Cloud CX. You&amp;rsquo;ll purchase an SMS number directly from the Genesys Cloud admin portal, with Genesys being your SMS broker. You&amp;rsquo;ll also import a basic Inbound Message Architect flow. Lastly, you&amp;rsquo;ll connect the SMS number you purchased to the Architect flow that you imported through a messaging route.
+Follow Along   Navigate to Admin screen &amp;gt; Search for SMS Number Inventory &amp;gt; When the SMS Number Inventory page appears, press Purchase in top right corner &amp;gt; Fill in appropriate fields to search for number to purchase &amp;gt; To view available numbers to purchase click Search &amp;gt; Click Buy Now &amp;gt; When the Confirm Number Purchase dialog appears, click Buy (Note the number you purchased, because it is difficult to find after purchase)</description>
     </item>
     
     <item>
@@ -59,7 +60,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/070-email/10_first.html</guid>
-      <description>Genesys Cloud Email  Email is still one of the most reliable and desired ways for customers to interact with companies for support. Genesys Cloud CX automatically distributes emails to the best-fit agent based on content analysis and keywords. Genesys Email Routing streamlines your response process using email automation functionality that enables you to monitor, measure, and optimize your email flow to create a better customer experience.
+      <description>&amp;laquo;&amp;laquo;&amp;laquo;&amp;lt; HEAD Email Setup Email is still one of the most reliable and desired ways for customers to interact with companies for support. Genesys Cloud CX automatically distributes emails to the best-fit agent based on content analysis and keywords. Genesys Email Routing streamlines your response process using email automation functionality that enables you to monitor, measure, and optimize your email flow to create a better customer experience.
 Genesys Cloud routes incoming email messages through ACD just like it routes calls and chats, using the same routing and evaluation methods.</description>
     </item>
     
@@ -69,8 +70,8 @@ Genesys Cloud routes incoming email messages through ACD just like it routes cal
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/030-telephony/10_first.html</guid>
-      <description>Genesys Cloud Voice  Genesys Cloud Voice is an Internet-based telephony service that you can activate for use with your Genesys Cloud &amp;gt;organization. It provides public telephony access to any Genesys Cloud services to which you subscribe, such as &amp;gt;Communicate or the Genesys Cloud call center.
- Purchase a Phone Number  Purchase phone numbers directly from within Genesys Cloud Voice using the Number Purchase portal.
+      <description>Genesys Cloud Voice Genesys Cloud Voice is an Internet-based telephony service that you can activate for use with your Genesys Cloud organization. It provides public telephony access to any Genesys Cloud services to which you subscribe, such as Communicate or the Genesys Cloud call center.
+Purchase a Phone Number  Purchase phone numbers directly from within Genesys Cloud Voice using the Number Purchase portal.
  Follow along Note: It is required to order a minimum of one number, but it is recommended to order 1 number for each user that will be using Dev Lab.</description>
     </item>
     
@@ -89,8 +90,9 @@ Genesys Cloud routes incoming email messages through ACD just like it routes cal
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/030-telephony/20_second.html</guid>
-      <description>Location  This is the physical location your agents will reside at as their HQ. Locations are associated for emergency &amp;gt;routing capabilities; it is not recommended to use emergency services on a dev lab, but it is a required step.
- Go to Admin&amp;gt; Locations&amp;gt; Click &amp;ldquo;Add Location&amp;rdquo;   Name your location, &amp;ldquo;Headquarters&amp;rdquo;, then add an address. The address must be valid, as you begin to type it out a drop-down list will begin to appear.</description>
+      <description>Location &amp;amp; Site   This is the physical location your agents will reside at as their HQ. Locations are associated for emergency routing capabilities; it is not recommended using emergency services on a dev lab, but it is a required step.
+  Go to Admin&amp;gt; Locations&amp;gt; Click &amp;ldquo;Add Location&amp;rdquo;
+   Name your location, &amp;ldquo;Headquarters&amp;rdquo;, then add an address. The address must be valid, as you begin to type it out a drop-down list will begin to appear.</description>
     </item>
     
     <item>
@@ -142,6 +144,19 @@ Genesys Cloud routes incoming email messages through ACD just like it routes cal
     </item>
     
     <item>
+      <title>SMS Troubleshooting</title>
+      <link>/060-sms/30_third.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/060-sms/30_third.html</guid>
+      <description>SMS Troubleshooting If SMS interactions are not being routed to the correct agent/queue or are not appearing in the interaction pane, please walk through the following troubleshooting tips:
+  Confirm agent is a member of the queue that was created at the beginning of the workshop
+  Confirm SMS number is correct
+  Confirm agent status is set to &amp;ldquo;On-Queue&amp;rdquo;
+  If interactions are still not being routed correctly, please reach out to Veronica Guevara at veronica.</description>
+    </item>
+    
+    <item>
       <title>Troubleshooting</title>
       <link>/040-inbound-voice/30_third.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -163,19 +178,6 @@ Genesys Cloud routes incoming email messages through ACD just like it routes cal
       <description>Web Chat Troubleshooting If webchat interactions are not being routed to the correct agent/queue or are not appearing in the interaction pane, please walk through the following troubleshooting tips:
   Confirm agent is a member of the queue that was created at the beginning of the workshop
   Confirm you are using widget version &amp;ldquo;V1&amp;rdquo;
-  Confirm agent status is set to &amp;ldquo;On-Queue&amp;rdquo;
-  If interactions are still not being routed correctly, please reach out to Veronica Guevara at veronica.</description>
-    </item>
-    
-    <item>
-      <title>Troubleshooting</title>
-      <link>/060-sms/30_third.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/060-sms/30_third.html</guid>
-      <description>SMS Troubleshooting If SMS interactions are not being routed to the correct agent/queue or are not appearing in the interaction pane, please walk through the following troubleshooting tips:
-  Confirm agent is a member of the queue that was created at the beginning of the workshop
-  Confirm SMS number is correct
   Confirm agent status is set to &amp;ldquo;On-Queue&amp;rdquo;
   If interactions are still not being routed correctly, please reach out to Veronica Guevara at veronica.</description>
     </item>

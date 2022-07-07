@@ -12,7 +12,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/060-sms/10_first.html</guid>
-      <description>Customers often want to contact businesses in the same way they would contact friends and family. SMS allows for a more convienent, asynchronous mode of communication. Using SMS, customers can avoid calling and waiting on hold for an available agent. SMS also allows customers to engage &amp;ldquo;on the go&amp;rdquo; without a dedicated mobile app. Also, because customers engage by SMS at faster rates than any other messaging channel, the organization can resolve issues more quickly.</description>
+      <description>SMS Setup Today, we&amp;rsquo;ll set up the basics of SMS in Genesys Cloud CX. You&amp;rsquo;ll purchase an SMS number directly from the Genesys Cloud admin portal, with Genesys being your SMS broker. You&amp;rsquo;ll also import a basic Inbound Message Architect flow. Lastly, you&amp;rsquo;ll connect the SMS number you purchased to the Architect flow that you imported through a messaging route.
+Follow Along   Navigate to Admin screen &amp;gt; Search for SMS Number Inventory &amp;gt; When the SMS Number Inventory page appears, press Purchase in top right corner &amp;gt; Fill in appropriate fields to search for number to purchase &amp;gt; To view available numbers to purchase click Search &amp;gt; Click Buy Now &amp;gt; When the Confirm Number Purchase dialog appears, click Buy (Note the number you purchased, because it is difficult to find after purchase)</description>
     </item>
     
     <item>
@@ -25,7 +26,7 @@
     </item>
     
     <item>
-      <title>Troubleshooting</title>
+      <title>SMS Troubleshooting</title>
       <link>/060-sms/30_third.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       

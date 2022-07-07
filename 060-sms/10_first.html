@@ -11,22 +11,22 @@
     <title>Setup :: Documentation for Hugo Learn Theme</title>
 
     
-    <link href="../css/nucleus.css?1657223527" rel="stylesheet">
-    <link href="../css/fontawesome-all.min.css?1657223527" rel="stylesheet">
-    <link href="../css/hybrid.css?1657223527" rel="stylesheet">
-    <link href="../css/featherlight.min.css?1657223527" rel="stylesheet">
-    <link href="../css/perfect-scrollbar.min.css?1657223527" rel="stylesheet">
-    <link href="../css/auto-complete.css?1657223527" rel="stylesheet">
-    <link href="../css/atom-one-dark-reasonable.css?1657223527" rel="stylesheet">
-    <link href="../css/theme.css?1657223527" rel="stylesheet">
-    <link href="../css/tabs.css?1657223527" rel="stylesheet">
-    <link href="../css/hugo-theme.css?1657223527" rel="stylesheet">
+    <link href="../css/nucleus.css?1657226326" rel="stylesheet">
+    <link href="../css/fontawesome-all.min.css?1657226326" rel="stylesheet">
+    <link href="../css/hybrid.css?1657226326" rel="stylesheet">
+    <link href="../css/featherlight.min.css?1657226326" rel="stylesheet">
+    <link href="../css/perfect-scrollbar.min.css?1657226326" rel="stylesheet">
+    <link href="../css/auto-complete.css?1657226326" rel="stylesheet">
+    <link href="../css/atom-one-dark-reasonable.css?1657226326" rel="stylesheet">
+    <link href="../css/theme.css?1657226326" rel="stylesheet">
+    <link href="../css/tabs.css?1657226326" rel="stylesheet">
+    <link href="../css/hugo-theme.css?1657226326" rel="stylesheet">
     
-    <link href="../css/theme-mine.css?1657223527" rel="stylesheet">
+    <link href="../css/theme-mine.css?1657226326" rel="stylesheet">
     
     
 
-    <script src="../js/jquery-3.3.1.min.js?1657223527"></script>
+    <script src="../js/jquery-3.3.1.min.js?1657226326"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -52,14 +52,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="../js/lunr.min.js?1657223527"></script>
-<script type="text/javascript" src="../js/auto-complete.js?1657223527"></script>
+<script type="text/javascript" src="../js/lunr.min.js?1657226326"></script>
+<script type="text/javascript" src="../js/auto-complete.js?1657226326"></script>
 <script type="text/javascript">
     
         var baseurl = "\/";
     
 </script>
-<script type="text/javascript" src="../js/search.js?1657223527"></script>
+<script type="text/javascript" src="../js/search.js?1657226326"></script>
 
     
   </div>
@@ -571,9 +571,9 @@
  
   
     
-      <li data-nav-id="/060-sms/30_third.html" title="Troubleshooting" class="dd-item ">
+      <li data-nav-id="/060-sms/30_third.html" title="SMS Troubleshooting" class="dd-item ">
         <a href="../060-sms/30_third.html">
-        Troubleshooting
+        SMS Troubleshooting
         <i class="fas fa-check read-icon"></i>
         </a>
     </li>
@@ -958,8 +958,6 @@
                         </a>
                     </span>
                   
-                  <span id="toc-menu"><i class="fas fa-list-alt"></i></span>
-                  
                   <span class="links">
                  
                  
@@ -985,18 +983,6 @@
                   </span>
                 </div>
                 
-                    <div class="progress">
-    <div class="wrapper">
-<nav id="TableOfContents">
-  <ul>
-    <li><a href="#what-we-will-build-today">What We Will Build Today</a></li>
-    <li><a href="#follow-along">Follow Along</a></li>
-  </ul>
-</nav>
-    </div>
-</div>
-
-                
               </div>
             </div>
             
@@ -1004,32 +990,17 @@
         
         </div>
         
+          <div id="chapter">
+        
         <div id="body-inner">
-          
-            <h1>
-              
-              Setup
-            </h1>
           
 
         
 
 
-<p><img src="../images/setup2.jpg" alt="Setup"></p>
-<blockquote>
-<p>Customers often want to contact businesses in the same way they would contact friends and family. SMS allows for a more convienent, asynchronous mode of communication. Using SMS, customers can avoid calling and waiting on hold for an available agent. SMS also allows customers to engage &ldquo;on the go&rdquo; without a dedicated mobile app. Also, because customers engage by SMS at faster rates than any other messaging channel, the organization can resolve issues more quickly.</p>
-</blockquote>
-<blockquote>
-<p>SMS interactions are routed by the same orchestration engine as other media types in Genesys Cloud CX, and that is through Architect. Architect allows you to perform data dips, engage with Bots, attach routing logic and much more.</p>
-</blockquote>
-<blockquote>
-<p>With agents communicating via SMS, the agent can keep the message open and use SMS like a chat channel, or close the SMS message after replying. If the agent keeps the conversation open, the system immediately displays each customer response to the agent, using SMS messages as a chat channel. If the agent closes the conversation but the customer replies within 72 hours, the conversation reopens (after 72 hours, the system creates a new conversation) and routes to the last agent that handled the SMS. If that agent is unavailable, the system routes the message by ACD to the next available agent.
-<img src="../images/SMSicon.png" alt="SMS"></p>
-</blockquote>
-<h2 id="what-we-will-build-today">What We Will Build Today</h2>
-<blockquote>
+<p><img src="../images/SMSsetup1-768x300.jpg" alt="Setup"></p>
+<h2 id="sms-setup">SMS Setup</h2>
 <p>Today, we&rsquo;ll set up the basics of SMS in Genesys Cloud CX. You&rsquo;ll purchase an SMS number directly from the Genesys Cloud admin portal, with Genesys being your SMS broker. You&rsquo;ll also import a basic Inbound Message Architect flow. Lastly, you&rsquo;ll connect the SMS number you purchased to the Architect flow that you imported through a messaging route.</p>
-</blockquote>
 <h2 id="follow-along">Follow Along</h2>
 <ol>
 <li>
@@ -1061,6 +1032,8 @@ Set up a messaging route to connect your inbound message architect flow and the 
 	
 </footer>
 
+        
+            </div> 
         
         </div>
         
@@ -1628,19 +1601,19 @@ Set up a messaging route to connect your inbound message architect flow and the 
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../js/clipboard.min.js?1657223527"></script>
-    <script src="../js/perfect-scrollbar.min.js?1657223527"></script>
-    <script src="../js/perfect-scrollbar.jquery.min.js?1657223527"></script>
-    <script src="../js/jquery.sticky.js?1657223527"></script>
-    <script src="../js/featherlight.min.js?1657223527"></script>
-    <script src="../js/highlight.pack.js?1657223527"></script>
+    <script src="../js/clipboard.min.js?1657226326"></script>
+    <script src="../js/perfect-scrollbar.min.js?1657226326"></script>
+    <script src="../js/perfect-scrollbar.jquery.min.js?1657226326"></script>
+    <script src="../js/jquery.sticky.js?1657226326"></script>
+    <script src="../js/featherlight.min.js?1657226326"></script>
+    <script src="../js/highlight.pack.js?1657226326"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="../js/modernizr.custom-3.6.0.js?1657223527"></script>
-    <script src="../js/learn.js?1657223527"></script>
-    <script src="../js/hugo-learn.js?1657223527"></script>
+    <script src="../js/modernizr.custom-3.6.0.js?1657226326"></script>
+    <script src="../js/learn.js?1657226326"></script>
+    <script src="../js/hugo-learn.js?1657226326"></script>
     
         
-            <script src="../mermaid/mermaid.js?1657223527"></script>
+            <script src="../mermaid/mermaid.js?1657226326"></script>
         
         <script>
             mermaid.initialize({ startOnLoad: true });
