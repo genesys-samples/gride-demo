@@ -7,7 +7,7 @@ weight: 10
 ![Title](/images/title.jpg)
 ## Objective
 
-This workshop is intended to take you from activating your Dev Lab to answering your first call . You will learn what tools agents have at their disposal when handling the interactions and how to best leverage those tools. 
+This workshop is intended as a documented and outlined guide to set up a new Genesys Cloud dev org. This walkthrough will outline how to set up the basics with the goal of adding users, queues, call routing, etc. The end goal is to be able to send an inbound call through an IVR into the ACD and finally delivered to an Agent. You will learn what tools agents have at their disposal when handling the interactions and how to best leverage those tools. This document is a recommendation and may not be one-size-fits-all.
 
 
 
@@ -19,12 +19,12 @@ It is recommended to use search functionality in the admin panel vs. manually tr
 It is highly recommended to use naming conventions when creating any items (other than location, site, and base settings) to ensure you are not developing over colleague deployments. Ex: JaneDoe_Queue or JaneDoe_Inboundflow, etc
 
 ## Activating Your Account
-1. Open your welcome email and click the link to activate the account. The link will navigate you to the initial account creation screen requesting company  name, email and password for the initial account. It is recommended that you enter in a shared account for this initial setup, instead of a personal account, to simplify recovery for future users
+1. Click the link in your welcome email to activate the account. _It is recommended that you enter in a shared account for this initial setup, instead of a personal account, to simplify recovery for future users_
 
-2. Admin > Genesys Add Ons > Find the Genesys Cloud Voice Tile and ensure it is active
+2. **Admin** > **Genesys Add Ons** > **Ensure Genesys Cloud Voice Tile is active**
 ![Activate ](/images/activate.jpg)
 
-This should be enabled by default, however non GCV org orders will require manual activation <br>
-If activation is required, select the tile and activate GCV- this can take around 10 minutes to fully activate
+_This should be enabled by default, however non GCV org orders will require manual activation <br>
+If activation is required, select the tile and activate GCV- this can take around 10 minutes to fully activate_
 
 **Note**: You may need to skip and come back to "Ensuring Genesys Cloud Voice is Activated" as making sure the proper roles and permissions have been assigned to the user may need to be accomplished first

@@ -7,7 +7,7 @@ weight: 90
 
 ## Finished!
 
-Congratulations! You've reached the end of today's workshop. You now have an operational omni-channel contact center agent experience. We hope this was an informative journey, and that you are now confident in your interaction fielding abilities.  
+Congratulations! You've reached the end of today's workshop. You now have an operational development org. We hope this was an informative journey, and that you are now confident in your interaction fielding abilities.  
 
 ### Next Steps
 If you'd like to continue your Genesys Cloud CX journey, please visit the following links to complete other workshops:
