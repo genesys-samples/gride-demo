@@ -46,13 +46,13 @@
   </url><url>
     <loc>/080-scenarios/30_third.html</loc>
   </url><url>
-    <loc>/060-sms/30_third.html</loc>
-  </url><url>
     <loc>/030-telephony.html</loc>
   </url><url>
     <loc>/040-inbound-voice/30_third.html</loc>
   </url><url>
     <loc>/050-web-chat/30_third.html</loc>
+  </url><url>
+    <loc>/060-sms/30_third.html</loc>
   </url><url>
     <loc>/070-email/30_third.html</loc>
   </url><url>
@@ -61,6 +61,8 @@
     <loc>/040-inbound-voice/40_fourth.html</loc>
   </url><url>
     <loc>/050-web-chat/40_fourth.html</loc>
+  </url><url>
+    <loc>/060-sms/40_fourth.html</loc>
   </url><url>
     <loc>/070-email/40_fourth.html</loc>
   </url><url>
@@ -74,9 +76,7 @@
   </url><url>
     <loc>/080-scenarios.html</loc>
   </url><url>
-    <loc>/090-conclution.html</loc>
-  </url><url>
-    <loc>/060-sms/40_fourth.html</loc>
+    <loc>/090-conclusion.html</loc>
   </url><url>
     <loc>/categories.html</loc>
     <xhtml:link

@@ -11,22 +11,22 @@
     <title>Before You Begin :: Documentation for Hugo Learn Theme</title>
 
     
-    <link href="./css/nucleus.css?1656361390" rel="stylesheet">
-    <link href="./css/fontawesome-all.min.css?1656361390" rel="stylesheet">
-    <link href="./css/hybrid.css?1656361390" rel="stylesheet">
-    <link href="./css/featherlight.min.css?1656361390" rel="stylesheet">
-    <link href="./css/perfect-scrollbar.min.css?1656361390" rel="stylesheet">
-    <link href="./css/auto-complete.css?1656361390" rel="stylesheet">
-    <link href="./css/atom-one-dark-reasonable.css?1656361390" rel="stylesheet">
-    <link href="./css/theme.css?1656361390" rel="stylesheet">
-    <link href="./css/tabs.css?1656361390" rel="stylesheet">
-    <link href="./css/hugo-theme.css?1656361390" rel="stylesheet">
+    <link href="./css/nucleus.css?1657219310" rel="stylesheet">
+    <link href="./css/fontawesome-all.min.css?1657219310" rel="stylesheet">
+    <link href="./css/hybrid.css?1657219310" rel="stylesheet">
+    <link href="./css/featherlight.min.css?1657219310" rel="stylesheet">
+    <link href="./css/perfect-scrollbar.min.css?1657219310" rel="stylesheet">
+    <link href="./css/auto-complete.css?1657219310" rel="stylesheet">
+    <link href="./css/atom-one-dark-reasonable.css?1657219310" rel="stylesheet">
+    <link href="./css/theme.css?1657219310" rel="stylesheet">
+    <link href="./css/tabs.css?1657219310" rel="stylesheet">
+    <link href="./css/hugo-theme.css?1657219310" rel="stylesheet">
     
-    <link href="./css/theme-mine.css?1656361390" rel="stylesheet">
+    <link href="./css/theme-mine.css?1657219310" rel="stylesheet">
     
     
 
-    <script src="./js/jquery-3.3.1.min.js?1656361390"></script>
+    <script src="./js/jquery-3.3.1.min.js?1657219310"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -52,14 +52,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="./js/lunr.min.js?1656361390"></script>
-<script type="text/javascript" src="./js/auto-complete.js?1656361390"></script>
+<script type="text/javascript" src="./js/lunr.min.js?1657219310"></script>
+<script type="text/javascript" src="./js/auto-complete.js?1657219310"></script>
 <script type="text/javascript">
     
         var baseurl = "\/";
     
 </script>
-<script type="text/javascript" src="./js/search.js?1656361390"></script>
+<script type="text/javascript" src="./js/search.js?1657219310"></script>
 
     
   </div>
@@ -571,9 +571,9 @@
  
   
     
-      <li data-nav-id="/060-sms/30_third.html" title="SMS Troubleshooting" class="dd-item ">
+      <li data-nav-id="/060-sms/30_third.html" title="Troubleshooting" class="dd-item ">
         <a href="./060-sms/30_third.html">
-        SMS Troubleshooting
+        Troubleshooting
         <i class="fas fa-check read-icon"></i>
         </a>
     </li>
@@ -592,9 +592,9 @@
  
   
     
-      <li data-nav-id="/060-sms/40_fourth.html" title="" class="dd-item ">
+      <li data-nav-id="/060-sms/40_fourth.html" title="Agent Tools" class="dd-item ">
         <a href="./060-sms/40_fourth.html">
-        
+        Agent Tools
         <i class="fas fa-check read-icon"></i>
         </a>
     </li>
@@ -839,12 +839,12 @@
  
   
     
-    <li data-nav-id="/090-conclution.html" title="Conclusion" class="dd-item
+    <li data-nav-id="/090-conclusion.html" title="Conclusion" class="dd-item
         
         
         
         ">
-      <a href="./090-conclution.html">
+      <a href="./090-conclusion.html">
           Conclusion
           
             <i class="fas fa-check read-icon"></i>
@@ -996,37 +996,24 @@
 	<h1 id="dev-lab-setup">Dev Lab Setup</h1>
 <p><img src="./images/title.jpg" alt="Title"></p>
 <h2 id="objective">Objective</h2>
-<p>This workshop is intended to take you from activating your Dev Lab to answering your first call . You will learn what tools agents have at their disposal when handling the interactions and how to best leverage those tools.</p>
-<p><strong>Notes before you start</strong>:</p>
-<ul>
-<li>
+<p>This workshop is intended as a documented and outlined guide to set up a new Genesys Cloud dev org. This walkthrough will outline how to set up the basics with the goal of adding users, queues, call routing, etc. The end goal is to be able to send an inbound call through an IVR into the ACD and finally delivered to an Agent. You will learn what tools agents have at their disposal when handling the interactions and how to best leverage those tools. This document is a recommendation and may not be one-size-fits-all.</p>
+<p><strong>Notes before you start</strong>: <!-- raw HTML omitted --></p>
 <p>It is recommended to use search functionality in the admin panel vs. manually trying to navigate to any of the admin sections (Please see image below)
 <img src="./images/gcadmin.png" alt="Search"></p>
-</li>
-<li>
 <p>It is highly recommended to use naming conventions when creating any items (other than location, site, and base settings) to ensure you are not developing over colleague deployments. Ex: JaneDoe_Queue or JaneDoe_Inboundflow, etc</p>
-</li>
-</ul>
-<p><strong>Activating Your Account</strong></p>
+<h2 id="activating-your-account">Activating Your Account</h2>
 <ol>
 <li>
-<h2 id="open-your-welcome-email-and-click-the-link-to-activate-the-account">Open your welcome email and click the link to activate the account.</h2>
+<p>Click the link in your welcome email to activate the account. <em>It is recommended that you enter in a shared account for this initial setup, instead of a personal account, to simplify recovery for future users</em></p>
 </li>
-</ol>
-<ul>
-<li>The link will navigate you to the initial account creation screen requesting company  name, email and password for the initial account. It is recommended that you enter in a shared account for this initial setup, instead of a personal account, to simplify recovery for future users</li>
-</ul>
-<ol start="2">
 <li>
-<h2 id="admin--genesys-add-ons--find-the-genesys-cloud-voice-tile-and-ensure-it-is-active">Admin &gt; Genesys Add Ons &gt; Find the Genesys Cloud Voice Tile and ensure it is active</h2>
+<p><strong>Admin</strong> &gt; <strong>Genesys Add Ons</strong> &gt; <strong>Ensure Genesys Cloud Voice Tile is active</strong>
+<img src="./images/activate.jpg" alt="Activate "></p>
 </li>
 </ol>
-<p><img src="./images/activate.jpg" alt="Activate "></p>
-<ul>
-<li>This should be enabled by default, however non GCV org orders will require manual activation <!-- raw HTML omitted --></li>
-<li>If activation is required, select the tile and activate GCV- this can take around 10 minutes to fully activate</li>
-</ul>
-<p>Note: You may need to skip and come back to &ldquo;Ensuring Genesys Cloud Voice is Activated&rdquo; as making sure the proper roles and permissions have been assigned to the user may need to be accomplished first</p>
+<p><em>This should be enabled by default, however non GCV org orders will require manual activation <!-- raw HTML omitted -->
+If activation is required, select the tile and activate GCV- this can take around 10 minutes to fully activate</em></p>
+<p><strong>Note</strong>: You may need to skip and come back to &ldquo;Ensuring Genesys Cloud Voice is Activated&rdquo; as making sure the proper roles and permissions have been assigned to the user may need to be accomplished first</p>
 
 
 
@@ -1602,19 +1589,19 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="./js/clipboard.min.js?1656361390"></script>
-    <script src="./js/perfect-scrollbar.min.js?1656361390"></script>
-    <script src="./js/perfect-scrollbar.jquery.min.js?1656361390"></script>
-    <script src="./js/jquery.sticky.js?1656361390"></script>
-    <script src="./js/featherlight.min.js?1656361390"></script>
-    <script src="./js/highlight.pack.js?1656361390"></script>
+    <script src="./js/clipboard.min.js?1657219310"></script>
+    <script src="./js/perfect-scrollbar.min.js?1657219310"></script>
+    <script src="./js/perfect-scrollbar.jquery.min.js?1657219310"></script>
+    <script src="./js/jquery.sticky.js?1657219310"></script>
+    <script src="./js/featherlight.min.js?1657219310"></script>
+    <script src="./js/highlight.pack.js?1657219310"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="./js/modernizr.custom-3.6.0.js?1656361390"></script>
-    <script src="./js/learn.js?1656361390"></script>
-    <script src="./js/hugo-learn.js?1656361390"></script>
+    <script src="./js/modernizr.custom-3.6.0.js?1657219310"></script>
+    <script src="./js/learn.js?1657219310"></script>
+    <script src="./js/hugo-learn.js?1657219310"></script>
     
         
-            <script src="./mermaid/mermaid.js?1656361390"></script>
+            <script src="./mermaid/mermaid.js?1657219310"></script>
         
         <script>
             mermaid.initialize({ startOnLoad: true });

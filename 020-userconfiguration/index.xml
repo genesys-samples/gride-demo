@@ -12,8 +12,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/020-userconfiguration/10_first.html</guid>
-      <description>Roles and Permissions Each role in Genesys Cloud contains one or more permissions. The permissions allow users with that role to do various tasks, such as create groups, set up integrations, and supervise contact center activity.
-The Employee role has the lowest level of permissions and is assigned to all users. This role cannot be removed. A user must be assigned additional roles by a Genesys Cloud Administrator to have additional permissions.</description>
+      <description>Roles and Permissions  Each role in Genesys Cloud contains one or more permissions. The permissions allow users with that role to do &amp;gt;various tasks, such as create groups, set up integrations, and supervise contact center activity.
+  The Employee role has the lowest level of permissions and is assigned to all users. This role cannot be removed. A &amp;gt;user must be assigned additional roles by a Genesys Cloud Administrator to have additional permissions.</description>
     </item>
     
   </channel>

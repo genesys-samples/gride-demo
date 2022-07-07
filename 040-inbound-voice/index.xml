@@ -12,7 +12,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/040-inbound-voice/10_first.html</guid>
-      <description>Genesys Cloud Inbound Voice While new communication channels continue to crop up, the importance of voice remains. The speed and agility of the Genesys Cloud CX™ contact center platform connects your customer engagement with the telephony option that best fits your business needs. The widest variety of voice services connectivity options in the industry gives customers unparalleled flexibility and choice. Customers can choose Genesys Cloud CX Voice (Genesys telecom) for VoIP, or use the cloud-based Bring Your Own Carrier (BYOC) option.</description>
+      <description>Genesys Cloud Inbound Voice  While new communication channels continue to crop up, the importance of voice remains. The speed and agility of &amp;gt;the Genesys Cloud CX™ contact center platform connects your customer engagement with the telephony option that &amp;gt;best fits your business needs. The widest variety of voice services connectivity options in the industry gives &amp;gt;customers unparalleled flexibility and choice. Customers can choose Genesys Cloud CX Voice (Genesys telecom) for &amp;gt;VoIP, or use the cloud-based Bring Your Own Carrier (BYOC) option.</description>
     </item>
     
     <item>
@@ -21,7 +21,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/040-inbound-voice/20_second.html</guid>
-      <description>Test an Incoming Voice Interaction  The first step in testing a voice interaction is ensuring you have the correct inbound voice number to dial. Navigate to the admin page and search for call routing. Find the call route that you set up earlier and save the phone number to your mobile device.  Navigate to the Interactions pane on the left side of the screen and ensure you are set to &amp;ldquo;On-Queue&amp;rdquo; (found at top right of screen)  Dial the DID number from a personal phone and select &amp;ldquo;answer&amp;rdquo; when the interaction comes through  </description>
+      <description>Test an Incoming Voice Interaction The first step in testing a voice interaction is ensuring you have the correct inbound voice number to dial.
+ Navigate to the Admin page &amp;gt; Search for Call Routing&amp;gt; Find the call route that you set up earlier and save the phone number to your mobile device  Navigate to the Interactions pane on the left side of the screen and ensure you are set to On-Queue (found at top right of screen)  Dial the DID number from a personal phone and select answer when the interaction comes through  </description>
     </item>
     
     <item>

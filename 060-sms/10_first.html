@@ -11,22 +11,22 @@
     <title>Setup :: Documentation for Hugo Learn Theme</title>
 
     
-    <link href="../css/nucleus.css?1656361390" rel="stylesheet">
-    <link href="../css/fontawesome-all.min.css?1656361390" rel="stylesheet">
-    <link href="../css/hybrid.css?1656361390" rel="stylesheet">
-    <link href="../css/featherlight.min.css?1656361390" rel="stylesheet">
-    <link href="../css/perfect-scrollbar.min.css?1656361390" rel="stylesheet">
-    <link href="../css/auto-complete.css?1656361390" rel="stylesheet">
-    <link href="../css/atom-one-dark-reasonable.css?1656361390" rel="stylesheet">
-    <link href="../css/theme.css?1656361390" rel="stylesheet">
-    <link href="../css/tabs.css?1656361390" rel="stylesheet">
-    <link href="../css/hugo-theme.css?1656361390" rel="stylesheet">
+    <link href="../css/nucleus.css?1657219310" rel="stylesheet">
+    <link href="../css/fontawesome-all.min.css?1657219310" rel="stylesheet">
+    <link href="../css/hybrid.css?1657219310" rel="stylesheet">
+    <link href="../css/featherlight.min.css?1657219310" rel="stylesheet">
+    <link href="../css/perfect-scrollbar.min.css?1657219310" rel="stylesheet">
+    <link href="../css/auto-complete.css?1657219310" rel="stylesheet">
+    <link href="../css/atom-one-dark-reasonable.css?1657219310" rel="stylesheet">
+    <link href="../css/theme.css?1657219310" rel="stylesheet">
+    <link href="../css/tabs.css?1657219310" rel="stylesheet">
+    <link href="../css/hugo-theme.css?1657219310" rel="stylesheet">
     
-    <link href="../css/theme-mine.css?1656361390" rel="stylesheet">
+    <link href="../css/theme-mine.css?1657219310" rel="stylesheet">
     
     
 
-    <script src="../js/jquery-3.3.1.min.js?1656361390"></script>
+    <script src="../js/jquery-3.3.1.min.js?1657219310"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -52,14 +52,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="../js/lunr.min.js?1656361390"></script>
-<script type="text/javascript" src="../js/auto-complete.js?1656361390"></script>
+<script type="text/javascript" src="../js/lunr.min.js?1657219310"></script>
+<script type="text/javascript" src="../js/auto-complete.js?1657219310"></script>
 <script type="text/javascript">
     
         var baseurl = "\/";
     
 </script>
-<script type="text/javascript" src="../js/search.js?1656361390"></script>
+<script type="text/javascript" src="../js/search.js?1657219310"></script>
 
     
   </div>
@@ -571,9 +571,9 @@
  
   
     
-      <li data-nav-id="/060-sms/30_third.html" title="SMS Troubleshooting" class="dd-item ">
+      <li data-nav-id="/060-sms/30_third.html" title="Troubleshooting" class="dd-item ">
         <a href="../060-sms/30_third.html">
-        SMS Troubleshooting
+        Troubleshooting
         <i class="fas fa-check read-icon"></i>
         </a>
     </li>
@@ -592,9 +592,9 @@
  
   
     
-      <li data-nav-id="/060-sms/40_fourth.html" title="" class="dd-item ">
+      <li data-nav-id="/060-sms/40_fourth.html" title="Agent Tools" class="dd-item ">
         <a href="../060-sms/40_fourth.html">
-        
+        Agent Tools
         <i class="fas fa-check read-icon"></i>
         </a>
     </li>
@@ -839,12 +839,12 @@
  
   
     
-    <li data-nav-id="/090-conclution.html" title="Conclusion" class="dd-item
+    <li data-nav-id="/090-conclusion.html" title="Conclusion" class="dd-item
         
         
         
         ">
-      <a href="../090-conclution.html">
+      <a href="../090-conclusion.html">
           Conclusion
           
             <i class="fas fa-check read-icon"></i>
@@ -1016,31 +1016,45 @@
 
 
 <p><img src="../images/setup2.jpg" alt="Setup"></p>
-<p><img src="../images/SMSicon.png" alt="SMS"></p>
+<blockquote>
+<p>Customers often want to contact businesses in the same way they would contact friends and family. SMS allows for a more convienent, asynchronous mode of communication. Using SMS, customers can avoid calling and waiting on hold for an available agent. SMS also allows customers to engage &ldquo;on the go&rdquo; without a dedicated mobile app. Also, because customers engage by SMS at faster rates than any other messaging channel, the organization can resolve issues more quickly.</p>
+</blockquote>
+<blockquote>
+<p>SMS interactions are routed by the same orchestration engine as other media types in Genesys Cloud CX, and that is through Architect. Architect allows you to perform data dips, engage with Bots, attach routing logic and much more.</p>
+</blockquote>
+<blockquote>
+<p>With agents communicating via SMS, the agent can keep the message open and use SMS like a chat channel, or close the SMS message after replying. If the agent keeps the conversation open, the system immediately displays each customer response to the agent, using SMS messages as a chat channel. If the agent closes the conversation but the customer replies within 72 hours, the conversation reopens (after 72 hours, the system creates a new conversation) and routes to the last agent that handled the SMS. If that agent is unavailable, the system routes the message by ACD to the next available agent.
+<img src="../images/SMSicon.png" alt="SMS"></p>
+</blockquote>
 <h2 id="what-we-will-build-today">What We Will Build Today</h2>
+<blockquote>
 <p>Today, we&rsquo;ll set up the basics of SMS in Genesys Cloud CX. You&rsquo;ll purchase an SMS number directly from the Genesys Cloud admin portal, with Genesys being your SMS broker. You&rsquo;ll also import a basic Inbound Message Architect flow. Lastly, you&rsquo;ll connect the SMS number you purchased to the Architect flow that you imported through a messaging route.</p>
+</blockquote>
 <h2 id="follow-along">Follow Along</h2>
 <ol>
-<li>Purchase a number for SMS (Note  the number you purchased, because it is difficult to find after purchase)</li>
-</ol>
-<p><img src="../images/sms1.jpg" alt="SMS">
-2. Go back into the G Ride queue and set the SMS number you just purchased as the outbound SMS number
+<li>
+<p>Navigate to <strong>Admin</strong> screen &gt; Search for <strong>SMS Number Inventory</strong> &gt; When the SMS Number Inventory page appears, press <strong>Purchase</strong> in top right corner &gt; Fill in appropriate fields to search for number to purchase &gt; To view available numbers to purchase click <strong>Search</strong> &gt; Click <strong>Buy Now</strong> &gt; When the Confirm Number Purchase dialog appears, click <strong>Buy</strong>  <em>(Note the number you purchased, because it is difficult to find after purchase)</em></p>
+</li>
+<li>
+<p>Go back into the queue you created earlier &gt; Set the SMS number you just purchased as the outbound SMS number
 <img src="../images/QueueSetSMSOutboundNumber.jpg" alt="Queue Set Outbound SMS Number"></p>
-<ol start="3">
-<li>Follow the instructions below to create an inbound message flow</li>
+</li>
+<li>
+<p>Follow the instructions below to create an inbound message flow</p>
+</li>
 </ol>
 <p><img src="../images/inboundmessage.jpg" alt="Inbound Message"></p>
 <ol start="4">
 <li>
-<p>Once inside the flow, drag a &ldquo;Transfer to ACD&rdquo; task to the &ldquo;Start menu&rdquo; as seen in the image below. Click the drop-down menu and select your &ldquo;G Ride&rdquo; queue or the queue you created at the beginning. Hit the three dots next to the &ldquo;Disconnect&rdquo; Task to delete this task. Hit &ldquo;Publish&rdquo; once you have completed these steps.
+<p>Once inside the flow, drag a <strong>Transfer to ACD</strong> task to the <strong>Start menu</strong> as seen in the image below &gt; Click the drop-down menu and select the queue you created at the beginning &gt; Click the three dots next to the <strong>Disconnect</strong> Task to delete this task &gt; Click <strong>Publish</strong> once you have completed these steps
 <img src="../images/inboundmessage1.jpg" alt="Inbound Message"></p>
 </li>
 <li>
-<p>Set up a messaging route to connect your inbound message architect flow and the SMS number you purchased in step two</p>
+<p>Navigate to <strong>Admin</strong> screen &gt; Search for <strong>Message Routing</strong> &gt; Click <strong>+</strong> &gt; Click <strong>Select Flow</strong> &gt; Begin typing the first few letters of the inbound message flow you want to use and select from the list &gt; Under <strong>Addresses</strong> click <strong>+</strong> &gt; Click <strong>Select Address</strong> &gt; Click number you want to add &gt; Click <strong>Add</strong> &gt; Click <strong>Save</strong>
+Set up a messaging route to connect your inbound message architect flow and the SMS number you purchased in step two</p>
 </li>
 </ol>
-<p><img src="../images/callrouting1.jpg" alt="Call Routing">
-<img src="../images/agenttools2.jpg" alt="Agent Tools"></p>
+<p><img src="../images/callrouting1.jpg" alt="Call Routing"></p>
 
 
 <footer class="footline">
@@ -1614,19 +1628,19 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../js/clipboard.min.js?1656361390"></script>
-    <script src="../js/perfect-scrollbar.min.js?1656361390"></script>
-    <script src="../js/perfect-scrollbar.jquery.min.js?1656361390"></script>
-    <script src="../js/jquery.sticky.js?1656361390"></script>
-    <script src="../js/featherlight.min.js?1656361390"></script>
-    <script src="../js/highlight.pack.js?1656361390"></script>
+    <script src="../js/clipboard.min.js?1657219310"></script>
+    <script src="../js/perfect-scrollbar.min.js?1657219310"></script>
+    <script src="../js/perfect-scrollbar.jquery.min.js?1657219310"></script>
+    <script src="../js/jquery.sticky.js?1657219310"></script>
+    <script src="../js/featherlight.min.js?1657219310"></script>
+    <script src="../js/highlight.pack.js?1657219310"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="../js/modernizr.custom-3.6.0.js?1656361390"></script>
-    <script src="../js/learn.js?1656361390"></script>
-    <script src="../js/hugo-learn.js?1656361390"></script>
+    <script src="../js/modernizr.custom-3.6.0.js?1657219310"></script>
+    <script src="../js/learn.js?1657219310"></script>
+    <script src="../js/hugo-learn.js?1657219310"></script>
     
         
-            <script src="../mermaid/mermaid.js?1656361390"></script>
+            <script src="../mermaid/mermaid.js?1657219310"></script>
         
         <script>
             mermaid.initialize({ startOnLoad: true });

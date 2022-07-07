@@ -12,7 +12,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/070-email/10_first.html</guid>
-      <description>title: &amp;ldquo;Email&amp;rdquo; chapter: false weight: 40 Genesys Cloud Email Email is still one of the most reliable and desired ways for customers to interact with companies for support. Genesys Cloud CX automatically distributes emails to the best-fit agent based on content analysis and keywords. Genesys Email Routing streamlines your response process using email automation functionality that enables you to monitor, measure, and optimize your email flow to create a better customer experience.</description>
+      <description>Genesys Cloud Email  Email is still one of the most reliable and desired ways for customers to interact with companies for support. Genesys Cloud CX automatically distributes emails to the best-fit agent based on content analysis and keywords. Genesys Email Routing streamlines your response process using email automation functionality that enables you to monitor, measure, and optimize your email flow to create a better customer experience.
+Genesys Cloud routes incoming email messages through ACD just like it routes calls and chats, using the same routing and evaluation methods.</description>
     </item>
     
     <item>
@@ -21,7 +22,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/070-email/20_second.html</guid>
-      <description>Test an Email Interaction   The first step in testing an email interaction is ensuring you have the correct email address. Navigate to the admin page and search for &amp;ldquo;Email.&amp;rdquo; Then click into the domain you created and find the email address that you created earlier. All we need to do is send an email from our personal email to that email address! Go ahead and do that now.</description>
+      <description>Test an Email Interaction   The first step in testing an email interaction is ensuring you have the correct email address. Navigate to Admin page &amp;gt; Search for Email &amp;gt; Click into the domain you created and find the email address that you created earlier &amp;gt; Send an email from your personal email to that email address to test
+  Navigate to the Interactions Pane on the left side of the screen and ensure you are set to On-Queue (found at top right of screen)</description>
     </item>
     
     <item>

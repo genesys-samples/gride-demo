@@ -12,8 +12,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/050-web-chat/10_first.html</guid>
-      <description>Genesys Cloud Web Chat The web chat channel is an invaluable tool for communicating and engaging with customers to provide better service for answering questions, completing orders, general guidance on company’s product and features, and personalized customer support. With this solution, Genesys improves handle time, first contact resolution, agent utilization, and customer satisfaction.
- Widgets Genesys offers three native versions of widgets as well as the option to integrate to a third party.</description>
+      <description>Genesys Cloud Web Chat  The web chat channel is an invaluable tool for communicating and engaging with customers to provide better service &amp;gt;for answering questions, completing orders, general guidance on company’s product and features, and personalized &amp;gt;customer support. With this solution, Genesys improves handle time, first contact resolution, agent utilization, &amp;gt;and customer satisfaction.
+  Widgets Genesys offers three native versions of widgets as well as the option to integrate to a third party.</description>
     </item>
     
     <item>
@@ -23,7 +23,7 @@
       
       <guid>/050-web-chat/20_second.html</guid>
       <description>Test a Chat Interaction   The first step in testing a chat interaction visiting our web chat developer tool at the Genesys Cloud CX Developer Center
-  First you&amp;rsquo;ll need to login to your Genesys Cloud instance by clicking on your profile picture. Then navigate to the Deployment dropdown and ensure you have selected the &amp;ldquo;G-Ride&amp;rdquo; Deployment and ensure the &amp;ldquo;&amp;ldquo;Queue&amp;rdquo; field is set to &amp;ldquo;G-Ride.&amp;rdquo; You can then put in any customer data if you like and then press start chat.</description>
+  Click your profile picture and login to your GC instance &amp;gt; Navigate to the Deployment dropdown &amp;gt; ensure you have selected the Deployment you just created &amp;gt; ensure the Queue field is set to the queue you created earlier &amp;gt; You can then put in any customer data if you like and then press start chat</description>
     </item>
     
     <item>
