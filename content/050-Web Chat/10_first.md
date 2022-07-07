@@ -6,7 +6,7 @@ weight: 10
 ![Setup](/images/setup2.jpg)
 ## Genesys Cloud Web Chat
 
-The web chat channel is an invaluable tool for communicating and engaging with customers to provide better service for answering questions, completing orders, general guidance on company’s product and features, and personalized customer support. With this solution, Genesys improves handle time, first contact resolution, agent utilization, and customer satisfaction.
+>The web chat channel is an invaluable tool for communicating and engaging with customers to provide better service >for answering questions, completing orders, general guidance on company’s product and features, and personalized >customer support. With this solution, Genesys improves handle time, first contact resolution, agent utilization, >and customer satisfaction.
 
 ![Web Chat](/images/webchat.png)
 
@@ -20,5 +20,4 @@ The web chat channel is an invaluable tool for communicating and engaging with c
 
 
 ## Follow Along
- 1. Create a v1 chat widget 
- ![Chat](/images/chatv1.jpg)
+ 1. Navigate to **Admin** page > Search for **Widgets** > select **Create a Widget** > Enter a **Name** and **Description** for deployment > Select **Version 1.0**

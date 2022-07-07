@@ -2,14 +2,10 @@
 title: "Email"
 chapter: true
 weight: 70
-
 ---
 
-# Troubleshooting Tips
-
-![Tools](/images/tools1.jpg)![Tools](/images/tools2.jpg)![Tools](/images/tools3.jpg)
 
 ## Objective
-Things happen. We get it. If you get stuck or run into any issues, navigate through this section to follow some troubleshooting tips.
+By the end of this section, you will have a functional inbound email channel. You’ll learn the steps to set up email interactions, how to test to ensure email interactions are being routed correctly, how to troubleshoot, and any tools available to agents during digital interactions.
 
-If you've already completed the rest of the workshop, feel free to skip this section.
+![Email](/images/email1.jpg)

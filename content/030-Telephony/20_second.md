@@ -5,7 +5,8 @@ weight: 20
 ---
 ![Test](/images/testing2.jpg)
 ## Location
-1. This is the physical location your agents will reside at as their HQ. Locations are associated for emergency routing capabilities; it is not recommended using emergency services on a dev lab, but it is a required step. 
+>This is the physical location your agents will reside at as their HQ. Locations are associated for emergency >routing capabilities; it is not recommended to use emergency services on a dev lab, but it is a required step. 
+
 
 2. **Go to Admin> Locations> Click "Add Location"**
 
@@ -21,9 +22,11 @@ weight: 20
 
 7. Add an emergency number.
 
+
 ![LocationDetails](/images/LocationsPopup.jpg)
 
 ## Site
+
 
  A site is the home of a set of phones. The site defines the call classification rules and outbound routing rules as well as the telephony properties for dialing. This is also where Outbound Routing will reference a Number Plan. Sites must be tied to physical Locations defined.
 
@@ -42,5 +45,6 @@ weight: 20
 ![OutboundRoutingDetails](/images/OutboundRoute.jpg)
 
 4. Lastly, return to the **"General"** tab and confirm the site site has been selected as the default.
+
 
 ![SiteSettings](/images/DefaultSite.jpg)
