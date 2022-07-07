@@ -1,10 +1,10 @@
 ---
 title: "Agent Tools"
-chapter: false
+chapter: true
 weight: 40
 ---
 
-![Agent Tools](/images/agenttools.jpg)
+![Agent Tools](/images/Email4-768x300.jpg)
 ## Digital Interaction Tools
 
 **Hello! You are about to embark on an interaction taking journey for G-Ride as an agent. You've completed the previous modules and are now ready to start taking inbound interactions. As noted above, please ensure you have answered a chat, an email, and an SMS interaction and they are sitting on your interaction panel as seen in the picture below. Genesys Cloud makes it easy for you to do your job by providing you tools that give you omnichannel visibilty and allow you to take interactions quickly and efficiently. Let's get started!**

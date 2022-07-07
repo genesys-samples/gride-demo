@@ -4,9 +4,11 @@ chapter: true
 weight: 10
 ---
 
+![Title](/images/Telephony2-768x300.jpg) 
 
-# Genesys Cloud Voice
->Genesys Cloud Voice is an Internet-based telephony service that you can activate for use with your Genesys Cloud >organization. It provides public telephony access to any Genesys Cloud services to which you subscribe, such as >Communicate or the Genesys Cloud call center. 
+
+## Genesys Cloud Voice
+Genesys Cloud Voice is an Internet-based telephony service that you can activate for use with your Genesys Cloud organization. It provides public telephony access to any Genesys Cloud services to which you subscribe, such as Communicate or the Genesys Cloud call center. 
 
 
 ## Purchase a Phone Number

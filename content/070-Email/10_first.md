@@ -1,9 +1,22 @@
 ---
 title: "Setup"
-chapter: false
+chapter: true
 weight: 10
 ---
 
+<<<<<<< HEAD
+---
+![Setup](/images/Email1-768x300.jpg)
+
+## Email Setup
+Email is still one of the most reliable and desired ways for customers to interact with companies for support. Genesys Cloud CX automatically distributes emails to the best-fit agent based on content analysis and keywords. Genesys Email Routing streamlines your response process using email automation functionality that enables you to monitor, measure, and optimize your email flow to create a better customer experience.
+
+Genesys Cloud routes incoming email messages through ACD just like it routes calls and chats, using the same routing and evaluation methods. When routing email messages, Genesys Cloud considers skills, language, priority, and agent utilization. 
+
+Your Genesys Cloud account can have a maximum of two email domains with up to 500 associated email addresses per domain. You assign each email address to a queue, and can configure it to have an associated language, skill, and priority. Genesys Cloud ACD routes each incoming message to a member of the queue. Configured routing and evaluation methods help to determine the best available agent to handle the interaction.
+
+When an agent handles an email interaction, it'll route to them like any other digital channel. Once they reply, the interaction will be cleared from their interaction panel. However, it is common that email communication may have multiple replies needing to go to the customer. Because of this, when a customer replies back to the email, Genesys Cloud CX will route to the agent who was the responder for seamless communication as long as that agent is available.
+=======
 ![Setup](/images/setup.jpg)
 
 ## Genesys Cloud Email
@@ -14,6 +27,7 @@ weight: 10
 >Your Genesys Cloud account can have a maximum of two email domains with up to 500 associated email addresses per domain. You assign each email address to a queue, and can configure it to have an associated language, skill, and priority. Genesys Cloud ACD routes each incoming message to a member of the queue. Configured routing and evaluation methods help to determine the best available agent to handle the interaction.
 >
 >When an agent handles an email interaction, it'll route to them like any other digital channel. Once they reply, the interaction will be cleared from their interaction panel. However, it is common that email communication may have multiple replies needing to go to the customer. Because of this, when a customer replies back to the email, Genesys Cloud CX will route to the agent who was the responder for seamless communication as long as that agent is available.
+>>>>>>> bb5387c537c9ed702c1bbb902c59893fd14aa254
 
 ![Email](/images/email.png)
 

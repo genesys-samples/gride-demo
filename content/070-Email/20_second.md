@@ -1,9 +1,9 @@
 ---
 title: "Testing"
-chapter: false
+chapter: true
 weight: 20
 ---
-![Test](/images/testingfinal.jpg)
+![Test](/images/Email2-768x300.jpg)
 
 ## Test an Email Interaction
 

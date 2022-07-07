@@ -1,9 +1,9 @@
 ---
 title: "Testing"
-chapter: false
+chapter: true
 weight: 20
 ---
-![Test](/images/testing2.jpg)
+![Test](/images/SMSsetup2-768x300.jpg)
 ## Test an SMS Interaction
 
 1. The first step in testing an SMS interaction is ensuring you have the correct number. Navigate to the **Admin** page > Search for **Message Routing** > Find the message route that you created earlier > Save the SMS number to your mobile device.
