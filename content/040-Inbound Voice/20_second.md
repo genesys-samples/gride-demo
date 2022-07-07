@@ -1,10 +1,10 @@
 ---
 title: "Testing"
-chapter: false
+chapter: true
 weight: 20
 ---
 
- ![Test](/images/testing2.jpg)
+ ![Test](/images/Inbound2-768x300.jpg)
 ## Test an Incoming Voice Interaction
 The first step in testing a voice interaction is ensuring you have the correct inbound voice number to dial.
 1. Navigate to the **Admin** page > Search for **Call Routing**> Find the call route that you set up earlier and save the phone number to your mobile device

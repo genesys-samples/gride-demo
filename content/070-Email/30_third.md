@@ -1,9 +1,9 @@
 ---
 title: "Troubleshooting"
-chapter: false
+chapter: true
 weight: 30
 ---
-
+![Troubleshooting](/images/Email3-768x300.jpg)
 ## Email Troubleshooting
 **If email interactions are not being routed to the correct agent/queue or are not appearing in the interaction pane, please walk through the following troubleshooting tips:**
 

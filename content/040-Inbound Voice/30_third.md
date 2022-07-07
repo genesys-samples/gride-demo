@@ -1,8 +1,11 @@
 ---
 title: "Troubleshooting"
-chapter: false
+chapter: true
 weight: 30
 ---
+
+
+![Test](/images/Inbound3-768x300.jpg)
 
 ## Voice Troubleshooting
 If voice interactions are not being routed to the correct agent/queue or are not appearing in the interaction pane, please walk through the following troubleshooting tips:
