@@ -90,7 +90,7 @@ Genesys Cloud routes incoming email messages through ACD just like it routes cal
       
       <guid>/030-telephony/20_second.html</guid>
       <description>Location  This is the physical location your agents will reside at as their HQ. Locations are associated for emergency &amp;gt;routing capabilities; it is not recommended to use emergency services on a dev lab, but it is a required step.
- Go to Admin&amp;gt; Locations&amp;gt; Click &amp;ldquo;Add Location&amp;rdquo;   Name your location &amp;ldquo;Headquarters&amp;rdquo;, then add an address. Please input a valid address from the drop down that appears as you begin typing.</description>
+ Go to Admin&amp;gt; Locations&amp;gt; Click &amp;ldquo;Add Location&amp;rdquo;   Name your location, &amp;ldquo;Headquarters&amp;rdquo;, then add an address. The address must be valid, as you begin to type it out a drop-down list will begin to appear.</description>
     </item>
     
     <item>
@@ -199,7 +199,7 @@ Genesys Cloud routes incoming email messages through ACD just like it routes cal
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/030-telephony/30_third.html</guid>
-      <description>Create a WebRTC Base Setting  Before you can create a phone, you must create a base settings configuration for that phone model. The base &amp;gt;settings configuration contains a group of settings found on the Base Phone and Base Line Appearance tabs that &amp;gt;define how a particular phone model is to operate in Genesys Cloud. Once you create a base settings configuration, &amp;gt;you can save it with the default settings or you can customize the settings.</description>
+      <description>Create a WebRTC Base Setting Before you can create a phone, create a base settings configuration for that phone model. The base settings configuration contains a group of settings found on the Base Phone and Base Line Appearance tabs that define how a particular phone model is to operate in Genesys Cloud. Once you create a base settings configuration, you can save it with the default settings or you can customize the settings.</description>
     </item>
     
     <item>

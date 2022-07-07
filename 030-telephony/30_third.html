@@ -11,22 +11,22 @@
     <title>WebRTC Phone Setup :: Documentation for Hugo Learn Theme</title>
 
     
-    <link href="../css/nucleus.css?1657219310" rel="stylesheet">
-    <link href="../css/fontawesome-all.min.css?1657219310" rel="stylesheet">
-    <link href="../css/hybrid.css?1657219310" rel="stylesheet">
-    <link href="../css/featherlight.min.css?1657219310" rel="stylesheet">
-    <link href="../css/perfect-scrollbar.min.css?1657219310" rel="stylesheet">
-    <link href="../css/auto-complete.css?1657219310" rel="stylesheet">
-    <link href="../css/atom-one-dark-reasonable.css?1657219310" rel="stylesheet">
-    <link href="../css/theme.css?1657219310" rel="stylesheet">
-    <link href="../css/tabs.css?1657219310" rel="stylesheet">
-    <link href="../css/hugo-theme.css?1657219310" rel="stylesheet">
+    <link href="../css/nucleus.css?1657223527" rel="stylesheet">
+    <link href="../css/fontawesome-all.min.css?1657223527" rel="stylesheet">
+    <link href="../css/hybrid.css?1657223527" rel="stylesheet">
+    <link href="../css/featherlight.min.css?1657223527" rel="stylesheet">
+    <link href="../css/perfect-scrollbar.min.css?1657223527" rel="stylesheet">
+    <link href="../css/auto-complete.css?1657223527" rel="stylesheet">
+    <link href="../css/atom-one-dark-reasonable.css?1657223527" rel="stylesheet">
+    <link href="../css/theme.css?1657223527" rel="stylesheet">
+    <link href="../css/tabs.css?1657223527" rel="stylesheet">
+    <link href="../css/hugo-theme.css?1657223527" rel="stylesheet">
     
-    <link href="../css/theme-mine.css?1657219310" rel="stylesheet">
+    <link href="../css/theme-mine.css?1657223527" rel="stylesheet">
     
     
 
-    <script src="../js/jquery-3.3.1.min.js?1657219310"></script>
+    <script src="../js/jquery-3.3.1.min.js?1657223527"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -52,14 +52,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="../js/lunr.min.js?1657219310"></script>
-<script type="text/javascript" src="../js/auto-complete.js?1657219310"></script>
+<script type="text/javascript" src="../js/lunr.min.js?1657223527"></script>
+<script type="text/javascript" src="../js/auto-complete.js?1657223527"></script>
 <script type="text/javascript">
     
         var baseurl = "\/";
     
 </script>
-<script type="text/javascript" src="../js/search.js?1657219310"></script>
+<script type="text/javascript" src="../js/search.js?1657223527"></script>
 
     
   </div>
@@ -1018,31 +1018,48 @@
 
 <p><img src="../images/testing2.jpg" alt="Test"></p>
 <h2 id="create-a-webrtc-base-setting">Create a WebRTC Base Setting</h2>
-<blockquote>
-<p>Before you can create a phone, you must create a base settings configuration for that phone model. The base &gt;settings configuration contains a group of settings found on the Base Phone and Base Line Appearance tabs that &gt;define how a particular phone model is to operate in Genesys Cloud. Once you create a base settings configuration, &gt;you can save it with the default settings or you can customize the settings. These settings can be quickly &gt;referenced to streamline new phone provisioning.</p>
-</blockquote>
+<p>Before you can create a phone, create a base settings configuration for that phone model. The base settings configuration contains a group of settings found on the Base Phone and Base Line Appearance tabs that define how a particular phone model is to operate in Genesys Cloud. Once you create a base settings configuration, you can save it with the default settings or you can customize the settings. These settings can be quickly referenced to streamline new phone provisioning.</p>
 <ol>
-<li>Phone Management is under the Telephony category where your site was just setup. Naviate to &ldquo;Base Settings&rdquo;&gt; <strong>click &ldquo;Add Base Settings&rdquo;</strong></li>
-<li>Enter a name such as &ldquo;General WebRTC&rdquo; then search in the &ldquo;Phone Make and Model&rdquo; field for Genesys Cloud WebRTC Phone&quot;</li>
-<li>Save your base setting.</li>
+<li>
+<p><strong>Go to Admin&gt; Phone Management&gt; Click &ldquo;Base Settings&rdquo;</strong></p>
+</li>
+<li>
+<p>Select <strong>&ldquo;Add Base Settings&rdquo;</strong>. Enter a name such as <strong>&ldquo;General WebRTC&rdquo;</strong> then search in the &ldquo;Phone Make and Model&rdquo; field for <strong>Genesys Cloud WebRTC Phone&quot;</strong>.</p>
+</li>
+<li>
+<p>Click save base setting.</p>
+</li>
 </ol>
 <p><img src="../images/BaseSettings.jpg" alt="BaseSettingsConfig"></p>
 <h2 id="create-a-webrtc-phone-for-your-user">Create a WebRTC Phone for Your User</h2>
-<blockquote>
-<p>Genesys Cloud supports the WebRTC technology with the Genesys Cloud WebRTC phone. Provisioning a Genesys Cloud &gt;WebRTC phone for a user creates a specific phone line for that user. The Genesys Cloud WebRTC phone does not &gt;require the installation of a software client on the PC. You use the Genesys Cloud call controls for the WebRTC &gt;phone calls.</p>
-</blockquote>
+<p>Genesys Cloud supports the WebRTC technology with the Genesys Cloud WebRTC phone. Provisioning a Genesys Cloud WebRTC phone for a user creates a specific phone line for that user. The Genesys Cloud WebRTC phone does not require the installation of a software client on the PC. You use the Genesys Cloud call controls for the WebRTC phone calls.</p>
 <ol>
-<li>Return to the Phone Management menu &gt; and <strong>click &ldquo;Add Phone&rdquo;</strong> <em>Best practice is to name your phone after the user who will be associated with it</em></li>
-<li>Select the WebRTC Base Setting you created in the previous step</li>
-<li>Select the site you created in the previous chapter</li>
-<li>Select the agent who will be using it</li>
+<li>
+<p>**Go to Admin&gt; Phone Management&gt; Click &ldquo;Add Phone&rdquo;**<em>Best practice is to name your phone after the user who will be associated with it.</em></p>
+</li>
+<li>
+<p>Select the <strong>WebRTC Base Setting</strong> you created in the previous step.</p>
+</li>
+<li>
+<p>Select the <strong>site</strong> you created in the previous chapter.</p>
+</li>
+<li>
+<p>Select the <strong>agent</strong> who will be utilizing the WebRTC phone.</p>
+</li>
 </ol>
 <p><img src="../images/PhoneSetup.jpg" alt="WebRTCPhoneSettings"></p>
 <h2 id="activating-your-phone">Activating Your Phone</h2>
 <ol>
-<li>From the Genesys Cloud CX UI, locate the red phone icon on the left toolbar. Select the &ldquo;Phone Details&rdquo; icon on the slide out menu&gt;  <strong>Click the &ldquo;Select Phone&rdquo; and search for the name of your phone</strong></li>
+<li>
+<p>From the Genesys Cloud CX UI, locate the red phone icon on the left toolbar.</p>
+</li>
+<li>
+<p>Select the <strong>&ldquo;Phone Details&rdquo;</strong> icon on the slide out menu.</p>
+</li>
+<li>
+<p>Click the <strong>&ldquo;Select Phone&rdquo;</strong> for search for the name if your phone. Your WebRTC setup is now complete, assigned to the appropriate agent, and ready to handle voice interactions.</p>
+</li>
 </ol>
-<p>Your WebRTC setup is now complete, assigned to the appropriate agent, and ready to handle voice interactions!</p>
 <p><img src="../images/PhoneSelect.jpg" alt="PhoneAssignment"></p>
 
 
@@ -1617,19 +1634,19 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../js/clipboard.min.js?1657219310"></script>
-    <script src="../js/perfect-scrollbar.min.js?1657219310"></script>
-    <script src="../js/perfect-scrollbar.jquery.min.js?1657219310"></script>
-    <script src="../js/jquery.sticky.js?1657219310"></script>
-    <script src="../js/featherlight.min.js?1657219310"></script>
-    <script src="../js/highlight.pack.js?1657219310"></script>
+    <script src="../js/clipboard.min.js?1657223527"></script>
+    <script src="../js/perfect-scrollbar.min.js?1657223527"></script>
+    <script src="../js/perfect-scrollbar.jquery.min.js?1657223527"></script>
+    <script src="../js/jquery.sticky.js?1657223527"></script>
+    <script src="../js/featherlight.min.js?1657223527"></script>
+    <script src="../js/highlight.pack.js?1657223527"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="../js/modernizr.custom-3.6.0.js?1657219310"></script>
-    <script src="../js/learn.js?1657219310"></script>
-    <script src="../js/hugo-learn.js?1657219310"></script>
+    <script src="../js/modernizr.custom-3.6.0.js?1657223527"></script>
+    <script src="../js/learn.js?1657223527"></script>
+    <script src="../js/hugo-learn.js?1657223527"></script>
     
         
-            <script src="../mermaid/mermaid.js?1657219310"></script>
+            <script src="../mermaid/mermaid.js?1657223527"></script>
         
         <script>
             mermaid.initialize({ startOnLoad: true });

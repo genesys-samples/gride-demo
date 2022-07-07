@@ -11,22 +11,22 @@
     <title>Location &amp; Site :: Documentation for Hugo Learn Theme</title>
 
     
-    <link href="../css/nucleus.css?1657219310" rel="stylesheet">
-    <link href="../css/fontawesome-all.min.css?1657219310" rel="stylesheet">
-    <link href="../css/hybrid.css?1657219310" rel="stylesheet">
-    <link href="../css/featherlight.min.css?1657219310" rel="stylesheet">
-    <link href="../css/perfect-scrollbar.min.css?1657219310" rel="stylesheet">
-    <link href="../css/auto-complete.css?1657219310" rel="stylesheet">
-    <link href="../css/atom-one-dark-reasonable.css?1657219310" rel="stylesheet">
-    <link href="../css/theme.css?1657219310" rel="stylesheet">
-    <link href="../css/tabs.css?1657219310" rel="stylesheet">
-    <link href="../css/hugo-theme.css?1657219310" rel="stylesheet">
+    <link href="../css/nucleus.css?1657223527" rel="stylesheet">
+    <link href="../css/fontawesome-all.min.css?1657223527" rel="stylesheet">
+    <link href="../css/hybrid.css?1657223527" rel="stylesheet">
+    <link href="../css/featherlight.min.css?1657223527" rel="stylesheet">
+    <link href="../css/perfect-scrollbar.min.css?1657223527" rel="stylesheet">
+    <link href="../css/auto-complete.css?1657223527" rel="stylesheet">
+    <link href="../css/atom-one-dark-reasonable.css?1657223527" rel="stylesheet">
+    <link href="../css/theme.css?1657223527" rel="stylesheet">
+    <link href="../css/tabs.css?1657223527" rel="stylesheet">
+    <link href="../css/hugo-theme.css?1657223527" rel="stylesheet">
     
-    <link href="../css/theme-mine.css?1657219310" rel="stylesheet">
+    <link href="../css/theme-mine.css?1657223527" rel="stylesheet">
     
     
 
-    <script src="../js/jquery-3.3.1.min.js?1657219310"></script>
+    <script src="../js/jquery-3.3.1.min.js?1657223527"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -52,14 +52,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="../js/lunr.min.js?1657219310"></script>
-<script type="text/javascript" src="../js/auto-complete.js?1657219310"></script>
+<script type="text/javascript" src="../js/lunr.min.js?1657223527"></script>
+<script type="text/javascript" src="../js/auto-complete.js?1657223527"></script>
 <script type="text/javascript">
     
         var baseurl = "\/";
     
 </script>
-<script type="text/javascript" src="../js/search.js?1657219310"></script>
+<script type="text/javascript" src="../js/search.js?1657223527"></script>
 
     
   </div>
@@ -1021,39 +1021,48 @@
 <p>This is the physical location your agents will reside at as their HQ. Locations are associated for emergency &gt;routing capabilities; it is not recommended to use emergency services on a dev lab, but it is a required step.</p>
 </blockquote>
 <ol start="2">
-<li>Go to Admin&gt; Locations&gt; <strong>Click &ldquo;Add Location&rdquo;</strong></li>
+<li><strong>Go to Admin&gt; Locations&gt; Click &ldquo;Add Location&rdquo;</strong></li>
 </ol>
 <p><img src="../images/Locations.jpg" alt="AdminPage"></p>
 <ol start="3">
 <li>
-<p>Name your location &ldquo;Headquarters&rdquo;, then add an address. Please input a valid address from the drop down that appears as you begin typing. Select one from the auto-populated options to ensure the directory has identified this as valid for 911 purposes</p>
+<p>Name your location, <strong>&ldquo;Headquarters&rdquo;</strong>, then add an address. The address must be valid, as you begin to type it out a drop-down list will begin to appear.</p>
 </li>
 <li>
-<p>Add yourself as the &ldquo;Site Contact&rdquo; since this is for demonstration purposes only</p>
+<p>Select one from the auto-populated options to ensure the directory has identified this as valid for 911 purposes.</p>
 </li>
 <li>
-<p>Check the box for &ldquo;Make this location available for use on sites&rdquo;</p>
+<p>Add yourself as the <strong>&ldquo;Site Contact&rdquo;</strong> since the purpose is demonstration only.</p>
 </li>
 <li>
-<p>Add an emergency number</p>
+<p>Check the box for <strong>&ldquo;Make this location available for use on sites&rdquo;</strong>.</p>
+</li>
+<li>
+<p>Add an emergency number.</p>
 </li>
 </ol>
 <p><img src="../images/LocationsPopup.jpg" alt="LocationDetails"></p>
 <h2 id="site">Site</h2>
-<blockquote>
-<p>A site is the home of a set of phones. The site defines the call classification rules, outbound routing rules, and &gt;the telephony properties for dialing. This is also where Outbound Routing will reference a Number Plan. Sites must &gt;be tied to physical Locations defined.</p>
-</blockquote>
+<p>A site is the home of a set of phones. The site defines the call classification rules and outbound routing rules as well as the telephony properties for dialing. This is also where Outbound Routing will reference a Number Plan. Sites must be tied to physical Locations defined.</p>
 <p><img src="../images/Site.jpg" alt="AdminDirectory"></p>
 <ol>
-<li>Create a new site and name it &ldquo;My Site&rdquo;. Associate your Location, select a time zone, and leave Media Model as &ldquo;Cloud&rdquo;</li>
+<li>
+<p><strong>Go to Admin&gt; Site&gt; Click &ldquo;Create Site&rdquo;</strong></p>
+</li>
+<li>
+<p>Create a new site and name it <strong>&ldquo;My Site&rdquo;</strong>.</p>
+</li>
+<li>
+<p>Associate your Location, select a time zone, leave Media Model as &ldquo;Cloud&rdquo;</p>
+</li>
 </ol>
 <p><img src="../images/SiteSetup.jpg" alt="SiteDetails"></p>
-<ol start="2">
-<li>Navigate to Outbound routes within the newly created site and under &ldquo;Select External Trunks&rdquo; ensure the “PureCloud Voice – AWS” Trunk is associated. Make sure to &ldquo;Enable&rdquo; the State as well.</li>
+<ol start="3">
+<li>Navigate to Outbound routes within the newly created site and under <strong>&ldquo;Select External Trunks&rdquo;</strong> ensure the “PureCloud Voice – AWS” Trunk is associated. Make sure to <strong>&ldquo;Enable&rdquo;</strong> the State as well.</li>
 </ol>
 <p><img src="../images/OutboundRoute.jpg" alt="OutboundRoutingDetails"></p>
-<ol start="3">
-<li>Lastly, return to the &ldquo;General&rdquo; tab and confirm the site has been selected as the default.</li>
+<ol start="4">
+<li>Lastly, return to the <strong>&ldquo;General&rdquo;</strong> tab and confirm the site site has been selected as the default.</li>
 </ol>
 <p><img src="../images/DefaultSite.jpg" alt="SiteSettings"></p>
 
@@ -1629,19 +1638,19 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../js/clipboard.min.js?1657219310"></script>
-    <script src="../js/perfect-scrollbar.min.js?1657219310"></script>
-    <script src="../js/perfect-scrollbar.jquery.min.js?1657219310"></script>
-    <script src="../js/jquery.sticky.js?1657219310"></script>
-    <script src="../js/featherlight.min.js?1657219310"></script>
-    <script src="../js/highlight.pack.js?1657219310"></script>
+    <script src="../js/clipboard.min.js?1657223527"></script>
+    <script src="../js/perfect-scrollbar.min.js?1657223527"></script>
+    <script src="../js/perfect-scrollbar.jquery.min.js?1657223527"></script>
+    <script src="../js/jquery.sticky.js?1657223527"></script>
+    <script src="../js/featherlight.min.js?1657223527"></script>
+    <script src="../js/highlight.pack.js?1657223527"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="../js/modernizr.custom-3.6.0.js?1657219310"></script>
-    <script src="../js/learn.js?1657219310"></script>
-    <script src="../js/hugo-learn.js?1657219310"></script>
+    <script src="../js/modernizr.custom-3.6.0.js?1657223527"></script>
+    <script src="../js/learn.js?1657223527"></script>
+    <script src="../js/hugo-learn.js?1657223527"></script>
     
         
-            <script src="../mermaid/mermaid.js?1657219310"></script>
+            <script src="../mermaid/mermaid.js?1657223527"></script>
         
         <script>
             mermaid.initialize({ startOnLoad: true });
