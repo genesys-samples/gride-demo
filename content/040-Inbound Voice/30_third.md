@@ -1,6 +1,6 @@
 ---
 title: "Troubleshooting"
-chapter: false
+chapter: true
 weight: 30
 ---
 

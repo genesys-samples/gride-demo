@@ -6,8 +6,6 @@ weight: 50
 ---
 
 
-
-# Web Chat
 ![Test](/images/Webchat-768x300.jpg)
 ## Objective
 

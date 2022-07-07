@@ -1,6 +1,6 @@
 ---
 title: "Troubleshooting"
-chapter: false
+chapter: true
 weight: 30
 ---
 ![Troubleshooting](/images/Email3-768x300.jpg)

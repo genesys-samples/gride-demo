@@ -1,6 +1,6 @@
 ---
 title: "Agent Tools"
-chapter: false
+chapter: true
 weight: 40
 ---
 ![Agent Tools](/images/Webchat4-768x300.jpg)

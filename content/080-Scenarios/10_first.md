@@ -1,6 +1,6 @@
 ---
 title: "Knowledge Check #1"
-chapter: false
+chapter: true
 weight: 10
 ---
 ![Scenario ](/images/Knowledge1.jpg)

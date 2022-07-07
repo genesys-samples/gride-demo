@@ -1,6 +1,6 @@
 ---
 title: "Knowledge Check #2"
-chapter: false
+chapter: true
 weight: 20
 ---
 

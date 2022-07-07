@@ -1,10 +1,10 @@
 ---
 title: "Location & Site"
-chapter: false
+chapter: true
 weight: 20
 ---
 ![Title](/images/Telephony3-768x300.jpg)
-## Location
+## Location & Site
 1. This is the physical location your agents will reside at as their HQ. Locations are associated for emergency routing capabilities; it is not recommended using emergency services on a dev lab, but it is a required step. 
 
 2. Go to Admin> Locations> Click "Add Location" 

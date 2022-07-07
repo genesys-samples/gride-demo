@@ -3,7 +3,7 @@ title: "Inbound Voice"
 chapter: true
 weight: 40
 ---
-# Setup
+
 ![Setup](/images/Inbound-768x300.jpg)
 ## Objective
 

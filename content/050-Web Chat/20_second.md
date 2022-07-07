@@ -1,6 +1,6 @@
 ---
 title: "Testing"
-chapter: false
+chapter: true
 weight: 20
 ---
 ![Test](/images/Webchat2-768x300.jpg)

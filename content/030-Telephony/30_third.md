@@ -1,6 +1,6 @@
 ---
 title: "WebRTC Phone Setup"
-chapter: false
+chapter: true
 weight: 30
 ---
 ![Title](/images/Telephony4-768x300.jpg)

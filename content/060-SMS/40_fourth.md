@@ -1,7 +1,8 @@
 title: "Agent Tools"
-chapter: false
+chapter: true
 weight: 40
 ---
+
 ![Agent Tools](/images/SMSsetup4-768x300.jpg)
 ## Digital Interaction Tools
 

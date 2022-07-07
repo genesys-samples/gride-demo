@@ -1,13 +1,13 @@
 ---
 title: "Setup"
-chapter: false
+chapter: true
 weight: 10
 ---
 
 ---
 ![Setup](/images/Email1-768x300.jpg)
 
-## Genesys Cloud Email
+## Email Setup
 Email is still one of the most reliable and desired ways for customers to interact with companies for support. Genesys Cloud CX automatically distributes emails to the best-fit agent based on content analysis and keywords. Genesys Email Routing streamlines your response process using email automation functionality that enables you to monitor, measure, and optimize your email flow to create a better customer experience.
 
 Genesys Cloud routes incoming email messages through ACD just like it routes calls and chats, using the same routing and evaluation methods. When routing email messages, Genesys Cloud considers skills, language, priority, and agent utilization. 
