@@ -34,28 +34,33 @@ While new communication channels continue to crop up, the importance of voice re
 
 ## Follow along
 
-1. Create a new queue following and name it "G Ride" (It is important to follow the naming convention because it will affect later steps)
-  >![Create a Queue](/images/createaqueue.jpg)
+1. Navigate to Admin> Search for and click on **Queues**> then click **Create Queue**
+2. Type a unique queue name in the **Name** tab
+3. Click **Create** and the queue configuration will open to the **General** tab
+ 
 
-2. Add yourself as a member of the queue
-  >![Add Member](/images/addmember.jpg)
-3. Go back into the G Ride queue, click "Voice" and add an outbound calling number with the number you purchased for voice
+4. Navigate to the **Members** tab> **Select new members** box and search for your name > Click the **Add +** button
+5. Add new members as needed
+
+3. Go back into the G Ride queue >click **Voice** > add an outbound calling number with the number you purchased for voice
   ![Queue Set Calling Party Number](/images/QueueSetCallingParty.jpg)
-5. Please navigate [Here](https://help.mypurecloud.com/articles/download-architect-flow-examples/) and download the flow outlined in the screenshot below. Follow attached instructions to download a sample flow
+4. Navigate [Here](https://help.mypurecloud.com/articles/download-architect-flow-examples/) > download the flow outlined in the screenshot below> Follow instructions below to **download a sample flow**
+
 
  ![Sample Flow](/images/sampleflow.jpg)
  ![Sample Flow](/images/sampleinstructions.jpg)
 
-6. Navigate to "Architect" on the Admin screen as demonstrated below and follow the instructions  to upload an _Inbound Call Flow_.
+8. Navigate to **Architect** on the Admin screen as demonstrated below > follow the instructions  to upload an _Inbound Call Flow_.
  ![Architect](/images/architect.jpg)
  ![Import Flow](/images/importflow.jpg)
 
-7. Once you have imported the flow, select "Transfer to ACD", select your "G Ride" queue or whichever queue you have created, and check the box next to "DTMF goes to this menu choice from any menu". Please see screenshot below for guidance
+9. Once you have imported the flow>select **Transfer to ACD** > select the queue you created earlier> and check the box next to **DTMF goes to this menu choice from any menu**. _Please see screenshot below for guidance_
   ![Architect Flow](/images/architectflow.jpg)
 
-Delete the "Transfer to User" and "Dial by Extension" tasks by following the screenshot below. When you have finished these changes, ensure you select "Publish"
+10. Delete the **Transfer to User** and **Dial by Extension** tasks by following the screenshot below. When you have finished these changes, ensure you select **Publish**
   ![Architect Flow](/images/architectflow1.jpg)
         
-8. Set up a call route following these instructions (use the phone number that you purchased in step two and the Architect flow that you imported in step 4)
-![Call Routing](/images/callrouting.jpg)
+11. Navigate to the **Admin** screen > search and click on **Call Routing** > Click **+** > Type a unique call routing name in the **Name** field > Click **+** under **Addresses** > Search for the phone number you purchased earlier and select **the check box beside the number ** > Click **Done**
+
+
     
