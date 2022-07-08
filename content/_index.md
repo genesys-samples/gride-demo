@@ -6,7 +6,7 @@ weight: 1
 
 ## Welcome
 
-In this workshop you will learn to apply your foundational knowledge of [Genesys](https://genesys.com) and master example use cases that demonstrate [Experience as a Service](https://www.genesys.com/experience-as-a-service).
+In this workshop you will learn how to setup and use a Genesys Cloud dev org. This workshop is intended for the administrators who will be configuring the dev org. Administratos will be responsible for daily operation, user and group administration, call flow setup, and configuration changes. After this workshop is complete, agents will be able to perform inbound customer interactions by phone, email, or chat.  Users will improve their knowledge of [Genesys](https://genesys.com) and master example use cases that demonstrate [Experience as a Service](https://www.genesys.com/experience-as-a-service).
 
 ### Recommended Prequisite Partner Academy Courses
 
