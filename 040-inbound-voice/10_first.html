@@ -11,22 +11,22 @@
     <title>Setup :: Documentation for Hugo Learn Theme</title>
 
     
-    <link href="../css/nucleus.css?1657314218" rel="stylesheet">
-    <link href="../css/fontawesome-all.min.css?1657314218" rel="stylesheet">
-    <link href="../css/hybrid.css?1657314218" rel="stylesheet">
-    <link href="../css/featherlight.min.css?1657314218" rel="stylesheet">
-    <link href="../css/perfect-scrollbar.min.css?1657314218" rel="stylesheet">
-    <link href="../css/auto-complete.css?1657314218" rel="stylesheet">
-    <link href="../css/atom-one-dark-reasonable.css?1657314218" rel="stylesheet">
-    <link href="../css/theme.css?1657314218" rel="stylesheet">
-    <link href="../css/tabs.css?1657314218" rel="stylesheet">
-    <link href="../css/hugo-theme.css?1657314218" rel="stylesheet">
+    <link href="../css/nucleus.css?1658528134" rel="stylesheet">
+    <link href="../css/fontawesome-all.min.css?1658528134" rel="stylesheet">
+    <link href="../css/hybrid.css?1658528134" rel="stylesheet">
+    <link href="../css/featherlight.min.css?1658528134" rel="stylesheet">
+    <link href="../css/perfect-scrollbar.min.css?1658528134" rel="stylesheet">
+    <link href="../css/auto-complete.css?1658528134" rel="stylesheet">
+    <link href="../css/atom-one-dark-reasonable.css?1658528134" rel="stylesheet">
+    <link href="../css/theme.css?1658528134" rel="stylesheet">
+    <link href="../css/tabs.css?1658528134" rel="stylesheet">
+    <link href="../css/hugo-theme.css?1658528134" rel="stylesheet">
     
-    <link href="../css/theme-mine.css?1657314218" rel="stylesheet">
+    <link href="../css/theme-mine.css?1658528134" rel="stylesheet">
     
     
 
-    <script src="../js/jquery-3.3.1.min.js?1657314218"></script>
+    <script src="../js/jquery-3.3.1.min.js?1658528134"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -52,14 +52,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="../js/lunr.min.js?1657314218"></script>
-<script type="text/javascript" src="../js/auto-complete.js?1657314218"></script>
+<script type="text/javascript" src="../js/lunr.min.js?1658528134"></script>
+<script type="text/javascript" src="../js/auto-complete.js?1658528134"></script>
 <script type="text/javascript">
     
         var baseurl = "\/";
     
 </script>
-<script type="text/javascript" src="../js/search.js?1657314218"></script>
+<script type="text/javascript" src="../js/search.js?1658528134"></script>
 
     
   </div>
@@ -1002,28 +1002,20 @@
 <h2 id="inbound-voice-setup">Inbound Voice Setup</h2>
 <p>While new communication channels continue to crop up, the importance of voice remains. The speed and agility of the Genesys Cloud CX™ contact center platform connects your customer engagement with the telephony option that best fits your business needs. The widest variety of voice services connectivity options in the industry gives customers unparalleled flexibility and choice. Customers can choose Genesys Cloud CX Voice (Genesys telecom) for VoIP, or use the cloud-based Bring Your Own Carrier (BYOC) option. Customers can keep a carrier contract or existing PBX infrastructure, or consolidate using Genesys as a single vendor for all needs. Customers who choose Genesys Cloud CX are often attracted to the cloud technologies and microservices architecture that provide speed, stability, and agility for their business. Adopting a cloud solution for voice services is a future-proof approach—extending these same cloud benefits across a customer’s entire communications system.</p>
 <p><img src="../images/phone.png" alt="Phone"></p>
-<blockquote>
 <h4 id="genesys-cloud-cx-voice">Genesys Cloud CX Voice</h4>
 <p>Genesys Cloud CX Voice is an internet-based telephony service provided by Genesys that, when activated, provides public telephony access to Genesys Cloud CX services.</p>
-</blockquote>
-<blockquote>
 <h4 id="bring-your-own-carrier-byoc">Bring Your Own Carrier (BYOC)</h4>
 <p>Genesys Cloud CX BYOC refers to the ability for customers to define SIP trunks between Genesys Cloud CX and third-party devices or services.</p>
-</blockquote>
 <h2 id="what-we-will-build-today">What We Will Build Today</h2>
-<blockquote>
 <h4 id="queues">Queues</h4>
 <p>Today we will be walking you through the creation of the backbone of your contact center. Genesys Cloud CX&rsquo;s ACD engine uses a Queue based routing system with the ability to attach skills, languages and priority to the routing logic. We will keep it simple and start with a basic queue.</p>
 <p>Genesys Cloud CX queues are by default equipped for omnichannel communications. Throughout this workshop, we will be routing all media types to the same queue.</p>
-</blockquote>
-<blockquote>
 <h4 id="telephony">Telephony</h4>
 <p>We will also be using Genesys Cloud CX Voice services today. As mentioned above, we give you the flexbility to either bring your own carrier or to use Genesys as the carrier. Either option within Genesys Cloud CX is easily managed and allows you to take advantage of cloud voice services that can be deployed in days with no hardware required. The only steps that you&rsquo;ll need to take today to set up Genesys Cloud CX Voice is to purchase a phone number and assign that number to a call route. Pretty simple, right? Please note that charges do incur for purchasing a phone number, although they are minimal. Refer to this document for pricing. <a href="https://help.mypurecloud.com/articles/genesys-cloud-voice-pricing/">https://help.mypurecloud.com/articles/genesys-cloud-voice-pricing/</a></p>
 <h4 id="architect">Architect</h4>
 <p>Setting up inbound voice capabilities also requires an Architect flow. As a matter of fact, we will be importing architect flows for every media type that we will set up today. Architect is a powerful tool that is a part of Genesys Cloud CX.</p>
 <p>Architect is an easy-to-learn drag and drop web-based design tool that creates flows for media types. Architect uses menus and straight-to-queue logic most often associated with traditional auto-attendants. However, it also incorporates advanced, feature-rich logical operations such as non-menu digit collection, External Data Access (data dips), conditional logic, and expression editing to help develop the IVR functionality. Architect also provides centralized prompt management with multi-language support.</p>
 <p>Architect also has an export and import option, a feature that is important for today&rsquo;s workshop. What this will allow us to do is to simply give you a downloadable file for an architect flow and then you can simply import that file into your architect flow in your instance of Genesys Cloud CX. Architect is a powerful tool and it&rsquo;s very fun to learn how to build Architect flows from scratch, but it is not the objective in today&rsquo;s workshop. We will save that for another day!</p>
-</blockquote>
 <h2 id="follow-along">Follow along</h2>
 <ol>
 <li>
@@ -1066,7 +1058,7 @@
 <img src="../images/architectflow1.jpg" alt="Architect Flow"></p>
 </li>
 <li>
-<p>Navigate to the <strong>Admin</strong> screen &gt; search and click on <strong>Call Routing</strong> &gt; Click <strong>+</strong> &gt; Type a unique call routing name in the <strong>Name</strong> field &gt; Click <strong>+</strong> under <strong>Addresses</strong> &gt; Search for the phone number you purchased earlier and select **the check box beside the number ** &gt; Click <strong>Done</strong></p>
+<p>Navigate to the <strong>Admin</strong> screen &gt; search and click on <strong>Call Routing</strong> &gt; Click <strong>+</strong> &gt; Type a unique call routing name in the <strong>Name</strong> field &gt; Click <strong>+</strong> under <strong>Addresses</strong> &gt; Search for the phone number you purchased earlier and select <strong>the check box beside the number</strong> &gt; Click <strong>Done</strong></p>
 </li>
 </ol>
 
@@ -1644,19 +1636,19 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../js/clipboard.min.js?1657314218"></script>
-    <script src="../js/perfect-scrollbar.min.js?1657314218"></script>
-    <script src="../js/perfect-scrollbar.jquery.min.js?1657314218"></script>
-    <script src="../js/jquery.sticky.js?1657314218"></script>
-    <script src="../js/featherlight.min.js?1657314218"></script>
-    <script src="../js/highlight.pack.js?1657314218"></script>
+    <script src="../js/clipboard.min.js?1658528134"></script>
+    <script src="../js/perfect-scrollbar.min.js?1658528134"></script>
+    <script src="../js/perfect-scrollbar.jquery.min.js?1658528134"></script>
+    <script src="../js/jquery.sticky.js?1658528134"></script>
+    <script src="../js/featherlight.min.js?1658528134"></script>
+    <script src="../js/highlight.pack.js?1658528134"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="../js/modernizr.custom-3.6.0.js?1657314218"></script>
-    <script src="../js/learn.js?1657314218"></script>
-    <script src="../js/hugo-learn.js?1657314218"></script>
+    <script src="../js/modernizr.custom-3.6.0.js?1658528134"></script>
+    <script src="../js/learn.js?1658528134"></script>
+    <script src="../js/hugo-learn.js?1658528134"></script>
     
         
-            <script src="../mermaid/mermaid.js?1657314218"></script>
+            <script src="../mermaid/mermaid.js?1658528134"></script>
         
         <script>
             mermaid.initialize({ startOnLoad: true });

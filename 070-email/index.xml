@@ -12,7 +12,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/070-email/10_first.html</guid>
-      <description>&amp;laquo;&amp;laquo;&amp;laquo;&amp;lt; HEAD Email Setup Email is still one of the most reliable and desired ways for customers to interact with companies for support. Genesys Cloud CX automatically distributes emails to the best-fit agent based on content analysis and keywords. Genesys Email Routing streamlines your response process using email automation functionality that enables you to monitor, measure, and optimize your email flow to create a better customer experience.
+      <description>Email Setup Email is still one of the most reliable and desired ways for customers to interact with companies for support. Genesys Cloud CX automatically distributes emails to the best-fit agent based on content analysis and keywords. Genesys Email Routing streamlines your response process using email automation functionality that enables you to monitor, measure, and optimize your email flow to create a better customer experience.
 Genesys Cloud routes incoming email messages through ACD just like it routes calls and chats, using the same routing and evaluation methods.</description>
     </item>
     
@@ -36,7 +36,7 @@ Genesys Cloud routes incoming email messages through ACD just like it routes cal
   Confirm agent is a member of the queue that was created at the beginning of the workshop
   Confirm you are emailing the correct email address
   Confirm agent status is set to &amp;ldquo;On-Queue&amp;rdquo;
-  If interactions are still not being routed correctly, please reach out to Veronica Guevara at veronica.</description>
+  If interactions are still not being routed correctly, please reach out to us at Workshops@genesys.</description>
     </item>
     
     <item>
