@@ -48,6 +48,3 @@ weight: 20
 
 
 ![SiteSettings](/images/DefaultSite.jpg)
-
-
-THIS IS A TEST

@@ -16,5 +16,5 @@ If voice interactions are not being routed to the correct agent/queue or are not
 
 * [Confirm agent status is set to "On-Queue"](https://genesys-samples.github.io/gride-demo/030-testinteractions/10_first.html#test-an-incoming-voice-interaction)
 
- If interactions are still not being routed correctly, please reach out to Veronica Guevara at veronica.guevara@genesys.com.
+ If interactions are still not being routed correctly, please contact us at Workshops@genesys.com.
 
