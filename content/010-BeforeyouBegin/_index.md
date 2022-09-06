@@ -3,7 +3,7 @@ title: "Before You Begin"
 chapter: true
 weight: 10
 ---
-# Dev Lab Setup
+# Dev Lab Setup testing
 ![Title](/images/title.jpg)
 ## Objective
 
