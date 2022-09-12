@@ -13,7 +13,7 @@ Genesys Cloud Voice is an Internet-based telephony service that you can activate
 
 ## Purchase a Phone Number
 
->Purchase phone numbers directly from within Genesys Cloud Voice using the Number Purchase portal.
+>Purchase phone numbers directly from within Genesys Cloud Voice using the Number Purchase portal. **NOTE: We will be purchasing a phone number in this module. It is important that you write down the number prior to clicking "Complete Purchase." 
 
 ## Follow along
 
