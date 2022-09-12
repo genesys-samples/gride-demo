@@ -16,7 +16,7 @@ This workshop is intended as a documented and outlined guide to set up a new Gen
 It is recommended to use search functionality in the admin panel vs. manually trying to navigate to any of the admin sections (Please see image below)
 ![Search](/images/gcadmin.png)
 
-It is highly recommended to use naming conventions when creating any items (other than location, site, and base settings) to ensure you are not developing over colleague deployments. Ex: JaneDoe_Queue or JaneDoe_Inboundflow, etc
+It is highly recommended to use naming conventions when creating any items (other than location, site, and base settings) to ensure you are not developing over colleague deployments. Ex: JaneDoe_Queue or JaneDoe_Inboundflow, etc. In this workshop, we will use the convention, "YourLastName_Item", so it is quickly identifiable. It would also be in your best interest to write down each, so you may reference it without navigating the Genesys Cloud CX platform. 
 
 ## Activating Your Account
 1. Click the link in your welcome email to activate the account. _It is recommended that you enter in a shared account for this initial setup, instead of a personal account, to simplify recovery for future users_

@@ -36,15 +36,15 @@ While new communication channels continue to crop up, the importance of voice re
 
 1. Navigate to Admin> Search for and click on **Queues**> then click **Create Queue**
 2. Type a unique queue name in the **Name** tab
-3. Click **Create** and the queue configuration will open to the **General** tab
+3. Click **Save** and the queue configuration will open to the **General** tab
  
 
 4. Navigate to the **Members** tab> **Select new members** box and search for your name > Click the **Add +** button
 5. Add new members as needed
 
-3. Go back into the G Ride queue >click **Voice** > add an outbound calling number with the number you purchased for voice
+6. Click **Voice** > add an outbound calling number with the number you purchased for voice. Click **Save**
   ![Queue Set Calling Party Number](/images/QueueSetCallingParty.jpg)
-4. Navigate [Here](https://help.mypurecloud.com/articles/download-architect-flow-examples/) > download the flow outlined in the screenshot below> Follow instructions below to **download a sample flow**
+7. Navigate [Here](https://help.mypurecloud.com/articles/download-architect-flow-examples/) > download the flow outlined in the screenshot below> Follow instructions below to **download a sample flow**
 
 
  ![Sample Flow](/images/sampleflow.jpg)

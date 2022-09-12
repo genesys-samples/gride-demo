@@ -37,7 +37,7 @@ When an agent handles an email interaction, it'll route to them like any other d
 ## Follow Along
  1. Navigate to **Admin** screen > Search for **Email** under **Contact Center** > Click **Add Domain** > From **Domain Type** list, select **Genesys Cloud** > In the **Domain name** box, type the email subdomain (for example, yourAccountname), which appends with **.myPureCloud.com** > Click **Save**. The email address page opens for the new domain
 
- 2. Next, add the inbound email address to the domain. Click **Add email address** > In the **Email Address** box, type the email address the customer uses to send an email > Under **Email Routing**, select **Always route to this queue** > Click the **Queue** list and choose the desired queue > In the **Skills** box, optionally add any ACD skills to ensure that associated emails route to an agent with matching skills > Click the **Language** list and optionally choose a language > Click **Save**
+ 2. Next, add the inbound email address to the domain. Click **Add email address** > In the **Email Address** box, type the email address the customer uses to send an email > Under **Email Routing**, select **Always route to this queue** > Click the **Queue** list and choose the desired queue > In the **Skills** box, optionally add any ACD skills to ensure that associated emails route to an agent with matching skills > Click the **Language** list and optionally choose a language > Under **Spam Routing** choose "Disconnect all email that is detected as spam" > Click **Save**
 
  
 **_For todays workshop, be sure to route to a queue instead of a flow as outlined in this screenshot_** 
