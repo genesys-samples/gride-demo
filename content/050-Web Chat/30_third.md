@@ -15,4 +15,4 @@ If webchat interactions are not being routed to the correct agent/queue or are n
 
 * [Confirm agent status is set to "On-Queue"](https://workshop.genesys.com/workshops/gride-demo/050-web-chat/20_second.html)
 
- If interactions are still not being routed correctly, please reach out to Veronica Guevara at veronica.guevara@genesys.com.
+ If interactions are still not being routed correctly, please reach out to us at Workshops@genesys.com.
