@@ -19,4 +19,37 @@ weight: 20
 
 3.	Check the boxes next to each number you are going to purchase (with at least one being emergency capable) and complete purchase
 
+<<<<<<< HEAD
 ![Phone Number](/images/PhoneNumber.jpg)
+=======
+6. Check the box for **"Make this location available for use on sites"**. 
+
+7. Add an emergency number.
+
+
+![LocationDetails](/images/LocationsPopup.jpg)
+
+## Site
+
+
+ A site is the home of a set of phones. The site defines the call classification rules and outbound routing rules as well as the telephony properties for dialing. This is also where Outbound Routing will reference a Number Plan. Sites must be tied to physical Locations defined.
+
+![AdminDirectory](/images/Site.jpg)
+
+1. **Go to Admin> Site> Click "Create Site"**
+
+2.  Create a new site and name it **"My Site"**. 
+
+3. Associate your Location, select a time zone, leave Media Model as "Cloud"
+
+![SiteDetails](/images/SiteSetup.jpg)
+
+3. Navigate to Outbound routes within the newly created site and under **"Select External Trunks"** ensure the “PureCloud Voice – AWS” Trunk is associated. Make sure to **"Enable"** the State as well. 
+
+![OutboundRoutingDetails](/images/OutboundRoute.jpg)
+
+4. Lastly, return to the **"General"** tab and confirm the site site has been selected as the default.
+
+
+![SiteSettings](/images/DefaultSite.jpg)
+>>>>>>> 4749ac3dcbc5ab246d2c93455c7439d924032e1c

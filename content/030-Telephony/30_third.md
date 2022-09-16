@@ -13,7 +13,7 @@ weight: 30
 
 2.  Select **"Add Base Settings"**. Enter a name such as **"General WebRTC"** then search in the "Phone Make and Model" field for **Genesys Cloud WebRTC Phone"**. 
 
-3. Click save base setting.
+3. Click **"Save base setting"**
 
 
 ![BaseSettingsConfig](/images/BaseSettings.jpg)
@@ -22,7 +22,7 @@ weight: 30
 
  Genesys Cloud supports the WebRTC technology with the Genesys Cloud WebRTC phone. Provisioning a Genesys Cloud WebRTC phone for a user creates a specific phone line for that user. The Genesys Cloud WebRTC phone does not require the installation of a software client on the PC. You use the Genesys Cloud call controls for the WebRTC phone calls.
 
-1. **Go to Admin> Phone Management> Click "Add Phone"***Best practice is to name your phone after the user who will be associated with it.* 
+1. **Go to Admin> Phone Management> Click "Add Phone"** *Best practice is to name your phone after the user who will be associated with it.* 
  
  2. Select the **WebRTC Base Setting** you created in the previous step. 
  
