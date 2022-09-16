@@ -1,23 +1,27 @@
 ---
-title: "Location & Site"
+title: "Telephony"
 chapter: true
 weight: 20
 ---
-![Title](/images/Telephony3-768x300.jpg)
-## Location & Site
-1. This is the physical location your agents will reside at as their HQ. Locations are associated for emergency routing capabilities; it is not recommended using emergency services on a dev lab, but it is a required step. 
+![Title](/images/Telephony2New-768x300.jpg)
 
+## Purchase a Phone Number
 
-2. **Go to Admin> Locations> Click "Add Location"**
+>Purchase phone numbers directly from within Genesys Cloud Voice using the Number Purchase portal. **NOTE: We will be purchasing a phone number in this module. It is important that you write down the number prior to clicking "Complete Purchase." 
 
-![AdminPage](/images/Locations.jpg)
+## Follow along
 
-3. Name your location, **"Headquarters"**, then add an address. The address must be valid, as you begin to type it out a drop-down list will begin to appear. 
+**Note**: It is required to order a minimum of one number, but it is recommended to order 1 number for each user that will be using Dev Lab. Telephony charges are billed to you so purchase these at your org - https://help.mypurecloud.com/articles/genesys-cloud-voice-pricing/ 
 
-4. Select one from the auto-populated options to ensure the directory has identified this as valid for 911 purposes. 
+1.	Admin > Number Management > **Click "Purchase Number"** <br>
+	(_If you do not see Number Management in the Admin panel, you made need to log out and back in to refresh your newly added permissions_)
+2.	Search for a DID number by area code or city/state _(Please write this phone number down as you will not be able to find this later)_
 
-5. Add yourself as the **"Site Contact"** since the purpose is demonstration only. 
+3.	Check the boxes next to each number you are going to purchase (with at least one being emergency capable) and complete purchase
 
+<<<<<<< HEAD
+![Phone Number](/images/PhoneNumber.jpg)
+=======
 6. Check the box for **"Make this location available for use on sites"**. 
 
 7. Add an emergency number.
@@ -48,3 +52,4 @@ weight: 20
 
 
 ![SiteSettings](/images/DefaultSite.jpg)
+>>>>>>> 4749ac3dcbc5ab246d2c93455c7439d924032e1c

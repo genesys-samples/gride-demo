@@ -15,9 +15,12 @@ Today, we'll set up the basics of SMS in Genesys Cloud CX. You'll purchase an SM
 2. Go back into the queue you created earlier > Set the SMS number you just purchased as the outbound SMS number
     ![Queue Set Outbound SMS Number](/images/QueueSetSMSOutboundNumber.jpg)
 
-3. Follow the instructions below to create an inbound message flow
+3. Follow the instructions below to create an inbound message flow:
 
-![Inbound Message](/images/inboundmessage.jpg)
+* From the Architect home page, click or hover over the **Flows** menu and select **Inbound Message**
+* Click **+ Add** The Create Flow dialog box opens
+* In the Name field, type a unique name for the inbound message flow
+* Click **Create Flow**
 
 4. Once inside the flow, drag a **Transfer to ACD** task to the **Start menu** as seen in the image below > Click the drop-down menu and select the queue you created at the beginning > Click the three dots next to the **Disconnect** Task to delete this task > Click **Publish** once you have completed these steps
 ![Inbound Message](/images/inboundmessage1.jpg)
