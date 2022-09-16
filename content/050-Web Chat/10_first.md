@@ -26,7 +26,7 @@ Genesys offers three native versions of widgets as well as the option to integra
 
 Widgets allow you to add web chat to your website so customers can chat with agents directly from their browsers. When you create a widget in the Genesys Cloud CX Admin console, a deployment key will be created. The deployment key will help identify the configuration settings for the widget when you put the widget onto your website.
 
-Having a website is not a prerequisite for this workshop. Instead, we will be routing chat interactions through our Genesys Cloud Demo Extension tool. Before we install the extension took, let's first set up our widget within the Genesys Cloud CX org. From the Admin page, earch for **Widgets**. Let's **Create Widget** and give it a name using our standard naming convention. No description is neccesary in this workshop, but let's assign **Version 2** under **Widget Type**. Choose the flow to route to, created above and finally be sure to **Save**
+Having a website is not a prerequisite for this workshop. Instead, we will be routing chat interactions through our Genesys Cloud Demo Extension tool. Before we install the extension tool, let's first set up our widget within the Genesys Cloud CX org. **Note:** The maximum number of widget deployments in one org is 25. From the Admin page, earch for **Widgets**. Let's **Create Widget** and give it a name using our standard naming convention. No description is neccesary in this workshop, but let's assign **Version 2** under **Widget Type**. Choose the flow to route to, created above and finally be sure to **Save**
 
 >## Demo Extension Tool
 >
@@ -38,11 +38,11 @@ Having a website is not a prerequisite for this workshop. Instead, we will be ro
 >
 >The extension can be in three working states. The state applies per tab. These states are:
 
-"OFF": both Inspection and Injection are red. The extension has no impact on the browsed site.
+* "OFF": both Inspection and Injection are red. The extension has no impact on the browsed site.
 
-"Demo Edit" mode: both Inspection and Injection are green. In this mode, you can add HotSpots (actions attached to selected elements) by using your mouse right-click and chosing the action to execute. Any {element, action} pair is highlighted with a green border line for you to identify what has been built.
+* "Demo Edit" mode: both Inspection and Injection are green. In this mode, you can add HotSpots (actions attached to selected elements) by using your mouse right-click and chosing the action to execute. Any {element, action} pair is highlighted with a green border line for you to identify what has been built.
 
-"Demo Execution" mode: Injection is green and Inspection is red. This mode does not have the highlighted elements that do trigger the click actions. The site looks completely normal, but the actions associated to the elements will trigger when you click on them. To help you remember where to click and in what order, the extension icon will show the action name when hovering on active elements. Also, a counter will increment on the extension icon to indicate that the action triggered when the element has been clicked.
+* "Demo Execution" mode: Injection is green and Inspection is red. This mode does not have the highlighted elements that do trigger the click actions. The site looks completely normal, but the actions associated to the elements will trigger when you click on them. To help you remember where to click and in what order, the extension icon will show the action name when hovering on active elements. Also, a counter will increment on the extension icon to indicate that the action triggered when the element has been clicked.
 
 #### Installation
 
@@ -50,12 +50,13 @@ Click https://chrome.google.com/webstore/detail/genesys-gdemo-extension/jiilhcbd
 
 ![DemoExtension Installer](/images/DemoExtension.jpg)
 
-Click on 'Add Org'
-Select your Org region (Environment dropdown)
-Click on 'Login to Org' - a new tab will open to your Org's login page
-In the new tab, login to your Org - the extension will pull the required configuration data from your Org and the tab will automatically close after few seconds
-Select the appropriate queue
-Check the box to enable **Web Chat V2** and select the widget in **Deployment Key (V2)**
-Hit 'Save'
+* Open the Genesys Extension Tool and select **Options**
+* Click on 'Add Org'
+* Select your Org region (Environment dropdown)
+* Click on 'Login to Org' - a new tab will open to your Org's login page
+* In the new tab, login to your Org - the extension will pull the required configuration data from your Org and the tab will automatically close after few seconds
+* Select the appropriate queue
+* Check the box to enable **Web Chat V2** and select the widget in **Deployment Key (V2)**
+* Hit 'Save'
 
 ![DemoExtension Installer](/images/ExtensionOptions.jpg)

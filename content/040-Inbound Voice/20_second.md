@@ -15,6 +15,6 @@ The first step in testing a voice interaction is ensuring you have the correct i
 
 ![interactionpane](/images/interactionpane.jpg)
 
-3. Dial the DID number from a personal phone and select **answer** when the interaction comes through
+3. Dial the DID number from a personal phone, select option "1" when you hear the IVR, and select **answer** when the interaction comes through on the agent interaction pane.
 
 ![incomingcall](/images/incomingcall.jpg)
