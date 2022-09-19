@@ -19,9 +19,6 @@ weight: 20
 
 3.	Check the boxes next to each number you are going to purchase (with at least one being emergency capable) and complete purchase
 
-<<<<<<< HEAD
-![Phone Number](/images/PhoneNumber.jpg)
-=======
 6. Check the box for **"Make this location available for use on sites"**. 
 
 7. Add an emergency number.
@@ -52,4 +49,3 @@ weight: 20
 
 
 ![SiteSettings](/images/DefaultSite.jpg)
->>>>>>> 4749ac3dcbc5ab246d2c93455c7439d924032e1c
