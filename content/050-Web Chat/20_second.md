@@ -1,21 +1,21 @@
 ---
 title: "Testing"
-chapter: false
+chapter: true
 weight: 20
 ---
-![Test](/images/testing2.jpg)
+![Test](/images/Webchat2-768x300.jpg)
 ## Test a Chat Interaction
 
-1. The first step in testing a chat interaction visiting our web chat developer tool at the [Genesys Cloud CX Developer Center](https://developer.genesys.cloud/developer-tools/#/webchat)
+1. As mentioned, using the Genesys Demo Extension tool allows customers to envision what an interaction widget may look like on their website. The tool will work on the majority of websites, but for todays demo lets use Genesys.com 
 
-2. First you'll need to login to your Genesys Cloud instance by clicking on your profile picture. Then navigate to the Deployment dropdown and ensure you have selected the "G-Ride" Deployment and ensure the ""Queue" field is set to "G-Ride." You can then put in any customer data if you like and then press start chat. 
+2. Once on the website, click the extension tool icon on your toolbar. Click both **Start Inspecting** & **Start Injecting**. You'll now notice a clickable popout on the top-right of the page. From here we can initiate a web chat. Keep in mind we can add the ability kick off other interaction types with the same widget, but for this module we'll focus on web chat. 
 
-![devcenter](/images/chatdev.jpg)
+![devcenter](/images/Inspect.jpg)
 
-3. Without closing out of the chat window, navigate back to the Genesys environment and to the Interactions pane on the left side of the screen and ensure you are set to "On-Queue" (found at top right of screen)
+3. Once the icon is selected, the chat window appears on the bottom-left. The fields presented are configurable, but for today lets just add our first name and last name. Before clicking **Start Chat**, ensure your agent on the Genesys Cloud CX platform is set to the "On-Queue" status. Now begin the chat. 
 
-![interactionspane](/images/interactionpane.jpg)
+![interactionspane](/images/Initiate1.jpg)
 
-5. Finally, select "answer" when the chat interaction comes through
+5. Finally, select **answer** when the chat interaction comes through
 
 ![incomingchat](/images/incomingchat.jpg)
