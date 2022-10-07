@@ -9,7 +9,7 @@ weight: 30
  Before you can create a phone, create a base settings configuration for that phone model. The base settings configuration contains a group of settings found on the Base Phone and Base Line Appearance tabs that define how a particular phone model is to operate in Genesys Cloud. Once you create a base settings configuration, you can save it with the default settings or you can customize the settings. These settings can be quickly referenced to streamline new phone provisioning. 
 
 
-1. **Go to Admin> Phone Management> Click "Base Settings"**
+1. Click Admin> Phone Management> Click "Base Settings"
 
 2.  Select **"Add Base Settings"**. Enter a name such as **"General WebRTC"** then search in the "Phone Make and Model" field for **Genesys Cloud WebRTC Phone"**. 
 
@@ -22,7 +22,7 @@ weight: 30
 
  Genesys Cloud supports the WebRTC technology with the Genesys Cloud WebRTC phone. Provisioning a Genesys Cloud WebRTC phone for a user creates a specific phone line for that user. The Genesys Cloud WebRTC phone does not require the installation of a software client on the PC. You use the Genesys Cloud call controls for the WebRTC phone calls.
 
-1. **Go to Admin> Phone Management> Click "Add Phone"** *Best practice is to name your phone after the user who will be associated with it.* 
+1.  Click  Admin> Phone Management> Click "Add Phone"** *Best practice is to name your phone after the user who will be associated with it.* 
  
  2. Select the **WebRTC Base Setting** you created in the previous step. 
  
@@ -35,7 +35,7 @@ weight: 30
 
 ## Activating Your Phone
 
-1. From the Genesys Cloud CX UI, locate the red phone icon on the left toolbar. 
+1. Locate the phone icon on the left toolbar. Note: The phone maybe red with a line through it because you don't have a phone assigned.  
 
 2. Select the **"Phone Details"** icon on the slide out menu. 
 
