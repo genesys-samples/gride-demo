@@ -27,4 +27,3 @@ _This should be enabled by default, however non GCV org orders will require manu
 If activation is required, select the tile and activate GCV- this can take around 10 minutes to fully activate_
 
 **Note**: You may need to skip and come back to "Ensuring Genesys Cloud Voice is Activated" as making sure the proper roles and permissions have been assigned to the user may need to be accomplished first
-.......
