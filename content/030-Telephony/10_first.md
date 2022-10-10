@@ -60,3 +60,13 @@ In today's workshop, we'll setup our environment leveraging Genesys Cloud Voice.
 
 
 ![SiteSettings](/images/DefaultSite.jpg)
+
+## Edge Groups
+
+An Edge Group is a set of edge devices that are connected to one another to access and share trunks. In the past, BYOC Prem orgs could potentially have multiple Edge groups to help drive lower latency. Genesys Cloud has now introduced Hybrid Media Org,  which allows for an org to combine both cloud and prem telephony connection options. 
+
+For users on Genesys Cloud CX hybrid orgs, a phone trunk is not defined by default. We'll need to locate **Edge Groups** on the Telephony menu. Then we'll **Create New**, and select the drop down under Phone Trunks, and choose **Genesys Cloud - CDM WebRTC Phone Trunk**. 
+
+Again, this will only be for Hybrid Media specific orgs. If you believe this has been pre-defined, but run into an error when attempting to route inbound voice interactions, this will be a main troubleshooting point. Typically an error here will reference AoR or Address of Record. 
+
+![SiteSettings](/images/Hybrid.jpg)
