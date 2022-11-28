@@ -15,10 +15,13 @@ weight: 10
 
 
 Follow along 
-**Associate Master Admin role to the user**
+**Associate Master Admin role to the user and add a language**
 1.	Admin > People > **select your User Account**
 2.	On the right side of the Roles screen, change “View:” from **Assigned** to **All**
-3.	Assign **master admin** permissions and save the account
+3.	Assign **master admin** permissions
+4. Next, locate the **ACD Skills** tab where we can assign Skills and Languages
+5. We will forgo Skills for now, but clicking on **Languages** should provide a drop-down. Select **English**
+6. Once completed, click **Save** at the bottom of the page
 
 ![Add Role](/images/RolesPic.png)
 
@@ -29,7 +32,9 @@ Admin > Roles / Permissions > Click **"Add Role"**
 3.	Check the box for all permissions and save
 4.	Return to People and select your user again 
 5.	Go to the right side of the Roles screen and change "View" from **Assigned** to **All**
-6. Assign the GCV user you just created to yourself
+6.  Assign the GCV user you just created to yourself
+
+Note: Languages are separate from ACD skills. For example, when an agent speaks the language requested by the customer, Genesys Cloud selects that agent rather than an agent who is more skilled but cannot speak that language. However, an agent that cannot speak the language of the customer does not receive that interaction, regardless of ACD skill.
 
 ![Permissions](/images/Permission.png)
 
