@@ -3,7 +3,7 @@ title: "Agent Tools"
 chapter: true
 weight: 40
 ---
-![Agent Tools](/images/Webchat4-768x300.jpg)
+![Title](/images/WebMessage4-768x300.jpg)
 ## Digital Interaction Tools
 
 When handling digital interactions in Genesys Cloud CX, a series of tools are available out-of-the-box. Some may depend on your licensing tier, or permissions based on your user role. 
