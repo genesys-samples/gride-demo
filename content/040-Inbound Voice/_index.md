@@ -5,8 +5,8 @@ weight: 40
 ---
 
 ![Setup](/images/Inbound-768x300.jpg)
-## Objective
+## Objetivo
 
-By the end of this section, you will have a functional inbound voice channel. You’ll learn the steps to set up inbound voice, how to test to ensure inbound voice interactions are being routed correctly, how to troubleshoot, and any tools available to agents during voice interactions.
+Al final de esta sección, tendrá un canal de voz entrante funcional. Aprenderá los pasos para configurar la voz entrante, cómo probar para garantizar que las interacciones de voz entrantes se enruten correctamente, cómo solucionar problemas y cualquier herramienta disponible para los agentes durante las interacciones de voz.
 
 ![Inbound](/images/norwood.jpg)

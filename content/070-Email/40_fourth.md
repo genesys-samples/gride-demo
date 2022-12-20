@@ -1,38 +1,38 @@
 ---
-title: "Agent Tools"
+title: "Herramientas de Agente"
 chapter: true
 weight: 40
 ---
 
 ![Agent Tools](/images/Email4-768x300.jpg)
-## Digital Interaction Tools
+## Herramientas de interacción digital
 
-When handling digital interactions in Genesys Cloud CX, a series of tools are available out-of-the-box. Some may depend on your licensing tier, or permissions based on your user role. 
+Al manejar interacciones digitales en Genesys Cloud CX, una serie de herramientas están disponibles listas para usar. Algunos pueden depender de su nivel de licencia o permisos basados en su rol de usuario.
 
 ![Digital Interactions](/images/digitalinteraction.jpg)
 
-***Blind Transfer*** - A blind transfer allows you to transfer an interaction immediately to a person or queue. If you perform a blind transfer to a queue, Genesys Cloud remembers the skills-based information applied to the original call by default. 
+***Transferencia ciega***: una transferencia ciega le permite transferir una interacción inmediatamente a una persona o cola. Si realiza una transferencia ciega a una cola, Genesys Cloud recuerda la información basada en habilidades aplicada a la llamada original de forma predeterminada.
 
-***Hang-up*** - Ends the interactions and sends the agent to their After Call Work(ACW).
+***Colgar***: finaliza las interacciones y envía al agente a su trabajo posterior a la llamada (ACW).
 
-***Script*** - The written words and logic an agent follows while processing a call. A script can contain multiple pages of narrative mixed with fields for updating data collected or updated by the agent. Scripts can be created for inbound or outbound interactions.
+***Script***: las palabras escritas y la lógica que sigue un agente mientras procesa una llamada. Un guión puede contener varias páginas de narración combinadas con campos para actualizar los datos recopilados o actualizados por el agente. Se pueden crear scripts para interacciones entrantes o salientes.
 
-***Canned Responses*** - Canned responses are pre-written answers to commonly asked questions that you can use during an interaction, by either reading the response to a customer, or by inserting the response into a chat, email, or tweet.
+***Respuestas enlatadas***: las respuestas enlatadas son respuestas preescritas a preguntas frecuentes que puede usar durante una interacción, ya sea leyendo la respuesta a un cliente o insertando la respuesta en un chat, correo electrónico o tweet .
 
-***Notes*** - You can make notes about an interaction during the interaction or while in after call work (ACW). If you enter notes for an interaction and then transfer that interaction to another agent, the notes remain with the interaction. Because notes are part of the interaction, the receiving agent can also see them.
+***Notas***: puede tomar notas sobre una interacción durante la interacción o durante el trabajo posterior a la llamada (ACW). Si ingresa notas para una interacción y luego transfiere esa interacción a otro agente, las notas permanecen con la interacción. Debido a que las notas son parte de la interacción, el agente receptor también puede verlas.
 
-***Wrap-up Code*** - Wrap-up codes indicate the nature of an interaction. Agents specify wrap-up codes after completing an interaction; for example, a completed sale, a customer dissatisfied with service, or a billing problem.
+***Código de finalización***: los códigos de finalización indican la naturaleza de una interacción. Los agentes especifican códigos de finalización después de completar una interacción; por ejemplo, una venta completada, un cliente insatisfecho con el servicio o un problema de facturación.
 
-***Customer Journey*** - You can view the following information, depending on how Predictive Engagement is configured:
-* Visitor details, such as the visitor’s name, status, and number of visits.
-* Visit dates and duration. If the visitor has multiple dates, select the date you want to see more information about.
-* Visit Journey information, including pages visited and actions on those pages during the selected visit. To see more information about the actions performed, click the action’s icon.
-* Segments assigned to the interaction for the selected visit.
-* Outcome scores for the selected visit.
-* Other visitor information, such as location, device type, operating system, and browser type. 
+***Recorrido del cliente***: puede ver la siguiente información, según cómo esté configurado Predictive Engagement:
+* Detalles del visitante, como el nombre del visitante, el estado y el número de visitas.
+* Visita fechas y duración. Si el visitante tiene varias fechas, seleccione la fecha sobre la que desea ver más información.
+* Visite la información del viaje, incluidas las páginas visitadas y las acciones en esas páginas durante la visita seleccionada. Para ver más información sobre las acciones realizadas, haga clic en el icono de la acción.
+* Segmentos asignados a la interacción para la visita seleccionada.
+* Puntuaciones de resultado para la visita seleccionada.
+* Otra información del visitante, como ubicación, tipo de dispositivo, sistema operativo y tipo de navegador.
 
 
 ![Blind Transfer](/images/blindtransferandhangup.jpg)
 
 
-**Genesys Cloud maintains a consistent user experience across the platform. For this reason, it is easy for agents to master the art of taking interactions. Scripts, customer profile, canned responses, notes, and adding wrap-up codes are exactly the same for digital and voice interactions.**
+**Genesys Cloud mantiene una experiencia de usuario uniforme en toda la plataforma. Por esta razón, es fácil para los agentes dominar el arte de tomar interacciones. Los guiones, el perfil del cliente, las respuestas enlatadas, las notas y la adición de códigos de resumen son exactamente iguales para las interacciones digitales y de voz.**

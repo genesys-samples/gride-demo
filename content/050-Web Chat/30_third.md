@@ -7,12 +7,12 @@ weight: 30
 
 ## Web Chat Troubleshooting 
 
-If webchat interactions are not being routed to the correct agent/queue or are not appearing in the interaction pane, please walk through the following troubleshooting tips:
+Si las interacciones de chat web no se enrutan al agente/cola correcto o no aparecen en el panel de interacción, consulte los siguientes consejos para la solución de problemas:
 
-* [Confirm agent is a member of the queue that was created at the beginning of the workshop](https://workshop.genesys.com/workshops/gride-demo/040-inbound-voice/10_first.html)
+* [Confirme que el agente es miembro de la cola que se creó al comienzo del taller](https://workshop.genesys.com/workshops/gride-demo/040-inbound-voice/10_first.html)
 
-* [Confirm you are using widget version "V2"](https://workshop.genesys.com/workshops/gride-demo/050-web-chat/10_first.html)
+* [Confirme que está utilizando la versión de widget "V2"](https://workshop.genesys.com/workshops/gride-demo/050-web-chat/10_first.html)
 
-* [Confirm agent status is set to "On-Queue"](https://workshop.genesys.com/workshops/gride-demo/050-web-chat/20_second.html)
+* [Confirme que el estado del agente está establecido en "En cola"](https://workshop.genesys.com/workshops/gride-demo/050-web-chat/20_second.html)
 
- If interactions are still not being routed correctly, please reach out to us at Workshops@genesys.com.
+Si las interacciones aún no se enrutan correctamente, comuníquese con nosotros en Workshops@genesys.com.

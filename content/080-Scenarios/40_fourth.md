@@ -1,42 +1,41 @@
 ---
-title: "Answers"
+title: "Respuestas"
 chapter: true
 weight: 40
 ---
 
 ![Agent ](/images/Knowledge.jpg)
 
-## Knowledge Check Answers
+## Respuestas a la prueba de conocimientos
 
-#### Scenario 1
+#### Escenario 1
 
-#### [] Transfer to a manager <br>
-#### [] **Secure Pause** <br> :white_check_mark:
-#### [] Hang Up <br>
-#### [] **Secure Flow** <br> :white_check_mark:
+#### [] Transferir a un administrador <br>
+#### [] **Pausa segura** <br> :white_check_mark:
+#### [] Cuelgue <br>
+#### [] **Flujo seguro** <br> :white_check_mark:
 
-#### Secure Pause and Secure Flow allow you to pause the recording of a call in order to receive personal or confidential information. In this case, you can start a secure pause or secure flow in order to ensure you are not recording personal or confidential information. 
+#### Secure Pause y Secure Flow le permiten pausar la grabación de una llamada para recibir información personal o confidencial. En este caso, puede iniciar una pausa segura o un flujo seguro para asegurarse de que no está registrando información personal o confidencial.
 ![Scenario ](/images/secureflowanswer.jpg)
 
-#### Scenario 2
+#### Escenario 2
 
 ![Scenario ](/images/scenario2answer.jpg)
 
-#### [] Message your manager and ask <br>
-#### [] Get up and ask a fellow agent <br> 
-#### [] **Check your canned responses** <br> :white_check_mark:
-#### [] Transfer the message to a more experienced agent <br>
+#### [] Envíe un mensaje a su gerente y pregúntele <br>
+#### [] Pregúnte a una compañero agente <br> 
+#### [] **Revise sus respuestas prederterminadas** <br> :white_check_mark:
+#### [] Transferir el mensaje a un agente más experimentado  <br>
 
-#### Canned responses are a great way to find quick information without having to ask anyone else. This ensures you are answering questions fast and keeping your AHT low.
+#### Las respuestas predeterminadas son una excelente manera de encontrar información rápida sin tener que preguntarle a nadie más. Esto asegura que está respondiendo preguntas rápidamente y manteniendo su AHT bajo.
 
-#### Scenario 3
-
+#### Escenario 3
 ![Scenario ](/images/scenario3answer.jpg)
 
-#### [] Blind Transfer <br>
-#### [] Put Betty on hold and call your manager to fix the order <br>
-#### [] Hang Up and have the correct team call her back <br>
-#### [] **Consult Transfer** <br> :white_check_mark:
+#### [] Transferencia ciega <br>
+#### [] Ponga a Betty en espera y llame a su gerente para arreglar el pedido  <br>
+#### [] Cuelgue y haga que el equipo correcto le devuelva la llamada <br>
+#### [] **Consultar Transferencia** <br> :white_check_mark:
 
-#### In this scenario, consult transfer is your best option. Betty's explanation was long and complicated, and its best if you brief the agent before transferring. This will ensure the next agent has all the appropriate information, and that Betty doesn't have to repeat herself! 
+#### En este escenario, consultar transferancia es tu mejor opción. La explicación de Betty fue larga y complicada, y es mejor si le informa al agente antes de transferirte. ¡Esto asegurará que el siguiente agente tenga toda la información adecuada y que Betty no tenga que repetirse!
 

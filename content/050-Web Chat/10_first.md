@@ -4,71 +4,70 @@ chapter: true
 weight: 10
 ---
 ![Setup](/images/Webchat1-768x300.jpg)
-## Web Chat Setup
+## Configuración de Web Chat 
 
-The web chat channel is an invaluable tool for communicating and engaging with customers to provide better service for answering questions, completing orders, general guidance on company’s product and features, and personalized customer support. With this solution, Genesys improves handle time, first contact resolution, agent utilization, and customer satisfaction.
+El canal de chat web es una herramienta invaluable para comunicarse e interactuar con los clientes a fin de brindar un mejor servicio para responder preguntas, completar pedidos, orientación general sobre los productos y características de la empresa y atención personalizada al cliente. Con esta solución, Genesys mejora el tiempo de atención, la resolución en el primer contacto, la utilización de agentes y la satisfacción del cliente.
 
 ![Web Chat](/images/webchat.png)
 
-## Webchat Flow
+## Flujo de web chat
 
-Similar to our inbound voice module, we'll need an inbound flow to leverage routing capabilties and deliver webchats to the appropriate queue based on the intent of the customer. 
+De manera similar a nuestro módulo de voz entrante, necesitaremos un flujo entrante para aprovechar las capacidades de enrutamiento y enviar webchats a la cola adecuada según la intención del cliente.
 
-1. Click **Admin Page**. 
-2. Click **Architect** tool and choose **Inbound Chat** from the drop-down menu. 
-3. Click **+ Add**. We'll continue to use the same naming convention we have previously in this workshop, then **Create Flow**. 
+1. Haga clic en **Página de administración**.
+2. Haga clic en la herramienta **Architect** y seleccione **Inbound Chat** en el menú desplegable.
+3. Haga clic en **+ Agregar**. Continuaremos usando la misma convención de nomenclatura que usamos anteriormente en este taller, luego **Crear flujo**.
 
-We'll dive further into routing capabilties in our Archiect Workshop, but the chat toolbar is similar to what you'll find in other media type flows as well. When implementing self-service, Genesys Cloud easily integrates with Google DialogFlow and Amazon Lex along with our own native Bot Flows for both chat and voice. 
+Profundizaremos en las capacidades de enrutamiento en nuestro Taller Archiect, pero la barra de herramientas de chat es similar a lo que encontrará en otros tipos de flujos de medios también. Al implementar el autoservicio, Genesys Cloud se integra fácilmente con Google DialogFlow y Amazon Lex junto con nuestros propios Bot Flows nativos para chat y voz.
 
-For now, we'll showcase how simplistic a flow can be, and simply.
+Por ahora, mostraremos lo simple que puede ser un flujo, y simplemente.
 
-1. Choose **Transfer to ACD** by dragging and dropping it onto the flow. 
-2. All that's left is to decide which **Queue** we'll be routing to. Now **Save** and **Publish**
+1. Elija **Transferir a ACD** arrastrándolo y soltándolo en el flujo.
+2. Todo lo que queda es decidir a qué **Cola** nos enrutaremos. Ahora **Guardar** y **Publicar**
 
 ![Web Chat](/images/ChatFlow1.jpg)
 
 ## Genesys Widgets
 
-Genesys offers three native versions of widgets as well as the option to integrate to a third party. Different versions of the widgets come with different benefits and features that you can enable. We recommend that you check out our comparison doc for our chat widgets. https://help.mypurecloud.com/articles/widget-feature-comparison/
+Genesys ofrece tres versiones nativas de widgets, así como la opción de integrarse con un tercero. Las diferentes versiones de los widgets vienen con diferentes beneficios y funciones que puede habilitar. Le recomendamos que consulte nuestro documento de comparación de nuestros widgets de chat. https://help.mypurecloud.com/articles/widget-feature-comparison/
 
-Widgets allow you to add web chat to your website so customers can chat with agents directly from their browsers. When you create a widget in the Genesys Cloud CX Admin console, a deployment key will be created. The deployment key will help identify the configuration settings for the widget when you put the widget onto your website.
+Los widgets le permiten agregar chat web a su sitio web para que los clientes puedan chatear con agentes directamente desde sus navegadores. Cuando crea un widget en la consola de administración de Genesys Cloud CX, se crea una clave de implementación. La clave de implementación ayudará a identificar los ajustes de configuración del widget cuando coloque el widget en su sitio web.
 
-Having a website is not a prerequisite for this workshop. Instead, we will be routing chat interactions through our Genesys Cloud Demo Extension tool. Before we install the extension tool, let's first set up our widget within the Genesys Cloud CX org. **Note:** The maximum number of widget deployments in one org is 25. 
+Tener un sitio web no es un requisito previo para este taller. En su lugar, enrutaremos las interacciones de chat a través de nuestra herramienta Genesys Cloud Demo Extension. Antes de instalar la herramienta de extensión, primero configuremos nuestro widget dentro de la organización Genesys Cloud CX. **Nota:** La cantidad máxima de implementaciones de widgets en una organización es 25.
 
-1. Click Admin, search for **Widgets**. 
-2. Click **Create Widget** and give it a name using our standard naming convention. No description is neccesary in this workshop. 
-3.  Assign **Version 2** under **Widget Type**. 
-4. Choose the flow to route to, created above and finally be sure to **Save**
+1. Haga clic en Administrador, busque **Widgets**.
+2. Haga clic en **Crear widget** y asígnele un nombre utilizando nuestra convención de nomenclatura estándar. No es necesaria ninguna descripción en este taller.
+3. Asigne **Versión 2** en **Tipo de widget**.
+4. Elija el flujo al que enrutar, creado arriba y finalmente asegúrese de **Guardar**
 
->## Demo Extension Tool
+>## Herramienta de extensión de DEMO
 >
->The Demo Extension is ideal to quickly show your customer what it would be like to have their corporate website powered by Genesys Cloud. The Demo Extension showcases Genesys GX Widgets, Predictive Engagement and lets you engage with PureCloudNow or your own Genesys Cloud organization.
+>La extensión de demostración es ideal para mostrar rápidamente a su cliente cómo sería tener su sitio web corporativo impulsado por Genesys Cloud. La extensión de demostración muestra Genesys GX Widgets, Predictive Engagement y le permite interactuar con PureCloudNow o con su propia organización de Genesys Cloud.
 >
->The extension offers 2 main features categories:
-    Widgets v1 based channels: chat v1, cobrowse/screenshare, email, callback
-    Widgets v2 chat with Predictive Engagement (Predictive Engagement)
+>La extensión ofrece 2 categorías de características principales:
+   Canales basados en Widgets v1: chat v1, cobrowse/screenshare, correo electrónico, devolución de llamada
+   Chat de Widgets v2 con Predictive Engagement (Predictive Engagement)
 >
->The extension can be in three working states. The state applies per tab. These states are:
+>La extensión puede estar en tres estados de trabajo. El estado aplica por ficha. Estos estados son:
 
-* "OFF": both Inspection and Injection are red. The extension has no impact on the browsed site.
+* "OFF": tanto Inspección como Inyección están en rojo. La extensión no tiene impacto en el sitio navegado.
+* Modo "Edición de demostración": tanto Inspección como Inyección son verdes. En este modo, puede agregar HotSpots (acciones adjuntas a los elementos seleccionados) haciendo clic con el botón derecho del mouse y eligiendo la acción para ejecutar. Cualquier par {elemento, acción} se resalta con una línea de borde verde para que pueda identificar lo que se ha creado.
 
-* "Demo Edit" mode: both Inspection and Injection are green. In this mode, you can add HotSpots (actions attached to selected elements) by using your mouse right-click and chosing the action to execute. Any {element, action} pair is highlighted with a green border line for you to identify what has been built.
+* Modo "Ejecución de demostración": la inyección es verde y la inspección es roja. Este modo no tiene los elementos resaltados que activan las acciones de clic. El sitio parece completamente normal, pero las acciones asociadas a los elementos se activarán cuando haga clic en ellos. Para ayudarlo a recordar dónde hacer clic y en qué orden, el icono de la extensión mostrará el nombre de la acción cuando se desplace sobre los elementos activos. Además, un contador se incrementará en el icono de la extensión para indicar que la acción se activó cuando se hizo clic en el elemento.
 
-* "Demo Execution" mode: Injection is green and Inspection is red. This mode does not have the highlighted elements that do trigger the click actions. The site looks completely normal, but the actions associated to the elements will trigger when you click on them. To help you remember where to click and in what order, the extension icon will show the action name when hovering on active elements. Also, a counter will increment on the extension icon to indicate that the action triggered when the element has been clicked.
+#### Instalación
 
-#### Installation
-
-Click https://chrome.google.com/webstore/detail/genesys-gdemo-extension/jiilhcbdojcdonkigflgmdnljialgmfh to add the Genesys Cloud Demo Extension tool to your Chrome browser. 
+Haga clic en https://chrome.google.com/webstore/detail/genesys-gdemo-extension/jiilhcbdojcdonkigflgmdnljialgmfh para agregar la herramienta Genesys Cloud Demo Extension a su navegador Chrome.
 
 ![DemoExtension Installer](/images/DemoExtension.jpg)
 
-1. Open the Genesys Extension Tool and select **Options**
-2. Click on 'Add Org'
-3. Select your Org region (Environment dropdown)
-4. Click on 'Login to Org' - a new tab will open to your Org's login page
-5. In the new tab, login to your Org - the extension will pull the required configuration data from your Org and the tab will automatically close after few seconds
-6. Select the appropriate queue
-7. Check the box to enable **Web Chat V2** and select the widget in **Deployment Key (V2)**
-8. Hit 'Save'
+1. Abra Genesys Extension Tool ó ña herramienta de extensión y seleccione **Opciones**
+2. Haga clic en 'Agregar organización'
+3. Seleccione la región de su organización (menú desplegable Entorno)
+4. Haga clic en 'Iniciar sesión en la organización': se abrirá una nueva pestaña en la página de inicio de sesión de su organización.
+5. En la nueva pestaña, inicie sesión en su organización: la extensión extraerá los datos de configuración necesarios de su organización y la pestaña se cerrará automáticamente después de unos segundos.
+6. Seleccione la cola apropiada
+7. Marque la casilla para habilitar **Web Chat V2** y seleccione el widget en **Clave de implementación (V2)**
+8. Presiona 'Guardar'
 
 ![DemoExtension Installer](/images/ExtensionOptions.jpg)

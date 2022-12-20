@@ -7,8 +7,8 @@ weight: 50
 
 
 ![Test](/images/Webchat-768x300.jpg)
-## Objective
+## Objetivo
 
-By the end of this section, you will have a functional inbound web chat channel. You’ll learn the steps to set up web chat interactions, install and leverge the Genesys Demo Extension tool, how to test to ensure web chat interactions are being routed correctly, how to troubleshoot, and any tools available to agents during digital interactions. 
+Al final de esta sección, tendrá un canal de chat web entrante funcional. Aprenderá los pasos para configurar interacciones de chat web, instalar y aprovechar la herramienta Genesys Demo Extension, cómo probar para garantizar que las interacciones de chat web se enruten correctamente, cómo solucionar problemas y cualquier herramienta disponible para los agentes durante las interacciones digitales.
 
 ![Webchat](/images/webchat10.jpg)
