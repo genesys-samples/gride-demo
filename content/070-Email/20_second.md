@@ -1,18 +1,18 @@
 ---
-title: "Pruebas"
+title: "Testing"
 chapter: true
 weight: 20
 ---
 ![Test](/images/Email2-768x300.jpg)
 
-## Probar una interacción de correo electrónico
+## Test an Email Interaction
 
-1. El primer paso para probar una interacción por correo electrónico es asegurarse de tener la dirección de correo electrónico correcta. Vaya a la página **Administrador** > Busque **Correo electrónico** > Haga clic en el dominio que creó y busque la dirección de correo electrónico que creó anteriormente > Envíe un correo electrónico desde su correo electrónico personal a esa dirección de correo electrónico para probar
+1. The first step in testing an email interaction is ensuring you have the correct email address. Navigate to **Admin** page > Search for **Email** > Click into the domain you created and find the email address that you created earlier > Send an email from your personal email to that email address to test
 
-2. Navegue hasta el panel **Interacciones** en el lado izquierdo de la pantalla y asegúrese de estar configurado en **En cola** (que se encuentra en la parte superior derecha de la pantalla)
+2. Navigate to the **Interactions** Pane on the left side of the screen and ensure you are set to **On-Queue** (found at top right of screen)
 
 ![interactionpane](/images/interactionpane.jpg)
 
-3. Por último, seleccione **Responder** cuando llegue la interacción.
+3. Lastly, select **Answer** when the interaction comes through
 
 ![incomingemail](/images/incomingemail.jpg)

@@ -6,8 +6,8 @@ weight: 30
 
 
 ![Title](/images/TelephonyNew-768x300.jpg)
-## Objetivo
+## Objective
 
->Al final de esta sección, podrá comprar un número de teléfono, asociar un sitio y una ubicación, crear un teléfono WebRtc para su usuario y asociar el número de teléfono con un usuario. La telefonía es el conjunto de funciones que los administradores utilizan para configurar las comunicaciones de Genesys Cloud. Genesys Cloud ofrece tres opciones de conexión de telefonía para brindar comodidad y flexibilidad.
+>By the end of this section you will be able to purchase a phone number, associate a site and location, create a WebRtc phone for your user and associate the phone number with a user. Telephony is the set of features that administrators use to set up Genesys Cloud communications. Genesys Cloud offers three telephony connection options to provide convenience and flexibility. 
 
 ![Telephone](/images/telephone.jpg)

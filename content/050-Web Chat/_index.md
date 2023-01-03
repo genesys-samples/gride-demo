@@ -1,14 +1,16 @@
 ---
-title: "Web Chat"
+title: "Web Messaging"
 chapter: true
 weight: 50
 
 ---
 
 
-![Test](/images/Webchat-768x300.jpg)
-## Objetivo
+![Title](/images/WebMessage-768x300.jpg)
+## Objective
 
-Al final de esta sección, tendrá un canal de chat web entrante funcional. Aprenderá los pasos para configurar interacciones de chat web, instalar y aprovechar la herramienta Genesys Demo Extension, cómo probar para garantizar que las interacciones de chat web se enruten correctamente, cómo solucionar problemas y cualquier herramienta disponible para los agentes durante las interacciones digitales.
+Genesys Cloud web messaging provides customers with an enhanced experience when they visit your website. Unlike web chat, which provides short-lived, standalone chats, web messaging enables a visitor to enter your site, converse with a bot or agent, and return later to pick up the conversation. With Predictive Engagement, agents can view the entire customer journey as part of the web messaging interaction. Web messaging shares many of the same features and capabilities as the other Genesys Cloud messaging channels that use ACD messaging to enable agents to respond to customer interactions.
+
+By the end of this section, you will have a functional inbound web messaging channel. We'll walk through messenger configurations and deployment options. Lastly, we'll identify interaction tools and how to troubleshoot any issues that may come up. 
 
 ![Webchat](/images/webchat10.jpg)

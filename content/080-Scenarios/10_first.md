@@ -1,19 +1,19 @@
 ---
-title: "Comprobación de conocimientos #1"
+title: "Knowledge Check #1"
 chapter: true
 weight: 10
 ---
 ![Scenario ](/images/Knowledge1.jpg)
 
-En este escenario, usted es un agente que trabaja en la industria de seguros. El cliente, Betty, ha llamado para realizar un pago de la prima de su seguro. ¿Cuáles son las dos opciones que tiene al tomar información confidencial para asegurarse de que el sistema no registre información personal y confidencial y cumpla con PCI?
+In this scenario, you are an agent working in the insurance industry. The customer, Betty, has called in to make a payment on their insurance premium. What are two options you have when taking confidential information to ensure the system is not recording personal and confidential information and staying PCI compliant? 
 
 
-[] Transferir a una gerente <br>
+[] Transfer to a manager <br>
 
-[] Pausa segura <br>
+[] Secure Pause <br>
 
-[] Colgar <br>
+[] Hang Up <br>
 
-[] Flujo seguro <br>
+[] Secure Flow <br>
 
 ![Scenario ](/images/scenario1answer.jpg)

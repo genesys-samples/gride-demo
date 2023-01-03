@@ -1,91 +1,94 @@
 ---
-title: "Roles y Permisos"
+title: "Roles & Permissions"
 chapter: true
 weight: 10
 ---
 ![Title](/images/UserConfig2-768x300.jpg)
-## Roles y Permisos
+## Roles and Permissions
 
->Cada rol en Genesys Cloud contiene uno o más permisos. Los permisos permiten a los usuarios con ese rol realizar varias tareas, como crear grupos, configurar integraciones y supervisar la actividad del centro de contacto.
+>Each role in Genesys Cloud contains one or more permissions. The permissions allow users with that role to do >various tasks, such as create groups, set up integrations, and supervise contact center activity.
 
->El rol de empleado tiene el nivel más bajo de permisos y se asigna a todos los usuarios. Este rol no se puede eliminar. Un administrador de Genesys Cloud debe asignar roles adicionales a un usuario para tener permisos adicionales.
->El rol de administrador tiene permisos para realizar cualquier cambio en una organización de Genesys Cloud. Este rol se asigna automáticamente a quien configura la organización. Esta persona es responsable de invitar a otras personas a una organización de Genesys Cloud y de asignar roles a los invitados.
-
-
+>The Employee role has the lowest level of permissions and is assigned to all users. This role cannot be removed. A user must be assigned additional roles by a Genesys Cloud Administrator to have additional permissions.
+>The Admin role has permissions to make any changes to a Genesys Cloud organization. This role is automatically assigned to whoever sets up the organization. This person is responsible for inviting others to a Genesys Cloud organization and for assigning roles to invitees.
 
 
 
-**Asignación del Rol de Administrador Maestro al usuario**
 
-1.	Click Admin > Personas > **seleccione su Cuenta de Usuario**
-2.	En el lado derecho de la pantalla Roles, cambie "Ver:" de **Asignado** a **Todo**
-3.	Asignar **administrador maestro** permisos y guardar la cuenta
+Follow along 
+**Associate Master Admin role to the user and add a language**
+1.	Admin > People > **select your User Account**
+2.	On the right side of the Roles screen, change “View:” from **Assigned** to **All**
+3.	Assign **master admin** permissions
+4. Next, locate the **ACD Skills** tab where we can assign Skills and Languages
+5. We will forgo Skills for now, but clicking on **Languages** should provide a drop-down. Select **English**
+6. Once completed, click **Save** at the bottom of the page
 
 ![Add Role](/images/RolesPic.png)
 
-Crear Rol para los permisos de Genesys Cloud Voice
+Create Role for Genesys Cloud Voice permissions
+Admin > Roles / Permissions > Click **"Add Role"**
+1.	Name the role-Ex: GCV user or something you can easily find
+2.	Switch to the permissions tab on the right and search for **“PureCloud Voice”** in the Permission field
+3.	Check the box for all permissions and save
+4.	Return to People and select your user again 
+5.	Go to the right side of the Roles screen and change "View" from **Assigned** to **All**
+6.  Assign the GCV user you just created to yourself
 
-1.  Click Admin > Roles / Permisos > Click **"Agregar Rol"**
-2.	Asigne un nombre al rol, por ejemplo: usuario de GCV o algo que pueda encontrar fácilmente.
-3.	Cambie a la pestaña de permisos a la derecha y busque **“PureCloud Voice”** en el campo Permiso
-4.	Marque la casilla para todos los permisos y guarde
-5.	Regrese a Personas y seleccione su usuario nuevamente 
-6.	Vaya al lado derecho de la pantalla Roles y cambie "Ver" de **Asignado** a **Todo**
-7.  Asígnate el usuario de GCV que acabas de crear
+Note: Languages are separate from ACD skills. For example, when an agent speaks the language requested by the customer, Genesys Cloud selects that agent rather than an agent who is more skilled but cannot speak that language. However, an agent that cannot speak the language of the customer does not receive that interaction, regardless of ACD skill.
 
 ![Permissions](/images/Permission.png)
 
-**Agregar usuarios adicionales a su organización**
+**Add additional users to your organization**
 
-**Nota: La información a continuación sobre cómo agregar usuarios adicionales es para configurar entornos de desarrollo reales y no para talleres presenciales dirigidos por Genesys.**
+**Note: Information below regarding adding additional users is for setting up actual dev environments and not in-person workshops led by Genesys**
 
-Cuando crea nuevos usuarios, todo lo que se necesita es un nombre y un correo electrónico (para enviar la invitación). También puede expandirse a **Campos Opcionales** para asignar campos como Título, Departamento, Ubicación, Colas, etc. si conoce esos detalles antes. También existe la opción de importar usuarios de forma masiva en lugar de agregar usuarios de uno en uno. 
+When you create new users, all that is needed is a name and email (to send the invitation to). You may also expand to **Optional Fields** to assign fields such as Title, Department, Location, Queues, etc. should you know those details prior. There is also the option to bulk import users rather than adding users one at a time. 
 
-Si elige enviar invitaciones a nuevos usuarios más tarde y establece manualmente su estado en inactivo, cuando envía las invitaciones, Genesys Cloud cambia automáticamente su estado a activo.<br>
-1.	Haga clic en Administrador <br>
-2.	En Personas y permisos, haga clic en Personas <br>
-3.	Haga clic en Agregar persona. Se abre el cuadro de diálogo Agregar personas a la organización. <br>
+If you choose to send invitations to new users later and manually set their status to inactive, when you send the invitations Genesys Cloud automatically changes their status to active <br>
+1.	Click Admin <br>
+2.	Under People and Permissions, click People <br>
+3.	Click Add Person. The Add People to the Organization dialog box opens <br>
 
  
 
 ![People](/images/People.png)
 
 
-4.	Haga clic en la pestaña **Persona** .
-5.	Complete los campos obligatorios Nombre y Correo electrónico.
-6.	(Opcional) Ingrese información adicional haciendo clic en Campos opcionales. 
+4.	Click the **Person** tab.
+5.	Complete the mandatory Name and Email fields. 
+6.	(Optional) Enter additional information by clicking Optional Fields. 
 7.	Note: The Manager field is optional but recommended. Genesys Cloud uses manager assignments to create hierarchy views
-8.	(Opcional) Para agregar a la persona a una cola, haga lo siguiente:
-9.	En Asignar colas, comience a escribir las primeras letras de la cola deseada
-10.	Seleccionarlo de la lista
-11.	Nota: asegúrese de asignar la función Empleado, junto con cualquier otra función. Normalmente, el rol de empleado se asigna de forma predeterminada. Sin embargo, agregar roles manualmente durante la creación de usuarios anula el valor predeterminado asignado al empleado.
-12.	(Opcional) Para agregar roles para la persona, haga lo siguiente:
-13.	En Asignar funciones, comience a escribir las primeras letras de la función deseada
-14.	Seleccionarlo de la lista
-15.	Asigne roles adicionales según sea necesario
-16.	Envía la invitación automáticamente seleccionando Enviar invitación ahora
-17.	Nota: Las personas que agregue no pueden unirse a Genesys Cloud hasta que reciban una invitación. Si no haces esto ahora, recuerda hacerlo más tarde
-18.	Haga clic en Crear
+8.	(Optional) To add the person to a queue, do the following:
+9.	Under Assign Queues, begin typing the first few letters of the desired queue
+10.	Select it from the list
+11.	Note: Make sure you assign the Employee role, along with any other role. Typically, the employee role is assigned by default. However, manually adding roles during user creation overrides the employee’s assigned default.
+12.	(Optional) To add roles for the person, do the following:
+13.	Under Assign Roles, begin typing the first few letters of the desired role
+14.	Select it from the list
+15.	Assign additional roles as necessary 
+16.	Send the invite automatically by selecting Send invite now 
+17.	Note:  The people you add cannot join Genesys Cloud until they receive an invite. If you don’t do this now, remember to do it later
+18.	Click Create
 
-#### Contactos Externos
-Ahora que tenemos nuestro agente del centro de contacto, creemos un cliente para identificarlo durante nuestras interacciones de voz, SMS y correo electrónico (durante nuestra prueba de chat web, configuraremos un contacto en el widget). 
-Los contactos externos le permiten crear un repositorio sólido de datos de clientes que sus agentes pueden aprovechar mientras ayudan a sus clientes. Con los contactos externos, un agente puede comunicarse rápidamente con un cliente por correo electrónico, llamada telefónica o mensaje de Twitter. Durante una interacción, un agente construye el historial de interacciones para un cliente al verificar los datos de contacto clave. El agente puede ver rápidamente quién ha interactuado con el cliente y puede leer sobre la relación de su empresa con ellos.
+#### External Contacts
+Now that we have our contact center agent, let's create a customer to identify during our voice, SMS, and email interactions (During our webchat test, we'll set up a contact in the widget). 
+External Contacts allows you to create a robust repository of customer data that your agents can take advantage of as they assist your customers. With External Contacts, an agent can quickly contact a customer by email, phone call, or Twitter message. During an interaction, an agent builds the interaction history for a client by verifying key contact data. The agent can quickly see who has interacted with the client and can read about your company’s relationship with them. 
 
-Al igual que con la mayoría de las funciones de Genesys Cloud, se puede agregar un contacto externo desde varias ubicaciones.
+As with most capabilities in Genesys Cloud, an external contact can be added from multiple locations. 
 
-En el taller de hoy, 
+In today's workshop, 
 
-1. Ubique el **Directorio** en la parte superior izquierda de su interfaz de usuario y haga clic en un menú desplegable.
-2. Seleccione **Contactos externos**, en el extremo derecho, elija **+Agregar** y luego **Contacto**.
+1. Locate the **Directory** on the top-left of your UI, and click for a drop-down. 
+2. Select **External Contacts**, on the far-right, choose **+Add** then **Contact**. 
 
 ![External Contact](/images/External.jpg)
 
-Siéntase libre de usar un nombre ficticio aquí, siempre que sea uno que se identifique fácilmente cuando se produzca la interacción. Después de ingresar un nombre y seleccionar la flecha, se abrirá una nueva pantalla con campos adicionales.
+Feel free to use a ficticious name here, as long as it is one that will be easily identified when the interaction comes in. After entering a name and selecting the arrow, a new screen will open with additional fields. 
 
-3. Agreguemos un **Correo electrónico** y un **Número de teléfono**.
+3. Let's add an **Email** and **Phone Number**. 
 
-*NOTA: Estos campos deben ser válidos, no ficticios, ya que esto es a lo que Genesys Cloud hará referencia cuando llame, envíe un mensaje de texto y envíe un correo electrónico. La mejor práctica sería usar su correo electrónico de trabajo y cualquier número de teléfono que usará para llamar o enviar mensajes de texto. a la organización*
+*NOTE: These fields need to be valid, not ficticious, as this is what Genesys Cloud will reference when you call, text, and email in. Best practice would be to use your work email and any phone number you will use call/text to the org.*
 
-4. Asegúrese de **Guardar** en la parte inferior izquierda y nos despediremos de nuestro cliente por el momento. 
+4. Be sure to **Save** on the bottom-left, and we'll say goodbye to our customer for the time being. 
 
 ![External Contact](/images/Contact.jpg)

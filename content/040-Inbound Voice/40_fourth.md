@@ -1,70 +1,71 @@
 ---
-title: Herramientas de Agente
+title: Agent Tools
 chapter: true
 weight: 40
 ---
 ![Test](/images/Inbound4-768x300.jpg)
 
-## Herramientas de interacción de voz
+## Voice Interaction Tools
 
-Al manejar interacciones de voz en Genesys Cloud CX, una serie de herramientas están disponibles listas para usar. Algunos pueden depender de su nivel de licencia o permisos basados en su rol de usuario. Cada uno desempeña su papel al proporcionar al agente datos relevantes para manejar con éxito la interacción y crear una experiencia personalizada y fluida para el cliente.
+When handling voice interactions in Genesys Cloud CX, a series of tools are available out-of-the-box. Some may depend on your licensing tier, or permissions based on your user role. Each plays its part in providing the agent with relevant data to successfully handle the interaction, and create a personalized, smooth experience for the customer. 
 
 ![Voice Interaction](/images/Voiceinteractiontools.jpg)
 
-***Teclado de marcación***: el teclado de marcación le permite ingresar números que los sistemas de llamadas automatizados reconocen, como un número de cuenta o una selección de menú. Genesys Cloud reproduce un sonido DTMF para cada número que seleccione.
+***Dialpad***- The dialpad allows you to enter numbers that automated call systems recognize, such as an account number or a menu selection. Genesys Cloud plays a DTMF sound for each number you select.
 
-***Silenciar/Activar***: silenciar desactiva el micrófono del agente. El cliente no puede escuchar lo que dice el agente, pero el agente puede escuchar al cliente.
+***Mute/Unmute***- Mute disables the agent’s microphone. The customer cannot hear what the agent is saying, but the agent can hear the customer.
 
-***Espera***: Espera pone al cliente en espera. El agente no puede escuchar al cliente y el cliente no puede escuchar al agente.
+***Hold***- Hold places the customer on hold. The agent cannot hear the customer, and the customer cannot hear the agent. 
 
 ![Dialpad](/images/Dialpad.jpg)
 
-Genesys Cloud CX admite dos tipos de transferencias: una transferencia ciega (todos los tipos de interacción) y una transferencia de consulta (interacciones de llamadas). Ambos tipos de transferencia le permiten ver el estado de un agente antes de realizar la transferencia para asegurarse de que habrá alguien al otro lado para ayudar al cliente. Al transferir a una cola, tendrá una línea de visión del tiempo de espera estimado de la cola, cuántos agentes están vinculados a la cola y cuántas interacciones se están manejando actualmente por tipo de medio.
+Genesys Cloud CX supports two types of transfers: a blind transfer (all interaction types) and a consult transfer (call interactions). Both transfer types allow you to see an agent's status before transferring to ensure someone will be there on the other end to assist the customer. When transferring to a queue, you'll have line of sight into the queue's estimated wait time, how many agents are tied to the queue, and how many interactions are currently being handled by media type. 
 
-***Transferencia ciega***: una transferencia ciega le permite transferir una interacción inmediatamente a una persona o cola.
+***Blind Transfer***- A blind transfer allows you to transfer an interaction immediately to a person or queue.
 
-***Transferencia con consulta***: una transferencia con consulta le permite conectarse con una persona o cola antes de transferir una llamada.
+***Consult Transfer***-A consult transfer allows you to connect with a person or queue before transferring a call.
 
 ![Consult](/images/Consulttransfer.jpg)
 
-***Iniciar/finalizar pausa segura***: puede presionar la "pausa segura" para detener la grabación de la llamada (tanto audio como grabaciones de pantalla), ingresar el número de tarjeta de crédito y finalizar la " pausa segura" para reanudar la grabación. Esto asegura que no se registre información confidencial. Todavía puede escuchar al cliente y hablar con él durante esta pausa segura, pero el sistema no registra la interacción en este momento. Esta pausa segura también se puede incrustar en el script, del que hablaremos más adelante. Las pausas seguras también se pueden activar a través de API y terceros.
+***Start/End Secure Pause***- You're able to hit the "secure pause" in order to stop the recording of the call (both audio and screen recordings), input the credit card number, and end the "secure pause" to resume the recording. This ensures no confidential information is recorded. You can still hear the customer and speak to them during this secure pause, but the system does not record the interaction at this time. This secure pause can also be embedded in the script, which we will discuss later. Secure pauses can also be triggered through APIs and 3rd parties.
 https://appfoundry.genesys.com/filter/genesyscloud
 
 
-***Colgar***: cuando haya terminado con la interacción, puede presionar este botón para finalizar la llamada y comenzar su trabajo posterior a la llamada.
+***Hang-up***- When you're finished with the interaction, you can hit this button to end the call and begin your after-call work.
 
 ![SecurePause](/images/securepause.jpg)
 
 
-***Script***- Los Scripts son una forma de que los supervisores le den palabras y lógica a seguir al realizar interacciones. Los scripts pueden contener las palabras exactas que se supone que debe decir cuando habla con un cliente, sitios web de terceros que tiene que visitar con frecuencia, datos de clientes de un sistema de terceros, ¡y más! Esto es útil para los agentes más nuevos que pueden no saber qué decir cuando atienden una llamada o incluso para los agentes experimentados como referencia, y ahorra tiempo al tener las herramientas más importantes en la misma página. Los scripts son completamente personalizables y configurables por cola y tipo de interacción. ¡A continuación se muestra un ejemplo de cómo puede verse un script!
+***Script***- Scripts are a way for  supervisors to give you words and logic to follow when taking interactions. Scripts can contain the exact words you are supposed to say when speaking to a customer, 3rd party websites you frequently have to visit, customer data from a 3rd party system, and more! This is useful for newer agents who may not know what to say when taking a call or even for experienced agents to reference, and it saves time by having the most important tools on the same page. Scripts are completely customizable and configurable by queue and interaction type. Below is an example of what a script can look like! 
 
 ![Script](/images/script.jpg)
 
-***Pantalla emergente***- Una aplicación de pantalla emergente entrega una llamada entrante a un agente, junto con datos relacionados con la llamada o la persona que llama. Por ejemplo, un cliente con Salesforce.com u otra aplicación CRM puede usar la información de identificación de llamadas para buscar el registro del cliente en CRM. El agente recibe una "pantalla emergente" de la cuenta de la persona que llama a través de su navegador web Salesforce.com. O bien, el script para una campaña de marcación saliente puede llenar la pantalla del agente con información relacionada con la llamada, el cliente y la campaña.
+***Screen Pop***- A screen pop application delivers an incoming call to an agent, along with data pertaining to the call or caller. For example, a customer with Salesforce.com or another CRM application may use caller id information to lookup the customer’s record in the CRM. The agent is delivered a ‘screen pop’ of the caller’s account via their Salesforce.com web browser. Or, the script for an outbound dialing campaign can populate the agent’s display with information pertaining to the call, the customer, and the campaign.
+
 ![Screen Pop](/images/screenpop.jpg)
 
-***Pantalla compartida***: compartir la pantalla le permite ver la pantalla del cliente en tiempo real, con su permiso, por supuesto. Los agentes deben solicitar y recibir permiso de un cliente para iniciar un chat de pantalla. Para la voz, puede comunicar verbalmente la clave de seguridad al cliente, quien luego escribirá ese número en un formulario en su sitio web. Para el chat web, Genesys Cloud comparte la clave de seguridad en segundo plano, sin necesidad de que usted realice ninguna acción. Una pantalla compartida siempre está vinculada a la interacción original, en este caso una interacción de voz. Para fines de gestión de calidad, esta interacción se mostrará como una sola interacción.
+***Screen Share***- A screen share allows you to see the customer's screen in real-time,  with their permission of course. Agents have to request and receive permimssion from a customer to initiate a screen chat. For voice, you can verbally communicate the security key to the customer, who will then type that number into a form on your website. For web chat, Genesys Cloud shares the security key behind the scenes, with no action needed you. A screen share is always linked to the original interaction, in this case a voice interaction. For quality management purposes, this interaction will show as one singular interaction.
 
 ![Screen Share](/images/screenshare.jpg)
 
-***Agent Assist***: Agent Assist brinda transcripción en tiempo real de una llamada de cliente y sugerencias de conocimiento que se actualizan automáticamente según el contexto de la conversación. Las sugerencias de conocimiento incluyen preguntas frecuentes o recomendaciones de artículos de conocimiento que hacen que los agentes sean más eficientes y conocedores. No tiene que perder el tiempo buscando información y puede concentrarse en sus discusiones con los clientes.
+***Agent Assist***-Agent Assist provides real-time transcription of a customer call and knowledge suggestions that update automatically based on the context of the conversation. Knowledge suggestions include FAQ or knowledge article recommendations that make agents more efficient and knowledgable. You don't have to waste time searching for information and can focus on your discussons with customers. 
 
 ![Agent Assist](/images/agentassist.jpg)
 
-***Perfil***: los perfiles de clientes brindan más información sobre el cliente. Puede ver más detalles del cliente y notas que otros agentes han hecho sobre este cliente. Siempre es mejor tener la mayor cantidad de información posible sobre el cliente para asegurarse de que está brindando una experiencia *personalizada*.
+***Profile***- The customer profiles gives more information about the customer. You can see more customer details and notes that other agents have made about this customer. Its always best to have as much information as possible about the customer to ensure you're delivering a *personalized* experience. 
 
-***Notas***: puede tomar notas sobre una interacción durante la interacción o durante el trabajo posterior a la llamada (ACW). Si ingresa notas para una interacción y luego transfiere esa interacción a otro agente, las notas permanecen con la interacción. Debido a que las notas son parte de la interacción, el agente receptor también puede verlas.
+***Notes***- You can make notes about an interaction during the interaction or while in after call work (ACW). If you enter notes for an interaction and then transfer that interaction to another agent, the notes remain with the interaction. Because notes are part of the interaction, the receiving agent can also see them.
 
 ![Profile](/images/profile.jpg)
 
-***Programar una devolución de llamada***: una devolución de llamada es una llamada saliente solicitada por un contacto. Los agentes pueden programar una devolución de llamada durante una interacción de voz. En la fecha y hora programadas, Genesys Cloud enruta la interacción a un agente. Para enrutar la devolución de llamada a usted, seleccione Enrutar la devolución de llamada a mí si es posible. De forma predeterminada, las devoluciones de llamada programadas se enrutan a la cola que recibió la interacción original. Si su administrador ha habilitado las devoluciones de llamada propias, para tomar posesión de una devolución de llamada, seleccione Tomar posesión. La devolución de llamada espera a que esté disponible durante el tiempo configurado por su administrador.
+***Schedule a Callback***- A callback is an outbound call requested by a contact. Agents can schedule a callback during a voice interaction. At the scheduled date and time, Genesys Cloud routes the interaction to an agent. To route the callback to you, select Route callback to me if possible. By default, scheduled callbacks route to the queue that received the original interaction. If your admin has enabled owned callbacks, to take ownership of a callback, select Take Ownership. The callback waits for you to become available for the time configured by your admin.
 
 ![Callback](/images/callback.jpg)
 
-***Códigos de finalización***: los códigos de finalización indican la naturaleza de una interacción. Los agentes especifican códigos de finalización después de completar una interacción; por ejemplo, una venta completada, un cliente insatisfecho con el servicio o un problema de facturación.
+***Wrap-up Codes***- Wrap-up codes indicate the nature of an interaction. Agents specify wrap-up codes after completing an interaction; for example, a completed sale, a customer dissatisfied with service, or a billing problem.
 
 ![Wrapup](/images/wrapup.jpg)
 &nbsp;
 
-#### Ha terminado de enrutar su primera interacción entrante a Genesys Cloud CX. Ahora que hemos completado la voz, pasemos a las interacciones digitales. Recuerde, Genesys Cloud CX tiene la capacidad de enrutar voz, chat web, mensajería web, correo electrónico, SMS y redes sociales, todo de forma nativa. 
+#### You have finished routing your first inbound interaction into Genesys Cloud CX. Now that we have completed voice, let's move on to digital interactions. Remember, Genesys Cloud CX has the ability to route voice, webchat, web messaging, email, SMS, and Social all natively. 
 

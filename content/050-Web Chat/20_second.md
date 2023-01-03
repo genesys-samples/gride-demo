@@ -1,21 +1,21 @@
 ---
-title: "Pruebas"
+title: "Testing"
 chapter: true
 weight: 20
 ---
-![Test](/images/Webchat2-768x300.jpg)
-## Probar una interacción de chat
+![Title](/images/WebMessage2-768x300.jpg)
+## Test a Message Interaction
 
-1. Como se mencionó, el uso de la herramienta Genesys Demo Extension permite a los clientes imaginar cómo se verá un widget de interacción en su sitio web. La herramienta funcionará en la mayoría de los sitios web, pero para la demostración de hoy usemos Genesys.com
+* As mentioned, using the Genesys Demo Extension tool allows customers to envision what an interaction widget may look like on their website. The tool will work on the majority of websites, but for todays demo lets use our Resource Center, help.mypurecloud.com
 
-2. Una vez en el sitio web, haga clic en el icono de la herramienta de extensión en su barra de herramientas. Haga clic en **Comenzar a inspeccionar** y **Comenzar a inyectar**. Ahora verá una ventana emergente en la que se puede hacer clic en la parte superior derecha de la página. Desde aquí podemos iniciar un chat web. Tenga en cuenta que podemos agregar la capacidad de iniciar otros tipos de interacción con el mismo widget, pero para este módulo nos centraremos en el chat web.
+* Once on the website, click the extension tool icon on your toolbar. Click both **Start Inspecting** & **Start Injecting**. You'll now notice a clickable blue message icon on the bottom-right of the page. From here we can initiate a web message. Keep in mind, additional functionality can be added, such as launch behavior, authentication, attachments, and knowledge.  
 
 ![devcenter](/images/Inspect.jpg)
 
-3. Una vez que se selecciona el ícono, la ventana de chat aparece en la parte inferior izquierda. Los campos presentados son configurables, pero por hoy solo agreguemos nuestro nombre y apellido. Antes de hacer clic en **Iniciar chat**, asegúrese de que su agente en la plataforma Genesys Cloud CX esté configurado en el estado "En cola". Ahora inicie el chat.
+* Since we do not have any self-service set up for today's demo, a simple message from the user will be immediately escalated to a live agent. Make sure your agent is "On-Queue" before beginning your interaction. 
 
-![interactionspane](/images/Initiate1.jpg)
+![interactionspane](/images/MessageTest.jpg)
 
-5. Finalmente, seleccione **responder** cuando se produzca la interacción del chat.
+* Finally, select **answer** when the chat interaction comes through
 
-![incomingchat](/images/incomingchat.jpg)
+![incomingchat](/images/Interaction.jpg)

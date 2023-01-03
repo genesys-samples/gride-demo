@@ -1,53 +1,29 @@
 ---
-title: "Telefonía"
+title: "Telephony"
 chapter: true
 weight: 20
 ---
 ![Title](/images/Telephony2New-768x300.jpg)
 
-## Comprar un número de teléfono
+## Purchase a Phone Number
 
->Compre números de teléfono directamente desde Genesys Cloud Voice mediante el portal de compra de números. **NOTA: Compraremos un número de teléfono en este módulo. Es importante que anote el número antes de hacer clic en "Completar compra"."**
+>Purchase phone numbers directly from within Genesys Cloud Voice using the Number Purchase portal. **NOTE: We will be purchasing a phone number in this module. It is important that you write down the number prior to clicking "Complete Purchase."**
 
 ## Follow along
 
-**Nota**: Se requiere pedir un mínimo de un número, pero se recomienda pedir 1 número para cada usuario que utilizará Dev Lab. Los cargos de telefonía se le facturan, así que cómprelos en su organización: https://help.mypurecloud.com/articles/genesys-cloud-voice-pricing/
+**Note**: It is required to order a minimum of one number, but it is recommended to order 1 number for each user that will be using Dev Lab. Telephony charges are billed to you so purchase these at your org - https://help.mypurecloud.com/articles/genesys-cloud-voice-pricing/ 
 
-1. Haga clic en Admin > Administración de números > **Haga clic en "Comprar número"** <br>
+1.	Click Admin > Number Management > **Click "Purchase Number"** <br>
 
-	(Si no ve Administración de números en el panel de administración, es necesario que cierre la sesión y vuelva a iniciarla para actualizar los permisos recién agregados)
+	(_If you do not see Number Management in the Admin panel, you made need to log out and back in to refresh your newly added permissions_)
 	
-2.	Busque un número DID por código de área o ciudad/estado _(Escriba este número de teléfono ya que no podrá encontrarlo más adelante)_
+2.	Search for a DID number by area code or city/state _(Please write this phone number down as you will not be able to find this later)_
 
-3. Marque las casillas junto a cada número que vaya a comprar (con al menos uno apto para emergencias) y complete la compra
+3.	Check the boxes next to each number you are going to purchase (with at least one being emergency capable) and complete purchase
 
-6. Marque la casilla para **"Hacer que esta ubicación esté disponible para su uso en sitios"**.
+6. Check the box for **"Make this location available for use on sites"**. 
 
-7. Agregue un número de emergencia.
+7. Add an emergency number.
 
 
 ![LocationDetails](/images/LocationsPopup.jpg)
-
-## Site
-
-
-Un site es el hogar de un conjunto de teléfonos. El sitio define las reglas de clasificación de llamadas y las reglas de enrutamiento de salida, así como las propiedades de telefonía para marcar. Aquí también es donde el enrutamiento de salida hará referencia a un plan numérico. Los sitios deben estar vinculados a las ubicaciones físicas definidas.
-
-![AdminDirectory](/images/Site.jpg)
-
-1. **Vaya Admin> Site> Clic "Crear Site"**
-
-2.  Crear un nuevo site y nombrarlo **"Mi Site"**. 
-
-3. Asocia tu ubicación, selecciona una zona horaria, deja Media Model como "Nube"
-
-![SiteDetails](/images/SiteSetup.jpg)
-
-3.Navegue a Rutas salientes dentro del sitio recién creado y en **"Seleccionar troncales externas"** asegúrese de que la troncal "PureCloud Voice - AWS" esté asociada. Asegúrese de **"Habilitar"** el Estado también.
-
-![OutboundRoutingDetails](/images/OutboundRoute.jpg)
-
-4. Por último, regrese a la pestaña **"General"** y confirme que el sitio se ha seleccionado como predeterminado.
-
-
-![SiteSettings](/images/DefaultSite.jpg)

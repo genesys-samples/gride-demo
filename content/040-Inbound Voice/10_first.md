@@ -1,66 +1,66 @@
 ---
-title: "Configuración"
+title: "Setup"
 chapter: true
 weight: 10
 ---
 ![Setup](/images/Inbound1-768x300.jpg)
-## Configuración Inbound Voice 
-Si bien siguen surgiendo nuevos canales de comunicación, la importancia de la voz permanece. La velocidad y la agilidad de la plataforma del centro de contacto Genesys Cloud CX™ conecta el compromiso de su cliente con la opción de telefonía que mejor se adapta a sus necesidades comerciales. La más amplia variedad de opciones de conectividad de servicios de voz en la industria brinda a los clientes una flexibilidad y elección sin igual. Los clientes pueden elegir Genesys Cloud CX Voice (Genesys telecom) para VoIP, o utilizar la opción BYOC (Bring Your Own Carrier) basada en la nube. Los clientes pueden mantener un contrato de operador o una infraestructura PBX existente, o consolidarse utilizando Genesys como un único proveedor para todas las necesidades. Los clientes que eligen Genesys Cloud CX a menudo se sienten atraídos por las tecnologías de nube y la arquitectura de microservicios que brindan velocidad, estabilidad y agilidad a su negocio. La adopción de una solución en la nube para los servicios de voz es un enfoque preparado para el futuro, ya que extiende estos mismos beneficios de la nube a todo el sistema de comunicaciones de un cliente.
+## Inbound Voice Setup
+While new communication channels continue to crop up, the importance of voice remains. The speed and agility of the Genesys Cloud CX™ contact center platform connects your customer engagement with the telephony option that best fits your business needs. The widest variety of voice services connectivity options in the industry gives customers unparalleled flexibility and choice. Customers can choose Genesys Cloud CX Voice (Genesys telecom) for VoIP, or use the cloud-based Bring Your Own Carrier (BYOC) option. Customers can keep a carrier contract or existing PBX infrastructure, or consolidate using Genesys as a single vendor for all needs. Customers who choose Genesys Cloud CX are often attracted to the cloud technologies and microservices architecture that provide speed, stability, and agility for their business. Adopting a cloud solution for voice services is a future-proof approach—extending these same cloud benefits across a customer’s entire communications system.
 
 ![Phone](/images/phone.png)
 
-#### Voz de Genesys Cloud CX
-Genesys Cloud CX Voice es un servicio de telefonía basado en Internet proporcionado por Genesys que, cuando se activa, brinda acceso de telefonía pública a los servicios de Genesys Cloud CX.
+#### Genesys Cloud CX Voice
+Genesys Cloud CX Voice is an internet-based telephony service provided by Genesys that, when activated, provides public telephony access to Genesys Cloud CX services.
 
-#### Traiga su propio proveedor - Bring Your Own Carrier (BYOC)
-Genesys Cloud CX BYOC hace referencia a la capacidad de los clientes para definir troncales SIP entre Genesys Cloud CX y dispositivos o servicios de terceros.
+#### Bring Your Own Carrier (BYOC)
+Genesys Cloud CX BYOC refers to the ability for customers to define SIP trunks between Genesys Cloud CX and third-party devices or services.
 
-## Lo Que Construiremos Hoy
-#### Colas
-Hoy lo guiaremos a través de la creación de la columna vertebral de su centro de contacto. El motor ACD de Genesys Cloud CX utiliza un sistema de enrutamiento basado en cola con la capacidad de asociar habilidades, idiomas y prioridad a la lógica de enrutamiento. Lo mantendremos simple y comenzaremos con una cola básica.
+## What We Will Build Today
+#### Queues
+Today we will be walking you through the creation of the backbone of your contact center. Genesys Cloud CX's ACD engine uses a Queue based routing system with the ability to attach skills, languages and priority to the routing logic. We will keep it simple and start with a basic queue. 
 
-Las colas de Genesys Cloud CX están equipadas de forma predeterminada para comunicaciones omnicanal. A lo largo de este taller, enrutaremos todos los tipos de medios a la misma cola.
+Genesys Cloud CX queues are by default equipped for omnichannel communications. Throughout this workshop, we will be routing all media types to the same queue. 
 
-#### Telefonía
-Hoy también utilizaremos los servicios Genesys Cloud CX Voice. Como se mencionó anteriormente, le brindamos la flexibilidad de traer su propio operador o utilizar Genesys como operador. Cualquiera de las opciones dentro de Genesys Cloud CX se administra fácilmente y le permite aprovechar los servicios de voz en la nube que se pueden implementar en días sin necesidad de hardware. Los únicos pasos que deberá seguir hoy para configurar Genesys Cloud CX Voice son comprar un número de teléfono y asignar ese número a una ruta de llamada. Bastante simple, ¿verdad? Tenga en cuenta que se incurre en cargos por la compra de un número de teléfono, aunque son mínimos. Consulte este documento para conocer los precios. https://help.mypurecloud.com/articles/genesys-cloud-voice-pricing/
+#### Telephony
+We will also be using Genesys Cloud CX Voice services today. As mentioned above, we give you the flexbility to either bring your own carrier or to use Genesys as the carrier. Either option within Genesys Cloud CX is easily managed and allows you to take advantage of cloud voice services that can be deployed in days with no hardware required. The only steps that you'll need to take today to set up Genesys Cloud CX Voice is to purchase a phone number and assign that number to a call route. Pretty simple, right? Please note that charges do incur for purchasing a phone number, although they are minimal. Refer to this document for pricing. https://help.mypurecloud.com/articles/genesys-cloud-voice-pricing/
 
-#### Arquitecto
+#### Architect
 
-La configuración de capacidades de voz entrante también requiere un flujo de Architect. De hecho, importaremos flujos de arquitectos para cada tipo de medio que configuraremos hoy. Architect es una poderosa herramienta que forma parte de Genesys Cloud CX.
+Setting up inbound voice capabilities also requires an Architect flow. As a matter of fact, we will be importing architect flows for every media type that we will set up today. Architect is a powerful tool that is a part of Genesys Cloud CX. 
 
-Architect es una herramienta de diseño web basada en arrastrar y soltar fácil de aprender que crea flujos para tipos de medios. Architect utiliza menús y una lógica directa a la cola asociada con mayor frecuencia a los operadores automáticos tradicionales. Sin embargo, también incorpora operaciones lógicas avanzadas y ricas en funciones, como la recopilación de dígitos fuera del menú, el acceso a datos externos (inmersiones de datos), la lógica condicional y la edición de expresiones para ayudar a desarrollar la funcionalidad IVR. Architect también proporciona una gestión de avisos centralizada con soporte en varios idiomas.
+Architect is an easy-to-learn drag and drop web-based design tool that creates flows for media types. Architect uses menus and straight-to-queue logic most often associated with traditional auto-attendants. However, it also incorporates advanced, feature-rich logical operations such as non-menu digit collection, External Data Access (data dips), conditional logic, and expression editing to help develop the IVR functionality. Architect also provides centralized prompt management with multi-language support.
 
-Architect también tiene una opción de exportación e importación, una característica que es importante para el taller de hoy. Lo que esto nos permitirá hacer es simplemente proporcionarle un archivo descargable para un flujo de arquitecto y luego puede importar ese archivo a su flujo de arquitecto en su instancia de Genesys Cloud CX. Architect es una herramienta poderosa y es muy divertido aprender a construir flujos de Architect desde cero, pero ese no es el objetivo del taller de hoy. ¡Lo guardaremos para otro día!
+Architect also has an export and import option, a feature that is important for today's workshop. What this will allow us to do is to simply give you a downloadable file for an architect flow and then you can simply import that file into your architect flow in your instance of Genesys Cloud CX. Architect is a powerful tool and it's very fun to learn how to build Architect flows from scratch, but it is not the objective in today's workshop. We will save that for another day!
 
-## Siga a lo largo
+## Follow along
 
-1. Vaya a Admin> Buscar y haga clic en **Colas**> luego haga clic en **Crear cola**
-2. Escriba un nombre de cola único en la pestaña **Nombre**
-3. Haga clic en **Guardar** y la configuración de la cola se abra en la pestaña **General**
+1. Navigate to Admin> Search for and click on **Queues**> then click **Create Queue**
+2. Type a unique queue name in the **Name** tab
+3. Click **Save** and the queue configuration will open to the **General** tab
  
 
-4. Navegue a la pestaña **Miembros** > cuadro **Seleccione nuevos miembros** y busque su nombre > Haga clic en el botón **Agregar +**
-5. Agregue nuevos miembros según sea necesario
+4. Navigate to the **Members** tab> **Select new members** box and search for your name > Click the **Add +** button
+5. Add new members as needed
 
-6. Haga clic en **Voz** > agregue un número de llamadas salientes con el número que compró para voz. Clic en Guardar**
+6. Click **Voice** > add an outbound calling number with the number you purchased for voice. Click **Save**
   ![Queue Set Calling Party Number](/images/QueueSetCallingParty.jpg)
-7. Navegue [Aquí](https://help.mypurecloud.com/articles/download-architect-flow-examples/) > descargue el flujo descrito en la captura de pantalla a continuación> Siga las instrucciones a continuación para **descargar un flujo de muestra**
+7. Navigate [Here](https://help.mypurecloud.com/articles/download-architect-flow-examples/) > download the flow outlined in the screenshot below> Follow instructions below to **download a sample flow**
 
 
- ![Flujo de Muestra](/images/sampleflow.jpg)
- ![Flujo de Muestra](/images/sampleinstructions.jpg)
+ ![Sample Flow](/images/sampleflow.jpg)
+ ![Sample Flow](/images/sampleinstructions.jpg)
 
-8. Navegue hasta **Arquitecto** en la pantalla de administración como se muestra a continuación > siga las instrucciones para cargar un _Flujo de llamadas entrantes_.
+8. Navigate to **Architect** on the Admin screen as demonstrated below > follow the instructions  to upload an _Inbound Call Flow_.
  ![Architect](/images/architect.jpg)
  ![Import Flow](/images/importflow.jpg)
 
-9. Una vez que haya importado el flujo> seleccione **Transferir a ACD**> seleccione la cola que creó anteriormente> y marque la casilla junto a **DTMF va a esta opción de menú desde cualquier menú**. _Consulte la captura de pantalla a continuación para obtener orientación_
+9. Once you have imported the flow>select **Transfer to ACD** > select the queue you created earlier> and check the box next to **DTMF goes to this menu choice from any menu**. _Please see screenshot below for guidance_
   ![Architect Flow](/images/architectflow.jpg)
 
-10. Elimine las tareas **Transferir a usuario** y **Marcar por extensión** siguiendo la captura de pantalla a continuación. Cuando haya terminado estos cambios, asegúrese de seleccionar **Publicar**
+10. Delete the **Transfer to User** and **Dial by Extension** tasks by following the screenshot below. When you have finished these changes, ensure you select **Publish**
   ![Architect Flow](/images/architectflow1.jpg)
         
-11. Vaya a la pantalla **Administrador** > busque y haga clic en **Enrutamiento de llamadas** > Haga clic en **+** > Escriba un nombre de enrutamiento de llamadas único en el campo **Nombre** > Haga clic en **+** debajo **Direcciones** > Busque el número de teléfono que compró anteriormente y seleccione **la casilla de verificación junto al número** > Haga clic en **Listo**
+11. Navigate to the **Admin** screen > search and click on **Call Routing** > Click **+** > Type a unique call routing name in the **Name** field > Click **+** under **Addresses** > Search for the phone number you purchased earlier and select **the check box beside the number** > Click **Done**
 
 
     

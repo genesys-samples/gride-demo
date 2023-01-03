@@ -1,29 +1,29 @@
 ---
-title: "Antes de Empezar"
+title: "Before You Begin"
 chapter: true
 weight: 10
 ---
 
 ![Title](/images/DevLabSetup.jpg)
-## Objetivo
+## Objective
 
-Este taller pretende ser una guía documentada y resumida para configurar una nueva organización de desarrollo de Genesys Cloud y enrutar las interacciones de voz y digitales. Este tutorial describirá cómo configurar los aspectos básicos con el objetivo de agregar usuarios, colas, enrutamiento de interacciones, etc. El objetivo final es poder enviar interacciones entrantes a través de un IVR al ACD y finalmente entregarlas a un Agente. Aprenderá qué herramientas tienen los agentes a su disposición cuando manejan las interacciones y cómo aprovechar mejor esas herramientas. Este documento es una recomendación y es posible que no sea igual para todos.
+This workshop is intended as a documented and outlined guide to set up a new Genesys Cloud dev org and route both voice and digital interactions. This walkthrough will outline how to set up the basics with the goal of adding users, queues, interaction routing, etc. The end goal is to be able to send inbound intereactions through an IVR into the ACD and finally delivered to an Agent. You will learn what tools agents have at their disposal when handling the interactions and how to best leverage those tools. This document is a recommendation and may not be one-size-fits-all.
 
 
-**Notas antes de empezar**: <br>
+**Notes before you start**: <br>
 
-Se recomienda utilizar la función de búsqueda en el panel de administración en lugar de intentar navegar manualmente a cualquiera de las secciones de administración (consulte la imagen a continuación)
+It is recommended to use search functionality in the admin panel vs. manually trying to navigate to any of the admin sections (Please see image below)
 ![Search](/images/gcadmin.png)
 
-Se recomienda altamente utilizar convenciones de nomenclatura al crear cualquier elemento (aparte de la configuración de ubicación, sitio y base) para asegurarse de que no está desarrollando sobre implementaciones de colegas. Ej: JaneDoe_Queue o JaneDoe_Inboundflow, etc. En este taller, usaremos la convención, "YourLastName_Item", para que sea rápidamente identificable. También le convendría anotar cada uno, de modo que pueda consultarlos sin navegar por la plataforma Genesys Cloud CX. 
+It is highly recommended to use naming conventions when creating any items (other than location, site, and base settings) to ensure you are not developing over colleague deployments. Ex: JaneDoe_Queue or JaneDoe_Inboundflow, etc. In this workshop, we will use the convention, "YourLastName_Item", so it is quickly identifiable. It would also be in your best interest to write down each, so you may reference it without navigating the Genesys Cloud CX platform. 
 
-## Activación de su cuenta
-1. Haga clic en el enlace en su correo electrónico de bienvenida para activar la cuenta. _Se recomienda que ingrese en una cuenta compartida para esta configuración inicial, en lugar de una cuenta personal, para simplificar la recuperación para futuros usuarios_
+## Activating Your Account
+1. Click the link in your welcome email to activate the account. _It is recommended that you enter in a shared account for this initial setup, instead of a personal account, to simplify recovery for future users_
 
-2. **Admin** > **Genesys Add Ons** > **Asegúrese de que Genesys Cloud Voice Tile esté activo**
+2. **Admin** > **Genesys Add Ons** > **Ensure Genesys Cloud Voice Tile is active**
 ![Activate ](/images/activate.jpg)
 
-_Esto debería estar habilitado de forma predeterminada, sin embargo, los pedidos de organizaciones que no sean GCV requerirán activación manual <br>
+_This should be enabled by default, however non GCV org orders will require manual activation <br>
 If activation is required, select the tile and activate GCV- this can take around 10 minutes to fully activate_
 
-**Nota**: Es posible que deba omitir y volver a "Asegurarse de que Genesys Cloud Voice esté activado", ya que es posible que primero deba asegurarse de que se hayan asignado los roles y permisos adecuados al usuario.
+**Note**: You may need to skip and come back to "Ensuring Genesys Cloud Voice is Activated" as making sure the proper roles and permissions have been assigned to the user may need to be accomplished first

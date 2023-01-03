@@ -1,18 +1,18 @@
 ---
-title: "Comprobación de conocimientos #2"
+title: "Knowledge Check #2"
 chapter: true
 weight: 20
 ---
 
 ![Scenario ](/images/Knowledge2.jpg)
 
-En este escenario, usted es un agente de servicio al cliente. ¡Ha pasado por 2 semanas de capacitación y es su primer día solo en el trabajo! Betty, su cliente, le ha enviado un mensaje y le pregunta sobre su política de devoluciones. Crees que la respuesta es que los clientes pueden devolver artículos dentro de los 90 días posteriores a la compra, pero no estás seguro... ¿qué debes hacer?
+In this scenario, you are a customer service agent. You have gone through 2 weeks of training and it is your first day alone on the job! Betty, your customer, has messaged in and is asking you about your return policy. You think the answer is that customers can return items within 90 days of purchase, but you're not sure...what should you do?
 
- [] Envíe un mensaje a su gerente y pregúntele <br>
+ [] Message your manager and ask <br>
 
- [] Pregúnte a un compañero agente <br>
+ [] Get up and ask a fellow agent <br>
 
- [] Revise sus respuestas prederterminadas <br>
+ [] Check your canned responses <br>
  
- [] Transferir el mensaje a un agente más experimentado <br>
+ [] Transfer the message to a more experienced agent <br>
 

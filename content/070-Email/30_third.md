@@ -5,12 +5,12 @@ weight: 30
 ---
 ![Troubleshooting](/images/Email3-768x300.jpg)
 ## Email Troubleshooting
-Si las interacciones de correo electrónico no se enrutan al agente/cola correcto o no aparecen en el panel de interacción, consulte los siguientes consejos para el troubleshooting:
+If email interactions are not being routed to the correct agent/queue or are not appearing in the interaction pane, please walk through the following troubleshooting tips:
 
-* [Confirme que el agente es miembro de la cola que se creó al comienzo del taller](https://workshop.genesys.com/workshops/gride-demo/040-inbound-voice/10_first.html)
+* [Confirm agent is a member of the queue that was created at the beginning of the workshop](https://workshop.genesys.com/workshops/gride-demo/040-inbound-voice/10_first.html)
 
-* [Confirme que está enviando un correo electrónico a la dirección de correo electrónico correcta](https://workshop.genesys.com/workshops/gride-demo/070-email/10_first.html)
+* [Confirm you are emailing the correct email address](https://workshop.genesys.com/workshops/gride-demo/070-email/10_first.html)
 
-* [Confirme que el estado del agente está establecido en "En cola"](https://workshop.genesys.com/workshops/gride-demo/070-email/20_second.html)
+* [Confirm agent status is set to "On-Queue"](https://workshop.genesys.com/workshops/gride-demo/070-email/20_second.html)
 
- Si las interacciones aún no se enrutan correctamente, comuníquese con nosotros en Workshops@genesys.com.
+ If interactions are still not being routed correctly, please reach out to us at Workshops@genesys.com.

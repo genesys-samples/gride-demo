@@ -1,19 +1,19 @@
 ---
-title: "Conclusión"
+title: "Conclusion"
 chapter: true
 weight: 90
 ---
 ![Title](/images/Conclusion.jpg)
 
-## ¡Fin!
+## Finished!
 
-¡Felicidades! Ha llegado al final del taller de hoy. Ahora tiene una organización de desarrollo operativo. Esperamos que este haya sido un viaje informativo y que ahora tenga confianza en sus habilidades de campo de interacción.
+Congratulations! You've reached the end of today's workshop. You now have an operational development org. We hope this was an informative journey, and that you are now confident in your interaction fielding abilities.  
 
-### Próximos pasos
-Si desea continuar con su viaje de Genesys Cloud CX, visite nuestro sitio web para conocer los talleres que ofrecemos actualmente: (https://workshop.genesys.com/)
+### Next Steps
+If you'd like to continue your Genesys Cloud CX journey, please visit our website to what current wokrshops we offer: (https://workshop.genesys.com/)
 
-Genesys siempre se esfuerza por mejorar. Si tiene alguna sugerencia sobre cómo mejorar este taller, complete esta [encuesta] (https://forms.office.com/r/Xyz2hiNzfS). ¡Nos encantaría saber de usted!
+Genesys is always striving for improvement. If you have any suggestions on how to improve this workshop, please fill out this [survey] (https://forms.office.com/r/Xyz2hiNzfS). We'd love to hear from you!
 
-Si tiene alguna pregunta técnica sobre este taller, contáctenos en Workshops@genesys.com.
+If you have any technical questions about this workshop, please contact us at Workshops@genesys.com.
 
 
