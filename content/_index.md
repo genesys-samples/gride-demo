@@ -1,20 +1,20 @@
 ---
-title: "Genesys Cloud CX Channel Setup"
+title: "Configuración del canal en Genesys Cloud CX"
 chapter: true
 weight: 1
 ---
 
-## Welcome
+## Bienvenido
 
-In this workshop you will learn how to setup and use a Genesys Cloud dev org. This workshop is intended for the administrators who will be configuring the dev org. Administrators will be responsible for daily operation, user and group administration, call flow setup, and configuration changes. After this workshop is complete, agents will be able to perform inbound customer interactions by phone, email, or chat.  Users will improve their knowledge of [Genesys](https://genesys.com) and master example use cases that demonstrate [Experience as a Service](https://www.genesys.com/experience-as-a-service).
+En este taller, aprenderá a configurar y utilizar una organización de desarrollo de Genesys Cloud. Este taller está destinado a los administradores que configurarán la organización de desarrollo. Los administradores serán responsables de la operación diaria, la administración de usuarios y grupos, la configuración del flujo de llamadas y los cambios de configuración. Una vez que se complete este taller, los agentes podrán realizar interacciones entrantes con los clientes por teléfono, correo electrónico o chat. Los usuarios mejorarán su conocimiento de [Genesys](https://genesys.com) y dominarán casos de uso de ejemplo que demuestran la [Experience as a Service](https://www.genesys.com/experience-as-a-service).
 
-### Recommended Prequisite Partner Academy Courses
+### Cursos previos recomendados cómo requisito de la Academia de Partner 
 
-- [Introduction to Genesys Cloud CX for Partners](https://learn.genesys.com/learn/course/16575/introduction-to-genesys-cloud-cx-for-partners?generated_by=515985&hash=fcdec55b4d8fdf2f8a2232b6f3eb96cc58e015d7)
+- [Introducción a Genesys Cloud CX para Partners](https://learn.genesys.com/learn/course/16575/introduction-to-genesys-cloud-cx-for-partners?generated_by=515985&hash=fcdec55b4d8fdf2f8a2232b6f3eb96cc58e015d7)
 
-- [Why Cloud? Moving from Reactive to Innovative](https://learn.genesys.com/learn/course/16795/why-cloud-moving-from-reactive-to-innovative?generated_by=515985&hash=e45debb36f28404dec0fb7b5e226e8b3e2ed6ddc7)
+- [¿Por qué Cloud? Pasar de reactivo a innovador](https://learn.genesys.com/learn/course/16795/why-cloud-moving-from-reactive-to-innovative?generated_by=515985&hash=e45debb36f28404dec0fb7b5e226e8b3e2ed6ddc7)
 
-- [Genesys Cloud Value Wedge for Partners](https://learn.genesys.com/learn/course/611/genesys-cloud-value-wedge-for-partners?generated_by=515985&hash=181643a2d2d06a123bd19bddd0bbf01f9d3119b7)
+- [El valor de Genesys Cloud para Partners](https://learn.genesys.com/learn/course/611/genesys-cloud-value-wedge-for-partners?generated_by=515985&hash=181643a2d2d06a123bd19bddd0bbf01f9d3119b7)
 
 
 ![Title](/images/Header.jpg)

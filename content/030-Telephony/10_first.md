@@ -7,32 +7,32 @@ weight: 10
 ![Title](/images/LocationSiteNew-768x300.jpg) 
 
 
-## Telephony Options
+## Opciones de telefonía
 
-Genesys Cloud CX is primarily available through two telephony options, Genesys Cloud Voice and BYOC (Bring Your Own Carrier). With Genesys Cloud Voice, telephony and contact center PBX is delivered by services provided by Genesys. No hardware is requireed and no alternate carrier contract. 
+Genesys Cloud CX está disponible principalmente a través de dos opciones de telefonía, Genesys Cloud Voice y BYOC (Bring Your Own Carrier). Con Genesys Cloud Voice, la telefonía y el centro de contacto PBX se entregan mediante servicios proporcionados por Genesys. No se requiere hardware ni contrato de operador alternativo.
 
-BYOC allows a customer to remain with their existing carrier and contract while delivering telephony through SIP trunks. Media processing is provided in the cloud. 
+BYOC permite que un cliente permanezca con su proveedor y contrato existente mientras entrega telefonía a través de troncales SIP. El procesamiento de medios se proporciona en la nube.
 
-In today's workshop, we'll setup our environment leveraging Genesys Cloud Voice. If you're looking to use our BYOC option, you can refer to documentation here: (https://help.mypurecloud.com/articles/byoc-cloud-configuration-overview/)
-
-
-## Location
-1. This is the physical location your agents will reside at as their HQ. Locations are associated for emergency routing capabilities; it is not recommended using emergency services on a dev lab, but it is a required step. 
+En el taller de hoy, configuraremos nuestro entorno aprovechando Genesys Cloud Voice. Si desea utilizar nuestra opción BYOC, puede consultar la documentación aquí: (https://help.mypurecloud.com/articles/byoc-cloud-configuration-overview/)
 
 
-2. **Go to Admin > Locations > Click "Add Location"**
+## Locación
+1. Esta es la ubicación física en la que residirán sus agentes como su sede. Las ubicaciones están asociadas para las capacidades de enrutamiento de emergencia; no se recomienda usar servicios de emergencia en un laboratorio de desarrollo, pero es un paso obligatorio.
+
+
+2. **Vaya a Admin > Ubicaciones > Haga clic en "Agregar ubicación"**
 
 ![AdminPage](/images/Locations.jpg)
 
-3. Name your location, **"Headquarters"**, then add an address. The address must be valid, as you begin to type it out a drop-down list will begin to appear. 
+3. Asigne un nombre a su ubicación, **"Sede central"**, luego agregue una dirección. La dirección debe ser válida, a medida que comience a escribirla, aparecerá una lista desplegable.
 
-4. Select one from the auto-populated options to ensure the directory has identified this as valid for 911 purposes. 
+4. Seleccione una de las opciones autocompletadas para asegurarse de que el directorio la haya identificado como válida para fines del 911.
 
-5. Add yourself as the **"Site Contact"** since the purpose is demonstration only. 
+5. Agréguese como **"Contacto del sitio"** ya que el propósito es solo de demostración.
 
-6. Check the box for **"Make this location available for use on sites"**. 
+6. Marque la casilla para **"Hacer que esta ubicación esté disponible para su uso en sitios"**.
 
-7. Add an emergency number.
+7. Agregue un número de emergencia.
 
 
 ![LocationDetails](/images/LocationsPopup.jpg)
@@ -40,33 +40,33 @@ In today's workshop, we'll setup our environment leveraging Genesys Cloud Voice.
 ## Site
 
 
- A site is the home of a set of phones. The site defines the call classification rules and outbound routing rules as well as the telephony properties for dialing. This is also where Outbound Routing will reference a Number Plan. Sites must be tied to physical Locations defined.
+ Un site es el hogar de un conjunto de teléfonos. El sitio define las reglas de clasificación de llamadas y las reglas de enrutamiento de salida, así como las propiedades de telefonía para marcar. Aquí también es donde el enrutamiento de salida hará referencia a un plan numérico. Los sitios deben estar vinculados a las ubicaciones físicas definidas.
 
 ![AdminDirectory](/images/Site.jpg)
 
-1. **Go to Admin> Site> Click "Create Site"**
+1. **Ir a Admin> Sitio> Hacer clic en "Crear site"**
 
-2.  Create a new site and name it **"My Site"**. 
+2. Cree un nuevo sitio y asígnele el nombre **"Mi site"**.
 
-3. Associate your Location, select a time zone, leave Media Model as "Cloud"
+3. Asocia tu ubicación, selecciona una zona horaria, deja Media Model como "Nube"
 
 ![SiteDetails](/images/SiteSetup.jpg)
 
-3. Navigate to Outbound routes within the newly created site and under **"Select External Trunks"** ensure the “PureCloud Voice – AWS” Trunk is associated. Make sure to **"Enable"** the State as well. 
+3. Navegue a Rutas destacadas dentro del sitio recién creado y en **"Seleccionar troncales externos"** asegúrese de que la troncal "PureCloud Voice – AWS" esté asociada. Asegúrese de **"Habilitar"** el Estado también.
 
 ![OutboundRoutingDetails](/images/OutboundRoute.jpg)
 
-4. Lastly, return to the **"General"** tab and confirm the site has been selected as the default. Be sure to **Save Site**
+4. Por último, regrese a la pestaña **"General"** y confirme que el sitio se ha seleccionado como predeterminado. Asegúrese de **Guardar site**
 
 
 ![SiteSettings](/images/DefaultSite.jpg)
 
-## Edge Groups
+## Grupos de bordes
 
-An Edge Group is a set of edge devices that are connected to one another to access and share trunks. In the past, BYOC Prem orgs could potentially have multiple Edge groups to help drive lower latency. Genesys Cloud has now introduced Hybrid Media Org,  which allows for an org to combine both cloud and prem telephony connection options. 
+Un grupo perimetral es un conjunto de dispositivos perimetrales que están conectados entre sí para acceder y compartir troncales. En el pasado, las organizaciones BYOC Prem podían tener varios grupos perimetrales para ayudar a reducir la latencia. Genesys Cloud ahora ha presentado Hybrid Media Org, que permite que una organización combine las opciones de conexión de telefonía en la nube y prem.
 
-For users on Genesys Cloud CX hybrid orgs, a phone trunk is not defined by default. We'll need to locate **Edge Groups** on the Telephony menu. Then we'll **Create New**, and select the drop down under Phone Trunks, and choose **Genesys Cloud - CDM WebRTC Phone Trunk**. 
+Para los usuarios de organizaciones híbridas de Genesys Cloud CX, una troncal telefónica no está definida de manera predeterminada. Tendremos que ubicar **Edge Groups** en el menú Telefonía. Luego, **Crear nuevo**, seleccionamos el menú desplegable debajo de Troncales telefónicos y elegimos **Genesys Cloud - Troncal telefónico CDM WebRTC**.
 
-Again, this will only be for Hybrid Media specific orgs. If you believe this has been pre-defined, but run into an error when attempting to route inbound voice interactions, this will be a main troubleshooting point. Typically an error here will reference AoR or Address of Record. 
+Nuevamente, esto será solo para organizaciones específicas de medios híbridos. Si cree que esto se ha predefinido, pero se encuentra con un error al intentar enrutar las interacciones de voz entrantes, este será un punto principal de solución de problemas. Por lo general, un error aquí hará referencia a AoR o Address of Record.
 
 ![SiteSettings](/images/Hybrid.jpg)

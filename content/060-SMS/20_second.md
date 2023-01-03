@@ -1,18 +1,18 @@
 ---
-title: "Testing"
+title: "Pruebas"
 chapter: true
 weight: 20
 ---
 ![Test](/images/SMSsetup2-768x300.jpg)
-## Test an SMS Interaction
+## Probar una interacción de SMS
 
-1. The first step in testing an SMS interaction is ensuring you have the correct number. Navigate to the **Admin** page > Search for **Message Routing** > Find the message route that you created earlier > Save the SMS number to your mobile device.
+1. El primer paso para probar una interacción por SMS es asegurarse de tener el número correcto. Vaya a la página **Administrador** > Busque **Enrutamiento de mensajes** > Busque la ruta de mensajes que creó anteriormente > Guarde el número de SMS en su dispositivo móvil.
   ![sms](/images/messageRouteNumber.jpg)
 
-2. Navigate to the **Interactions Pane** on the left side of the screen and ensure you are set to **On-Queue** (found at top right of screen)
+2. Navegue hasta el **Panel de interacciones** en el lado izquierdo de la pantalla y asegúrese de estar configurado en **En cola** (que se encuentra en la parte superior derecha de la pantalla)
 
 ![interactionpane](/images/interactionpane.jpg)
 
-3. Text the SMS number from a personal phone and select **Answer** when the interaction comes through
+3. Envía un mensaje de texto con el número de SMS desde un teléfono personal y selecciona **Responder** cuando llegue la interacción.
 
 ![incomingsms](/images/incomingsms.jpg)

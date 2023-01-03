@@ -1,19 +1,19 @@
 ---
-title: "Knowledge Check #3"
+title: "Comprobación de conocimientos #3"
 chapter: true
 weight: 30
 ---
 
 ![Scenario ](/images/Knowledge3.jpg)
 
-In this scenario, you are an agent working in the retail industry. The customer, Betty, has called in to make a change to her recent order. She explains that she ordered the wrong size for one of her items, but the other item is correct. The scenario is complicated and takes a while to explain. You have to transfer her to another department since she just placed the order and its not a complete cancellation. What is the best option for you to use?
+En este escenario, usted es un agente que trabaja en la industria minorista. El cliente, Betty, llamó para hacer un cambio en su pedido reciente. Ella explica que pidió el tamaño incorrecto para uno de sus artículos, pero el otro artículo es correcto. El escenario es complicado y lleva un tiempo explicarlo. Tienes que transferirla a otro departamento ya que ella acaba de hacer el pedido y no es una cancelación completa. ¿Cuál es la mejor opción para este escenario?
 
-[] Blind Transfer <br>
+[] Transferencia ciega <br>
 
-[] Put Betty on hold and call your manager to fix the order <br>
+[] Ponga a Betty en espera y llame a su gerente para arreglar el pedido <br>
 
-[] Hang Up and have the correct team call her back <br>
+[] Cuelgue y haga que el equipo correcto le devuelva la llamada <br>
 
-[] Consult Transfer <br>
+[] Consultar Transferencia <br>
 
 
